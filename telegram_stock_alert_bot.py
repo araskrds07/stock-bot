@@ -1,34 +1,42 @@
 """
-US Stock Screener + Telegram Alert Bot (Twelve Data + yfinance hybrid)
-------------------------------------------------------------------------
-Live-ish price/volume tracking via Twelve Data (free plan, rate-limited)
-combined with slower-moving technical indicators (RSI, SMA, ATR, swing
-high/low) computed from daily candles via yfinance (free, no key needed).
+US Stock Screener + Telegram Alert Bot — Intraday / Short-Term Breakout Edition
+--------------------------------------------------------------------------------
+Built for FAST in-and-out trades: buy near a short-term (last ~2 hour) breakout
+level, take a quick profit, use a tight ATR-based stop. All indicators are
+computed from 15-minute intraday candles (not daily), so the "kırılma" level
+stays close to the current price and reflects the last couple of hours, not
+weeks-old highs.
 
-Each alert includes a technical entry ("kırılma" / breakout) level, a
-stop-loss level (ATR-based), and a take-profit level (2x the risk). These
-are formulaic outputs of a standard technical-analysis method (breakout +
-ATR stop + risk/reward target) — not personal recommendations, and no
-system can guarantee they will work out. This is not financial advice;
-you are responsible for your own trades.
+This is a technical screener, not a prediction engine. No combination of
+indicators reliably predicts what a stock does in the next few minutes.
+Fast, breakout-style trading is high-risk and can lose money quickly —
+size positions accordingly. This is not financial advice.
+
+IMPORTANT HONESTY NOTE
+Free-tier data (Twelve Data free plan + GitHub Actions scheduling) has a
+real-world latency of several minutes, not seconds. This bot is tuned for
+"short-term, but still realistic" alerts — not literal second-by-second
+scalping. True scalping needs paid real-time data, a much faster loop, and
+usually automated order execution (this bot only sends Telegram messages;
+you still act manually).
 
 TWO RUN MODES
 - RUN_MODE=loop (default): runs forever, checking every CYCLE_SECONDS.
   Use this on your own computer or a VPS that stays on.
-- RUN_MODE=once: does a single pass then exits. Use this with a
-  scheduler that starts the process periodically (e.g. GitHub Actions
-  cron), since those don't keep a process running between triggers.
-  Alert cooldown state is saved to STATE_FILE (state.json) so repeat
-  alerts are still suppressed across separate runs.
+- RUN_MODE=once: does a single pass then exits. Used by the included
+  GitHub Actions workflow, which triggers this on a schedule. Alert
+  cooldown state is saved to STATE_FILE (state.json) so repeat alerts
+  are suppressed across separate runs.
 
 FREE-PLAN CONSTRAINT (Twelve Data)
 The free tier allows roughly 8 API credits/minute and 800/day. With an
-8-ticker WATCHLIST queried once every ~10 minutes during market hours
-(the GitHub Actions schedule below), that's well under both limits. If
-you shrink/grow WATCHLIST or the schedule, scale accordingly. If you see
-429 errors or "run out of API credits" in the log, back off.
+8-ticker WATCHLIST queried every ~5 minutes during actual market hours
+(~390 min/day), that's about 8 * (390/5) ≈ 624 requests/day — under the
+800 quota, with some room to spare. If you grow WATCHLIST or shrink the
+schedule interval, re-check this math. 429 errors or "run out of API
+credits" in the log mean you need to back off.
 
-SETUP (see the chat for the full walkthrough of each of these)
+SETUP
 1. pip install -r requirements.txt
 2. Telegram: message @BotFather -> /newbot -> copy the token. Message
    your new bot once, then visit
@@ -36,8 +44,8 @@ SETUP (see the chat for the full walkthrough of each of these)
 3. Twelve Data: copy your API key from
    https://twelvedata.com/account/api-keys
 4. Set TELEGRAM_TOKEN, TELEGRAM_CHAT_ID, TWELVEDATA_API_KEY as
-   environment variables (locally) or as GitHub Actions repo secrets
-   (for the scheduled/cron setup) — never hardcode them in this file.
+   environment variables (locally) or as GitHub Actions repo secrets —
+   never hardcode them in this file.
 5. Edit WATCHLIST below if you want different tickers.
 6. Local/VPS use:      python telegram_stock_alert_bot.py
    GitHub Actions use: RUN_MODE=once python telegram_stock_alert_bot.py
@@ -70,18 +78,31 @@ STATE_FILE = os.environ.get("STATE_FILE", "state.json")
 # Keep this short on Twelve Data's free plan — see FREE-PLAN CONSTRAINT above
 WATCHLIST = ["AAPL", "MSFT", "NVDA", "AMZN", "TSLA", "AMD", "META", "GOOGL"]
 
-CYCLE_SECONDS = 240              # only used in "loop" mode: ~4 min per full pass
-ONCE_MODE_PACING_SECONDS = 1.5   # only used in "once" mode: small gap between quote calls
-INDICATOR_REFRESH_MINUTES = 30   # how often RSI/SMA/ATR/swing levels are recomputed
+# --- Intraday indicator settings (all computed on 15-minute candles) ---
+INTRADAY_INTERVAL = "15m"
+INTRADAY_PERIOD = "5d"          # yfinance history window to pull (free tier allows up to 60d @ 15m)
+SWING_LOOKBACK_BARS = 8         # ~2 hours — this defines the short-term "kırılma" (breakout) level
+MA_SHORT_BARS = 20              # ~5 hours
+MA_LONG_BARS = 50               # ~12.5 hours (roughly 2 sessions)
+ATR_PERIOD = 14                 # ~3.5 hours of volatility
+VOLUME_LOOKBACK_BARS = 20
+
+NEAR_BREAKOUT_PCT = 0.02        # only alert if price is within 2% of the short-term swing high
+STOP_ATR_MULT = 1.2             # tighter stop, suited to fast trades
+TARGET_RR = 1.5                 # take-profit at 1.5x the risk (quicker, more achievable exit)
+
+CYCLE_SECONDS = 120              # loop mode only: ~2 min per full pass
+ONCE_MODE_PACING_SECONDS = 1.5   # once mode only: small gap between quote calls
+INDICATOR_REFRESH_MINUTES = 10   # loop mode only: how often intraday indicators are recomputed
 SCORE_ALERT_THRESHOLD = 3        # signals out of 5 needed to trigger an alert
-ALERT_COOLDOWN_MINUTES = 20      # min gap between repeat alerts for the SAME ticker
+ALERT_COOLDOWN_MINUTES = 10      # min gap between repeat alerts for the SAME ticker
 
 MARKET_TZ = pytz.timezone("America/New_York")
 MARKET_OPEN = dtime(9, 30)
 MARKET_CLOSE = dtime(16, 0)
 
 _last_alerted = {}         # ticker -> unix timestamp of last alert (persisted to STATE_FILE)
-_indicators = {}           # ticker -> dict of RSI/SMA/ATR/swing levels
+_indicators = {}           # ticker -> dict of intraday RSI/MA/ATR/swing levels
 _indicators_updated_at = 0.0
 
 
@@ -143,25 +164,36 @@ def compute_atr(df, period: int = 14):
 
 
 def refresh_indicators():
-    """Recompute RSI/SMA/ATR/swing levels from daily candles (yfinance, free/unlimited)."""
+    """Recompute RSI/MA/ATR/swing levels from 15-min intraday candles (yfinance, free)."""
     global _indicators, _indicators_updated_at
-    log.info("Refreshing daily indicators for %d tickers...", len(WATCHLIST))
+    log.info("Refreshing intraday (%s) indicators for %d tickers...", INTRADAY_INTERVAL, len(WATCHLIST))
     for t in WATCHLIST:
         try:
-            df = yf.download(t, period="4mo", interval="1d", progress=False, auto_adjust=True)
-            if df is None or len(df) < 30:
+            df = yf.download(
+                t, period=INTRADAY_PERIOD, interval=INTRADAY_INTERVAL, progress=False, auto_adjust=True
+            )
+            min_bars = max(MA_LONG_BARS, ATR_PERIOD, VOLUME_LOOKBACK_BARS) + 2
+            if df is None or len(df) < min_bars:
+                log.warning("Not enough intraday bars for %s (%s)", t, None if df is None else len(df))
                 continue
+
             close, volume = df["Close"], df["Volume"]
-            rsi = float(compute_rsi(close).iloc[-1])
-            sma20 = float(close.rolling(20).mean().iloc[-1])
-            sma50 = float(close.rolling(50).mean().iloc[-1]) if len(close) >= 50 else float("nan")
-            atr = float(compute_atr(df).iloc[-1])
-            swing_high = float(df["High"].rolling(20).max().iloc[-1])
-            swing_low = float(df["Low"].rolling(20).min().iloc[-1])
-            avg_volume = float(volume.rolling(20).mean().iloc[-1])
+            rsi = float(compute_rsi(close, 14).iloc[-1])
+            ma_short = float(close.rolling(MA_SHORT_BARS).mean().iloc[-1])
+            ma_long = float(close.rolling(MA_LONG_BARS).mean().iloc[-1])
+            atr = float(compute_atr(df, ATR_PERIOD).iloc[-1])
+            swing_high = float(df["High"].rolling(SWING_LOOKBACK_BARS).max().iloc[-1])
+            swing_low = float(df["Low"].rolling(SWING_LOOKBACK_BARS).min().iloc[-1])
+
+            # Volume spike = latest completed bar's volume vs. recent average bar volume
+            # (apples-to-apples, unlike comparing to a live cumulative day total).
+            avg_bar_volume = float(volume.rolling(VOLUME_LOOKBACK_BARS).mean().iloc[-2])
+            last_bar_volume = float(volume.iloc[-2])  # -2: last fully closed bar, not the forming one
+            volume_ratio = (last_bar_volume / avg_bar_volume) if avg_bar_volume else 0.0
+
             _indicators[t] = {
-                "rsi": rsi, "sma20": sma20, "sma50": sma50, "atr": atr,
-                "swing_high": swing_high, "swing_low": swing_low, "avg_volume": avg_volume,
+                "rsi": rsi, "ma_short": ma_short, "ma_long": ma_long, "atr": atr,
+                "swing_high": swing_high, "swing_low": swing_low, "volume_ratio": volume_ratio,
             }
         except Exception as e:
             log.error("Indicator refresh failed for %s: %s", t, e)
@@ -181,7 +213,6 @@ def get_live_quote(ticker: str):
             return None
         return {
             "price": float(price),
-            "volume": float(data.get("volume", 0) or 0),
             "percent_change": float(data.get("percent_change", 0) or 0),
         }
     except Exception as e:
@@ -207,34 +238,36 @@ def evaluate(ticker: str, quote: dict):
     signals = []
     score = 0
 
-    if 30 < ind["rsi"] < 55:
+    if 30 < ind["rsi"] < 60:
         score += 1
-        signals.append(f"RSI {ind['rsi']:.1f} (toparlanma bölgesi)")
+        signals.append(f"RSI {ind['rsi']:.1f} (kısa vadede toparlanma)")
 
-    # NOTE: comparing intraday cumulative volume to the FULL daily average is an
-    # approximation (volume builds up through the day) — good enough for a screener,
-    # not a precise pace-of-volume calculation.
-    if ind["avg_volume"] and quote["volume"] > 0.3 * ind["avg_volume"]:
+    if ind["volume_ratio"] > 1.5:
         score += 1
-        signals.append("Hacim ortalamaya göre yüksek")
+        signals.append(f"Son 15dk hacmi ortalamanın {ind['volume_ratio']:.1f}x üstünde")
 
-    if price > ind["sma20"]:
+    if price > ind["ma_short"]:
         score += 1
-        signals.append("Fiyat 20 günlük ortalamanın üstünde")
+        signals.append("Fiyat kısa vadeli ortalamanın üstünde (~5 saat)")
 
-    if not np.isnan(ind["sma50"]) and ind["sma20"] > ind["sma50"]:
+    if not np.isnan(ind["ma_long"]) and ind["ma_short"] > ind["ma_long"]:
         score += 1
-        signals.append("20MA > 50MA (yükseliş trendi)")
+        signals.append("Kısa ortalama > uzun ortalama (yükseliş yönü)")
 
-    if quote["percent_change"] > 1.5:
+    if quote["percent_change"] > 1.0:
         score += 1
         signals.append(f"Bugün +%{quote['percent_change']:.1f}")
 
-    # Breakout / entry level: current swing-high resistance, or live price if
-    # it has already broken above it.
+    # Short-term breakout level = the last ~2 hours' high. Only actionable if
+    # price is actually close to it right now — otherwise skip entirely so we
+    # never suggest an entry that's far from the current market price.
+    distance_pct = abs(price - ind["swing_high"]) / ind["swing_high"]
+    if distance_pct > NEAR_BREAKOUT_PCT:
+        return None
+
     entry = max(price, ind["swing_high"])
-    stop = round(entry - 1.5 * ind["atr"], 2)          # ATR-based stop
-    target = round(entry + 2 * (entry - stop), 2)      # 1:2 risk/reward
+    stop = round(entry - STOP_ATR_MULT * ind["atr"], 2)
+    target = round(entry + TARGET_RR * (entry - stop), 2)
 
     return {
         "ticker": ticker, "score": score, "signals": signals, "price": price,
@@ -255,10 +288,10 @@ def run_cycle(pacing_seconds=None):
                 msg = (
                     f"*{result['ticker']}* — {result['score']}/5 sinyal @ ${result['price']:.2f}\n"
                     + "\n".join(f"• {s}" for s in result["signals"]) + "\n\n"
-                    f"📈 Giriş / kırılma seviyesi: *${result['entry']}*\n"
+                    f"📈 Giriş / kırılma (~2 saatlik tepe): *${result['entry']}*\n"
                     f"🛑 Stop-loss: *${result['stop']}*\n"
-                    f"🎯 Hedef (1:2 risk/ödül): *${result['target']}*\n\n"
-                    "_ATR + kırılma seviyesine dayalı teknik hesaplama. Yatırım tavsiyesi değildir._"
+                    f"🎯 Hızlı hedef (1:{TARGET_RR}): *${result['target']}*\n\n"
+                    "_Kısa vadeli teknik hesaplama. Yatırım tavsiyesi değildir; hızlı hareket ettiğin için riski küçük tut._"
                 )
                 send_telegram(msg)
                 log.info("Alert: %s score=%d", t, result["score"])
@@ -278,8 +311,8 @@ def main():
         return
 
     # loop mode (local / VPS)
-    log.info("Starting hybrid Twelve Data + yfinance alert bot (%d tickers).", len(WATCHLIST))
-    send_telegram("🤖 Bot başladı — piyasa açık olduğu sürece gün boyu aktif taranıyor.")
+    log.info("Starting intraday short-term alert bot (%d tickers).", len(WATCHLIST))
+    send_telegram("🤖 Bot başladı — kısa vadeli kırılımlar için taranıyor.")
     refresh_indicators()
     while True:
         if is_market_open():
