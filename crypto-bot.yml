@@ -1,0 +1,64 @@
+name: Crypto Alert Bot
+
+on:
+  # Otomatik tarama şimdilik KAPALI: 15 dakikalık kısa vadeli kurallar testte zarar gösterdi.
+  # Test geçen bir strateji bulunursa aşağıdaki iki satırın başındaki # işaretleri kaldırılır.
+  # schedule:
+  #   - cron: "*/5 * * * *"
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "normal = durum · backtest = 60 günlük kısa vade testi · swing = 1 yıllık swing testi · plans = 5 yıllık plan karşılaştırması"
+        type: choice
+        options: [normal, backtest, swing, plans]
+        default: normal
+
+permissions:
+  contents: write
+
+concurrency:
+  group: crypto-bot
+  cancel-in-progress: false
+
+jobs:
+  run-crypto-bot:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run crypto bot
+        env:
+          TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          CRYPTO_BUDGET: ${{ vars.CRYPTO_BUDGET }}
+          CRYPTO_FEE_PCT: ${{ vars.CRYPTO_FEE_PCT }}
+          CRYPTO_MIN_REWARD: ${{ vars.CRYPTO_MIN_REWARD }}
+          RUN_MODE: ${{ github.event.inputs.mode == 'backtest' && 'backtest' || github.event.inputs.mode == 'swing' && 'swing' || github.event.inputs.mode == 'plans' && 'plans' || 'once' }}
+          FORCE_RUN: ${{ github.event_name == 'workflow_dispatch' }}
+        run: python telegram_crypto_alert_bot.py
+
+      - name: Save bot state
+        if: always()
+        run: |
+          git config user.name "crypto-bot"
+          git config user.email "actions@users.noreply.github.com"
+          touch crypto_state.json crypto_watchlist.json
+          git add crypto_state.json crypto_watchlist.json
+          if git diff --quiet --cached; then exit 0; fi
+          git commit -m "Update crypto bot state [skip ci]"
+          for i in 1 2 3; do
+            git pull --rebase -X theirs origin "${GITHUB_REF_NAME}" && git push && exit 0
+            sleep 5
+          done
+          echo "State could not be pushed" && exit 1
