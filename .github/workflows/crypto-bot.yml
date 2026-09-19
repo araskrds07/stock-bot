@@ -1,14 +1,16 @@
 name: Crypto Alert Bot
 
 on:
-  schedule:
-    - cron: "*/5 * * * *"     # kripto 7/24 açık: her gün, her 5 dakikada bir
+  # Otomatik tarama şimdilik KAPALI: 15 dakikalık kısa vadeli kurallar testte zarar gösterdi.
+  # Test geçen bir strateji bulunursa aşağıdaki iki satırın başındaki # işaretleri kaldırılır.
+  # schedule:
+  #   - cron: "*/5 * * * *"
   workflow_dispatch:
     inputs:
       mode:
-        description: "normal = durum mesajı · backtest = son 60 günün gerçek veriyle testi"
+        description: "normal = durum mesajı · backtest = son 60 günün kısa vadeli testi · swing = son 1 yılın swing testi"
         type: choice
-        options: [normal, backtest]
+        options: [normal, backtest, swing]
         default: normal
 
 permissions:
@@ -42,7 +44,7 @@ jobs:
           CRYPTO_BUDGET: ${{ vars.CRYPTO_BUDGET }}
           CRYPTO_FEE_PCT: ${{ vars.CRYPTO_FEE_PCT }}
           CRYPTO_MIN_REWARD: ${{ vars.CRYPTO_MIN_REWARD }}
-          RUN_MODE: ${{ github.event.inputs.mode == 'backtest' && 'backtest' || 'once' }}
+          RUN_MODE: ${{ github.event.inputs.mode == 'backtest' && 'backtest' || github.event.inputs.mode == 'swing' && 'swing' || 'once' }}
           FORCE_RUN: ${{ github.event_name == 'workflow_dispatch' }}
         run: python telegram_crypto_alert_bot.py
 
