@@ -1,1 +1,8 @@
-{}
+{
+ "last_alerted": {},
+ "signals": {},
+ "history": [],
+ "meta": {
+  "fail_count": 0
+ }
+}

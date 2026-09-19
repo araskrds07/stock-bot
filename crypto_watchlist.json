@@ -1,1 +1,117 @@
-{}
+{
+ "built_at": 1789855547.5227647,
+ "coins": [
+  "XRP",
+  "SOL",
+  "HYPE",
+  "NEAR",
+  "UNI",
+  "LINK",
+  "ADA",
+  "XLM",
+  "DOGE",
+  "SUI",
+  "VVV",
+  "ARB",
+  "PUMP",
+  "TAO",
+  "LTC",
+  "ONDO",
+  "AVAX",
+  "FIL"
+ ],
+ "meta": {
+  "XRP": {
+   "pid": "XRP-USD",
+   "atr_pct": 5.53,
+   "dollar_vol": 163713043
+  },
+  "SOL": {
+   "pid": "SOL-USD",
+   "atr_pct": 4.44,
+   "dollar_vol": 104353734
+  },
+  "HYPE": {
+   "pid": "HYPE-USD",
+   "atr_pct": 5.31,
+   "dollar_vol": 36713855
+  },
+  "NEAR": {
+   "pid": "NEAR-USD",
+   "atr_pct": 8.79,
+   "dollar_vol": 29012869
+  },
+  "UNI": {
+   "pid": "UNI-USD",
+   "atr_pct": 9.43,
+   "dollar_vol": 21979922
+  },
+  "LINK": {
+   "pid": "LINK-USD",
+   "atr_pct": 5.97,
+   "dollar_vol": 21217121
+  },
+  "ADA": {
+   "pid": "ADA-USD",
+   "atr_pct": 5.61,
+   "dollar_vol": 16157004
+  },
+  "XLM": {
+   "pid": "XLM-USD",
+   "atr_pct": 5.53,
+   "dollar_vol": 15507513
+  },
+  "DOGE": {
+   "pid": "DOGE-USD",
+   "atr_pct": 5.37,
+   "dollar_vol": 15220715
+  },
+  "SUI": {
+   "pid": "SUI-USD",
+   "atr_pct": 5.73,
+   "dollar_vol": 14911178
+  },
+  "VVV": {
+   "pid": "VVV-USD",
+   "atr_pct": 12.95,
+   "dollar_vol": 12116411
+  },
+  "ARB": {
+   "pid": "ARB-USD",
+   "atr_pct": 12.02,
+   "dollar_vol": 11304801
+  },
+  "PUMP": {
+   "pid": "PUMP-USD",
+   "atr_pct": 11.64,
+   "dollar_vol": 8186135
+  },
+  "TAO": {
+   "pid": "TAO-USD",
+   "atr_pct": 6.92,
+   "dollar_vol": 7880885
+  },
+  "LTC": {
+   "pid": "LTC-USD",
+   "atr_pct": 4.57,
+   "dollar_vol": 7175440
+  },
+  "ONDO": {
+   "pid": "ONDO-USD",
+   "atr_pct": 5.88,
+   "dollar_vol": 6978024
+  },
+  "AVAX": {
+   "pid": "AVAX-USD",
+   "atr_pct": 4.01,
+   "dollar_vol": 6395142
+  },
+  "FIL": {
+   "pid": "FIL-USD",
+   "atr_pct": 8.37,
+   "dollar_vol": 5454880
+  }
+ },
+ "btc_pid": "BTC-USD",
+ "announced": "2026-09-20"
+}
