@@ -1,6 +1,26 @@
 {
- "last_alerted": {},
- "signals": {},
+ "last_alerted": {
+  "SNAP": 1790001358.646357
+ },
+ "signals": {
+  "SNAP-1790001358": {
+   "ticker": "SNAP",
+   "created": 1790001358.646357,
+   "session": "regular",
+   "kind": "pending",
+   "entry": 5.8659,
+   "stop0": 5.7909,
+   "target": 6.1736,
+   "seen_high": 5.869999885559082,
+   "seen_low": 5.829999923706055,
+   "sent": 0,
+   "shares": 13,
+   "value": 76.26,
+   "fees": 3.0
+  }
+ },
  "history": [],
- "meta": {}
+ "meta": {
+  "fail_count": 0
+ }
 }

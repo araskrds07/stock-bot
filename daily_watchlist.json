@@ -1,1 +1,132 @@
-{}
+{
+ "date": "2026-09-21",
+ "built_at": 1790001368.2102869,
+ "tickers": [
+  "SBET",
+  "PSKY",
+  "SMCI",
+  "BMNR",
+  "VNET",
+  "RIOT",
+  "RXRX",
+  "ASST",
+  "SNAP",
+  "BTDR",
+  "RKLB",
+  "NOK",
+  "GLXY",
+  "SG",
+  "BLSH"
+ ],
+ "meta": {
+  "SBET": {
+   "atr_pct": 6.81,
+   "rvol": 3.8,
+   "change": 4.23,
+   "price": 9.75,
+   "score": 5.11
+  },
+  "PSKY": {
+   "atr_pct": 4.27,
+   "rvol": 4.71,
+   "change": 5.49,
+   "price": 10.77,
+   "score": 4.99
+  },
+  "SMCI": {
+   "atr_pct": 5.67,
+   "rvol": 2.47,
+   "change": 5.69,
+   "price": 41.31,
+   "score": 4.65
+  },
+  "BMNR": {
+   "atr_pct": 6.94,
+   "rvol": 2.49,
+   "change": 5.79,
+   "price": 27.5,
+   "score": 4.59
+  },
+  "VNET": {
+   "atr_pct": 4.85,
+   "rvol": 4.75,
+   "change": 6.83,
+   "price": 6.97,
+   "score": 4.53
+  },
+  "RIOT": {
+   "atr_pct": 5.85,
+   "rvol": 2.24,
+   "change": 4.51,
+   "price": 24.82,
+   "score": 4.49
+  },
+  "RXRX": {
+   "atr_pct": 5.4,
+   "rvol": 3.08,
+   "change": 2.48,
+   "price": 3.92,
+   "score": 4.44
+  },
+  "ASST": {
+   "atr_pct": 7.2,
+   "rvol": 4.31,
+   "change": -1.23,
+   "price": 29.72,
+   "score": 4.19
+  },
+  "SNAP": {
+   "atr_pct": 4.81,
+   "rvol": 1.81,
+   "change": 5.7,
+   "price": 5.84,
+   "score": 4.02
+  },
+  "BTDR": {
+   "atr_pct": 6.68,
+   "rvol": 2.22,
+   "change": 2.58,
+   "price": 13.31,
+   "score": 4.01
+  },
+  "RKLB": {
+   "atr_pct": 4.49,
+   "rvol": 3.66,
+   "change": 6.57,
+   "price": 68.81,
+   "score": 3.92
+  },
+  "NOK": {
+   "atr_pct": 4.72,
+   "rvol": 2.37,
+   "change": 2.57,
+   "price": 10.95,
+   "score": 3.89
+  },
+  "GLXY": {
+   "atr_pct": 6.88,
+   "rvol": 1.87,
+   "change": 4.46,
+   "price": 25.79,
+   "score": 3.87
+  },
+  "SG": {
+   "atr_pct": 6.0,
+   "rvol": 1.37,
+   "change": 2.7,
+   "price": 7.41,
+   "score": 3.72
+  },
+  "BLSH": {
+   "atr_pct": 6.82,
+   "rvol": 2.01,
+   "change": 1.77,
+   "price": 39.02,
+   "score": 3.66
+  }
+ },
+ "post_open_ranked": true,
+ "announced": [
+  "open"
+ ]
+}
