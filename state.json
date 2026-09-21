@@ -1,25 +1,68 @@
 {
  "last_alerted": {
-  "SNAP": 1790001358.646357
+  "SNAP": 1790001358.646357,
+  "RXT": 1790019735.652981,
+  "RNG": 1790019735.652981,
+  "BMNR": 1790019735.652981
  },
  "signals": {
-  "SNAP-1790001358": {
-   "ticker": "SNAP",
-   "created": 1790001358.646357,
+  "RXT-1790019735": {
+   "ticker": "RXT",
+   "created": 1790019735.652981,
+   "session": "regular",
+   "kind": "active",
+   "entry": 4.06,
+   "stop0": 4.0028,
+   "target": 4.2705,
+   "seen_high": 4.070000171661377,
+   "seen_low": 4.039999961853027,
+   "sent": 0,
+   "shares": 19,
+   "value": 77.14,
+   "fees": 3.0
+  },
+  "RNG-1790019735": {
+   "ticker": "RNG",
+   "created": 1790019735.652981,
+   "session": "regular",
+   "kind": "active",
+   "entry": 77.475,
+   "stop0": 77.0053,
+   "target": 81.475,
+   "seen_high": 77.58999633789062,
+   "seen_low": 77.30000305175781,
+   "sent": 0,
+   "shares": 1,
+   "value": 77.47,
+   "fees": 3.0
+  },
+  "BMNR-1790019735": {
+   "ticker": "BMNR",
+   "created": 1790019735.652981,
    "session": "regular",
    "kind": "pending",
-   "entry": 5.8659,
-   "stop0": 5.7909,
-   "target": 6.1736,
-   "seen_high": 5.869999885559082,
-   "seen_low": 5.829999923706055,
+   "entry": 28.3283,
+   "stop0": 28.049,
+   "target": 30.3283,
+   "seen_high": 28.329999923706055,
+   "seen_low": 28.165000915527344,
    "sent": 0,
-   "shares": 13,
-   "value": 76.26,
+   "shares": 2,
+   "value": 56.66,
    "fees": 3.0
   }
  },
- "history": [],
+ "history": [
+  {
+   "date": "2026-09-21",
+   "ticker": "SNAP",
+   "session": "regular",
+   "result": "cancelled",
+   "pnl": null,
+   "net_usd": null,
+   "triggered": false
+  }
+ ],
  "meta": {
   "fail_count": 0
  }
