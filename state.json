@@ -8,53 +8,7 @@
   "LUNR": 1790030949.075146,
   "RDW": 1790030949.075146
  },
- "signals": {
-  "FIVN-1790030949": {
-   "ticker": "FIVN",
-   "created": 1790030949.075146,
-   "session": "afterhours",
-   "kind": "active",
-   "entry": 37.49,
-   "stop0": 36.759,
-   "target": 39.49,
-   "seen_high": 37.49,
-   "seen_low": 37.11,
-   "sent": 0,
-   "shares": 2,
-   "value": 74.98,
-   "fees": 3.0
-  },
-  "LUNR-1790030949": {
-   "ticker": "LUNR",
-   "created": 1790030949.075146,
-   "session": "afterhours",
-   "kind": "pending",
-   "entry": 15.7758,
-   "stop0": 15.6843,
-   "target": 16.5758,
-   "seen_high": 15.76,
-   "seen_low": 15.75,
-   "sent": 0,
-   "shares": 5,
-   "value": 78.88,
-   "fees": 3.0
-  },
-  "RDW-1790030949": {
-   "ticker": "RDW",
-   "created": 1790030949.075146,
-   "session": "afterhours",
-   "kind": "pending",
-   "entry": 11.6516,
-   "stop0": 11.5684,
-   "target": 12.3183,
-   "seen_high": 11.6,
-   "seen_low": 11.6,
-   "sent": 0,
-   "shares": 6,
-   "value": 69.91,
-   "fees": 3.0
-  }
- },
+ "signals": {},
  "history": [
   {
    "date": "2026-09-21",
@@ -91,6 +45,33 @@
    "pnl": null,
    "net_usd": null,
    "triggered": false
+  },
+  {
+   "date": "2026-09-21",
+   "ticker": "FIVN",
+   "session": "afterhours",
+   "result": "eod",
+   "pnl": -1.307,
+   "net_usd": -3.98,
+   "triggered": true
+  },
+  {
+   "date": "2026-09-21",
+   "ticker": "LUNR",
+   "session": "afterhours",
+   "result": "eod",
+   "pnl": 0.09,
+   "net_usd": -2.93,
+   "triggered": true
+  },
+  {
+   "date": "2026-09-21",
+   "ticker": "RDW",
+   "session": "afterhours",
+   "result": "eod",
+   "pnl": 0.501,
+   "net_usd": -2.65,
+   "triggered": true
   }
  ],
  "meta": {

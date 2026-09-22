@@ -1,132 +1,132 @@
 {
- "date": "2026-09-21",
- "built_at": 1790030954.5690544,
+ "date": "2026-09-22",
+ "built_at": 1790081546.0742617,
  "tickers": [
   "FIVN",
   "RXRX",
-  "SBET",
-  "AXTI",
   "SMCI",
+  "SBET",
+  "RDW",
+  "AXTI",
   "BMNR",
   "VNET",
-  "RDW",
   "RNG",
-  "FSLY",
   "RIOT",
-  "LUNR",
-  "NN",
+  "FSLY",
+  "OUST",
+  "U",
   "NOK",
-  "BTDR"
+  "RKLB"
  ],
  "meta": {
   "FIVN": {
-   "atr_pct": 4.71,
-   "rvol": 2.08,
+   "atr_pct": 5.28,
+   "rvol": 2.21,
    "change": 13.98,
    "price": 37.01,
-   "score": 4.32
+   "score": 4.47
   },
   "RXRX": {
-   "atr_pct": 5.34,
+   "atr_pct": 5.39,
    "rvol": 2.22,
    "change": 3.66,
    "price": 3.97,
-   "score": 4.23
+   "score": 4.18
+  },
+  "SMCI": {
+   "atr_pct": 5.89,
+   "rvol": 1.27,
+   "change": 5.4,
+   "price": 41.2,
+   "score": 4.06
   },
   "SBET": {
-   "atr_pct": 6.65,
+   "atr_pct": 6.81,
    "rvol": 1.45,
    "change": 6.74,
    "price": 9.98,
-   "score": 4.11
-  },
-  "AXTI": {
-   "atr_pct": 6.9,
-   "rvol": 1.47,
-   "change": 14.14,
-   "price": 79.93,
-   "score": 4.08
-  },
-  "SMCI": {
-   "atr_pct": 5.69,
-   "rvol": 1.26,
-   "change": 5.4,
-   "price": 41.2,
-   "score": 4.04
-  },
-  "BMNR": {
-   "atr_pct": 6.75,
-   "rvol": 1.09,
-   "change": 8.7,
-   "price": 28.25,
-   "score": 3.92
-  },
-  "VNET": {
-   "atr_pct": 4.67,
-   "rvol": 2.63,
-   "change": 10.97,
-   "price": 7.24,
-   "score": 3.84
+   "score": 4.02
   },
   "RDW": {
-   "atr_pct": 5.77,
+   "atr_pct": 6.06,
    "rvol": 1.18,
    "change": 8.01,
    "price": 11.6,
-   "score": 3.76
+   "score": 3.96
+  },
+  "AXTI": {
+   "atr_pct": 7.5,
+   "rvol": 1.47,
+   "change": 14.14,
+   "price": 79.93,
+   "score": 3.89
+  },
+  "BMNR": {
+   "atr_pct": 6.9,
+   "rvol": 1.1,
+   "change": 8.7,
+   "price": 28.25,
+   "score": 3.89
+  },
+  "VNET": {
+   "atr_pct": 4.93,
+   "rvol": 2.63,
+   "change": 11.04,
+   "price": 7.24,
+   "score": 3.8
   },
   "RNG": {
-   "atr_pct": 4.16,
-   "rvol": 0.97,
+   "atr_pct": 4.56,
+   "rvol": 0.98,
    "change": 7.57,
    "price": 77.3,
-   "score": 3.64
-  },
-  "FSLY": {
-   "atr_pct": 6.56,
-   "rvol": 1.95,
-   "change": 14.92,
-   "price": 27.42,
-   "score": 3.63
+   "score": 3.71
   },
   "RIOT": {
-   "atr_pct": 6.0,
+   "atr_pct": 6.12,
    "rvol": 1.39,
    "change": 1.81,
    "price": 24.18,
-   "score": 3.56
+   "score": 3.36
   },
-  "LUNR": {
-   "atr_pct": 5.14,
-   "rvol": 1.76,
-   "change": 12.93,
-   "price": 15.72,
-   "score": 3.49
+  "FSLY": {
+   "atr_pct": 7.53,
+   "rvol": 1.96,
+   "change": 14.92,
+   "price": 27.42,
+   "score": 3.36
   },
-  "NN": {
-   "atr_pct": 5.6,
-   "rvol": 1.14,
-   "change": 10.13,
-   "price": 15.66,
-   "score": 3.25
+  "OUST": {
+   "atr_pct": 5.08,
+   "rvol": 1.48,
+   "change": 8.76,
+   "price": 38.12,
+   "score": 3.28
+  },
+  "U": {
+   "atr_pct": 4.01,
+   "rvol": 1.16,
+   "change": 4.37,
+   "price": 43.21,
+   "score": 3.23
   },
   "NOK": {
-   "atr_pct": 4.73,
+   "atr_pct": 4.87,
    "rvol": 1.06,
    "change": 2.43,
    "price": 10.94,
-   "score": 3.2
+   "score": 3.23
   },
-  "BTDR": {
-   "atr_pct": 6.76,
-   "rvol": 1.09,
-   "change": 1.31,
-   "price": 13.14,
+  "RKLB": {
+   "atr_pct": 4.81,
+   "rvol": 1.44,
+   "change": 8.24,
+   "price": 69.89,
    "score": 3.18
   }
  },
- "post_open_ranked": true,
+ "post_open_ranked": false,
  "announced": [
-  "open"
+  "pre"
  ]
 }
