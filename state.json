@@ -8,27 +8,14 @@
   "LUNR": 1790030949.075146,
   "RDW": 1790030949.075146,
   "VERA": 1790097681.736174,
-  "TGB": 1790108102.10535,
+  "TGB": 1790117844.797597,
   "ERO": 1790097681.736174,
   "SGRY": 1790108102.10535,
-  "COHU": 1790108102.10535
+  "COHU": 1790108102.10535,
+  "TNGX": 1790117844.797597,
+  "RIOT": 1790117844.797597
  },
  "signals": {
-  "TGB-1790108102": {
-   "ticker": "TGB",
-   "created": 1790108102.10535,
-   "session": "afterhours",
-   "kind": "pending",
-   "entry": 9.3894,
-   "stop0": 9.3211,
-   "target": 9.8894,
-   "seen_high": 9.4,
-   "seen_low": 9.342,
-   "sent": 0,
-   "shares": 8,
-   "value": 75.12,
-   "fees": 3.0
-  },
   "SGRY-1790108102": {
    "ticker": "SGRY",
    "created": 1790108102.10535,
@@ -39,24 +26,54 @@
    "target": 16.7159,
    "seen_high": 15.8,
    "seen_low": 14.801,
-   "sent": 0,
+   "sent": 1,
    "shares": 5,
    "value": 79.58,
    "fees": 3.0
   },
-  "COHU-1790108102": {
-   "ticker": "COHU",
-   "created": 1790108102.10535,
+  "TGB-1790117844": {
+   "ticker": "TGB",
+   "created": 1790117844.797597,
+   "session": "afterhours",
+   "kind": "active",
+   "entry": 9.37,
+   "stop0": 9.3207,
+   "target": 9.87,
+   "seen_high": 9.37,
+   "seen_low": 9.36,
+   "sent": 0,
+   "shares": 8,
+   "value": 74.96,
+   "fees": 3.0
+  },
+  "TNGX-1790117844": {
+   "ticker": "TNGX",
+   "created": 1790117844.797597,
+   "session": "afterhours",
+   "kind": "active",
+   "entry": 25.69,
+   "stop0": 25.2037,
+   "target": 27.0233,
+   "seen_high": 25.69,
+   "seen_low": 25.69,
+   "sent": 0,
+   "shares": 3,
+   "value": 77.07,
+   "fees": 3.0
+  },
+  "RIOT-1790117844": {
+   "ticker": "RIOT",
+   "created": 1790117844.797597,
    "session": "afterhours",
    "kind": "pending",
-   "entry": 65.0049,
-   "stop0": 64.4092,
-   "target": 69.0049,
-   "seen_high": 64.54,
-   "seen_low": 64.54,
+   "entry": 24.9449,
+   "stop0": 24.7452,
+   "target": 26.2783,
+   "seen_high": 24.92,
+   "seen_low": 24.895,
    "sent": 0,
-   "shares": 1,
-   "value": 65.0,
+   "shares": 3,
+   "value": 74.83,
    "fees": 3.0
   }
  },
@@ -150,6 +167,24 @@
    "pnl": 0.304,
    "net_usd": -2.77,
    "triggered": true
+  },
+  {
+   "date": "2026-09-22",
+   "ticker": "TGB",
+   "session": "afterhours",
+   "result": "expired",
+   "pnl": null,
+   "net_usd": null,
+   "triggered": false
+  },
+  {
+   "date": "2026-09-22",
+   "ticker": "COHU",
+   "session": "afterhours",
+   "result": "cancelled",
+   "pnl": null,
+   "net_usd": null,
+   "triggered": false
   }
  ],
  "meta": {
