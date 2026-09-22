@@ -6,9 +6,58 @@
   "BMNR": 1790019735.652981,
   "FIVN": 1790030949.075146,
   "LUNR": 1790030949.075146,
-  "RDW": 1790030949.075146
+  "RDW": 1790030949.075146,
+  "VERA": 1790097681.736174,
+  "TGB": 1790097681.736174,
+  "ERO": 1790097681.736174
  },
- "signals": {},
+ "signals": {
+  "VERA-1790097681": {
+   "ticker": "VERA",
+   "created": 1790097681.736174,
+   "session": "regular",
+   "kind": "pending",
+   "entry": 36.2062,
+   "stop0": 35.8441,
+   "target": 38.2062,
+   "seen_high": 36.0,
+   "seen_low": 35.88999938964844,
+   "sent": 0,
+   "shares": 2,
+   "value": 72.41,
+   "fees": 3.0
+  },
+  "TGB-1790097681": {
+   "ticker": "TGB",
+   "created": 1790097681.736174,
+   "session": "regular",
+   "kind": "pending",
+   "entry": 9.2092,
+   "stop0": 9.1105,
+   "target": 9.7092,
+   "seen_high": 9.199999809265137,
+   "seen_low": 9.1899995803833,
+   "sent": 0,
+   "shares": 8,
+   "value": 73.67,
+   "fees": 3.0
+  },
+  "ERO-1790097681": {
+   "ticker": "ERO",
+   "created": 1790097681.736174,
+   "session": "regular",
+   "kind": "pending",
+   "entry": 37.1771,
+   "stop0": 36.7336,
+   "target": 39.1771,
+   "seen_high": 36.859901428222656,
+   "seen_low": 36.779998779296875,
+   "sent": 0,
+   "shares": 2,
+   "value": 74.35,
+   "fees": 3.0
+  }
+ },
  "history": [
   {
    "date": "2026-09-21",
