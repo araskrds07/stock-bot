@@ -8,53 +8,55 @@
   "LUNR": 1790030949.075146,
   "RDW": 1790030949.075146,
   "VERA": 1790097681.736174,
-  "TGB": 1790097681.736174,
-  "ERO": 1790097681.736174
+  "TGB": 1790108102.10535,
+  "ERO": 1790097681.736174,
+  "SGRY": 1790108102.10535,
+  "COHU": 1790108102.10535
  },
  "signals": {
-  "VERA-1790097681": {
-   "ticker": "VERA",
-   "created": 1790097681.736174,
-   "session": "regular",
-   "kind": "pending",
-   "entry": 36.2062,
-   "stop0": 35.8441,
-   "target": 38.2062,
-   "seen_high": 36.0,
-   "seen_low": 35.88999938964844,
-   "sent": 0,
-   "shares": 2,
-   "value": 72.41,
-   "fees": 3.0
-  },
-  "TGB-1790097681": {
+  "TGB-1790108102": {
    "ticker": "TGB",
-   "created": 1790097681.736174,
-   "session": "regular",
+   "created": 1790108102.10535,
+   "session": "afterhours",
    "kind": "pending",
-   "entry": 9.2092,
-   "stop0": 9.1105,
-   "target": 9.7092,
-   "seen_high": 9.199999809265137,
-   "seen_low": 9.1899995803833,
+   "entry": 9.3894,
+   "stop0": 9.3211,
+   "target": 9.8894,
+   "seen_high": 9.4,
+   "seen_low": 9.342,
    "sent": 0,
    "shares": 8,
-   "value": 73.67,
+   "value": 75.12,
    "fees": 3.0
   },
-  "ERO-1790097681": {
-   "ticker": "ERO",
-   "created": 1790097681.736174,
-   "session": "regular",
+  "SGRY-1790108102": {
+   "ticker": "SGRY",
+   "created": 1790108102.10535,
+   "session": "afterhours",
    "kind": "pending",
-   "entry": 37.1771,
-   "stop0": 36.7336,
-   "target": 39.1771,
-   "seen_high": 36.859901428222656,
-   "seen_low": 36.779998779296875,
+   "entry": 15.9159,
+   "stop0": 15.5245,
+   "target": 16.7159,
+   "seen_high": 15.8,
+   "seen_low": 14.801,
    "sent": 0,
-   "shares": 2,
-   "value": 74.35,
+   "shares": 5,
+   "value": 79.58,
+   "fees": 3.0
+  },
+  "COHU-1790108102": {
+   "ticker": "COHU",
+   "created": 1790108102.10535,
+   "session": "afterhours",
+   "kind": "pending",
+   "entry": 65.0049,
+   "stop0": 64.4092,
+   "target": 69.0049,
+   "seen_high": 64.54,
+   "seen_low": 64.54,
+   "sent": 0,
+   "shares": 1,
+   "value": 65.0,
    "fees": 3.0
   }
  },
@@ -121,10 +123,37 @@
    "pnl": 0.501,
    "net_usd": -2.65,
    "triggered": true
+  },
+  {
+   "date": "2026-09-22",
+   "ticker": "VERA",
+   "session": "regular",
+   "result": "cancelled",
+   "pnl": null,
+   "net_usd": null,
+   "triggered": false
+  },
+  {
+   "date": "2026-09-22",
+   "ticker": "TGB",
+   "session": "regular",
+   "result": "eod",
+   "pnl": 1.637,
+   "net_usd": -1.79,
+   "triggered": true
+  },
+  {
+   "date": "2026-09-22",
+   "ticker": "ERO",
+   "session": "regular",
+   "result": "eod",
+   "pnl": 0.304,
+   "net_usd": -2.77,
+   "triggered": true
   }
  ],
  "meta": {
   "fail_count": 0,
-  "summary_date": "2026-09-21"
+  "summary_date": "2026-09-22"
  }
 }
