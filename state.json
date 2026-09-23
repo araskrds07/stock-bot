@@ -16,52 +16,39 @@
   "RIOT": 1790117844.797597,
   "CLF": 1790185728.47728,
   "ACHR": 1790185728.47728,
-  "MARA": 1790185728.47728
+  "MARA": 1790185728.47728,
+  "BETA": 1790196156.851578,
+  "GENI": 1790196156.851578
  },
  "signals": {
-  "CLF-1790185728": {
-   "ticker": "CLF",
-   "created": 1790185728.47728,
-   "session": "regular",
+  "BETA-1790196156": {
+   "ticker": "BETA",
+   "created": 1790196156.851578,
+   "session": "afterhours",
    "kind": "active",
-   "entry": 12.925,
-   "stop0": 12.7757,
-   "target": 13.5917,
-   "seen_high": 12.930000305175781,
-   "seen_low": 12.885000228881836,
+   "entry": 24.4985,
+   "stop0": 24.2318,
+   "target": 25.8318,
+   "seen_high": 24.4985,
+   "seen_low": 24.34,
    "sent": 0,
-   "shares": 6,
-   "value": 77.55,
+   "shares": 3,
+   "value": 73.5,
    "fees": 3.0
   },
-  "ACHR-1790185728": {
-   "ticker": "ACHR",
-   "created": 1790185728.47728,
-   "session": "regular",
+  "GENI-1790196156": {
+   "ticker": "GENI",
+   "created": 1790196156.851578,
+   "session": "afterhours",
    "kind": "pending",
-   "entry": 5.7457,
-   "stop0": 5.6796,
-   "target": 6.0534,
-   "seen_high": 5.695000171661377,
-   "seen_low": 5.680099964141846,
+   "entry": 6.1461,
+   "stop0": 6.0636,
+   "target": 6.4538,
+   "seen_high": 6.12,
+   "seen_low": 6.12,
    "sent": 0,
    "shares": 13,
-   "value": 74.69,
-   "fees": 3.0
-  },
-  "MARA-1790185728": {
-   "ticker": "MARA",
-   "created": 1790185728.47728,
-   "session": "regular",
-   "kind": "pending",
-   "entry": 13.6636,
-   "stop0": 13.4611,
-   "target": 14.4636,
-   "seen_high": 13.640000343322754,
-   "seen_low": 13.59000015258789,
-   "sent": 0,
-   "shares": 5,
-   "value": 68.32,
+   "value": 79.9,
    "fees": 3.0
   }
  },
@@ -209,10 +196,37 @@
    "pnl": 0.214,
    "net_usd": -2.84,
    "triggered": true
+  },
+  {
+   "date": "2026-09-23",
+   "ticker": "CLF",
+   "session": "regular",
+   "result": "stop",
+   "pnl": -1.155,
+   "net_usd": -3.9,
+   "triggered": true
+  },
+  {
+   "date": "2026-09-23",
+   "ticker": "ACHR",
+   "session": "regular",
+   "result": "cancelled",
+   "pnl": null,
+   "net_usd": null,
+   "triggered": false
+  },
+  {
+   "date": "2026-09-23",
+   "ticker": "MARA",
+   "session": "regular",
+   "result": "cancelled",
+   "pnl": null,
+   "net_usd": null,
+   "triggered": false
   }
  ],
  "meta": {
   "fail_count": 0,
-  "summary_date": "2026-09-22"
+  "summary_date": "2026-09-23"
  }
 }
