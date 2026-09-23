@@ -13,9 +13,58 @@
   "SGRY": 1790108102.10535,
   "COHU": 1790108102.10535,
   "TNGX": 1790117844.797597,
-  "RIOT": 1790117844.797597
+  "RIOT": 1790117844.797597,
+  "CLF": 1790185728.47728,
+  "ACHR": 1790185728.47728,
+  "MARA": 1790185728.47728
  },
- "signals": {},
+ "signals": {
+  "CLF-1790185728": {
+   "ticker": "CLF",
+   "created": 1790185728.47728,
+   "session": "regular",
+   "kind": "active",
+   "entry": 12.925,
+   "stop0": 12.7757,
+   "target": 13.5917,
+   "seen_high": 12.930000305175781,
+   "seen_low": 12.885000228881836,
+   "sent": 0,
+   "shares": 6,
+   "value": 77.55,
+   "fees": 3.0
+  },
+  "ACHR-1790185728": {
+   "ticker": "ACHR",
+   "created": 1790185728.47728,
+   "session": "regular",
+   "kind": "pending",
+   "entry": 5.7457,
+   "stop0": 5.6796,
+   "target": 6.0534,
+   "seen_high": 5.695000171661377,
+   "seen_low": 5.680099964141846,
+   "sent": 0,
+   "shares": 13,
+   "value": 74.69,
+   "fees": 3.0
+  },
+  "MARA-1790185728": {
+   "ticker": "MARA",
+   "created": 1790185728.47728,
+   "session": "regular",
+   "kind": "pending",
+   "entry": 13.6636,
+   "stop0": 13.4611,
+   "target": 14.4636,
+   "seen_high": 13.640000343322754,
+   "seen_low": 13.59000015258789,
+   "sent": 0,
+   "shares": 5,
+   "value": 68.32,
+   "fees": 3.0
+  }
+ },
  "history": [
   {
    "date": "2026-09-21",
