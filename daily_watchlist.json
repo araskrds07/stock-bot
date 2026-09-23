@@ -1,6 +1,6 @@
 {
  "date": "2026-09-23",
- "built_at": 1790196163.2353113,
+ "built_at": 1790204946.8343825,
  "tickers": [
   "FSLY",
   "IONQ",
@@ -12,8 +12,8 @@
   "VECO",
   "GENI",
   "FPS",
-  "IREN",
   "KVYO",
+  "IREN",
   "DOCU",
   "RXRX",
   "MARA"
@@ -21,17 +21,17 @@
  "meta": {
   "FSLY": {
    "atr_pct": 7.43,
-   "rvol": 5.12,
+   "rvol": 5.14,
    "change": 13.69,
    "price": 29.65,
    "score": 4.51
   },
   "IONQ": {
    "atr_pct": 5.36,
-   "rvol": 3.82,
+   "rvol": 3.83,
    "change": 4.42,
    "price": 42.54,
-   "score": 4.22
+   "score": 4.23
   },
   "VIA": {
    "atr_pct": 4.35,
@@ -49,17 +49,17 @@
   },
   "SMCI": {
    "atr_pct": 5.81,
-   "rvol": 1.07,
+   "rvol": 1.08,
    "change": -0.24,
    "price": 41.44,
    "score": 2.97
   },
   "RIOT": {
    "atr_pct": 6.1,
-   "rvol": 1.05,
+   "rvol": 1.07,
    "change": -0.96,
    "price": 24.69,
-   "score": 2.87
+   "score": 2.88
   },
   "BETA": {
    "atr_pct": 6.32,
@@ -89,26 +89,26 @@
    "price": 39.88,
    "score": 2.75
   },
+  "KVYO": {
+   "atr_pct": 5.91,
+   "rvol": 1.5,
+   "change": 6.07,
+   "price": 16.78,
+   "score": 2.74
+  },
   "IREN": {
    "atr_pct": 6.19,
-   "rvol": 0.78,
+   "rvol": 0.79,
    "change": -3.09,
    "price": 47.05,
    "score": 2.63
   },
-  "KVYO": {
-   "atr_pct": 5.91,
-   "rvol": 1.25,
-   "change": 6.07,
-   "price": 16.78,
-   "score": 2.61
-  },
   "DOCU": {
    "atr_pct": 4.22,
-   "rvol": 0.8,
+   "rvol": 0.87,
    "change": 1.34,
    "price": 69.49,
-   "score": 2.56
+   "score": 2.6
   },
   "RXRX": {
    "atr_pct": 6.05,
@@ -119,10 +119,10 @@
   },
   "MARA": {
    "atr_pct": 6.66,
-   "rvol": 0.77,
+   "rvol": 0.78,
    "change": -2.05,
    "price": 13.35,
-   "score": 2.55
+   "score": 2.56
   }
  },
  "post_open_ranked": true,
