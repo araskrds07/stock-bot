@@ -15,68 +15,7 @@
   "TNGX": 1790117844.797597,
   "RIOT": 1790117844.797597
  },
- "signals": {
-  "SGRY-1790108102": {
-   "ticker": "SGRY",
-   "created": 1790108102.10535,
-   "session": "afterhours",
-   "kind": "pending",
-   "entry": 15.9159,
-   "stop0": 15.5245,
-   "target": 16.7159,
-   "seen_high": 15.8,
-   "seen_low": 14.801,
-   "sent": 1,
-   "shares": 5,
-   "value": 79.58,
-   "fees": 3.0
-  },
-  "TGB-1790117844": {
-   "ticker": "TGB",
-   "created": 1790117844.797597,
-   "session": "afterhours",
-   "kind": "active",
-   "entry": 9.37,
-   "stop0": 9.3207,
-   "target": 9.87,
-   "seen_high": 9.37,
-   "seen_low": 9.36,
-   "sent": 0,
-   "shares": 8,
-   "value": 74.96,
-   "fees": 3.0
-  },
-  "TNGX-1790117844": {
-   "ticker": "TNGX",
-   "created": 1790117844.797597,
-   "session": "afterhours",
-   "kind": "active",
-   "entry": 25.69,
-   "stop0": 25.2037,
-   "target": 27.0233,
-   "seen_high": 25.69,
-   "seen_low": 25.69,
-   "sent": 0,
-   "shares": 3,
-   "value": 77.07,
-   "fees": 3.0
-  },
-  "RIOT-1790117844": {
-   "ticker": "RIOT",
-   "created": 1790117844.797597,
-   "session": "afterhours",
-   "kind": "pending",
-   "entry": 24.9449,
-   "stop0": 24.7452,
-   "target": 26.2783,
-   "seen_high": 24.92,
-   "seen_low": 24.895,
-   "sent": 0,
-   "shares": 3,
-   "value": 74.83,
-   "fees": 3.0
-  }
- },
+ "signals": {},
  "history": [
   {
    "date": "2026-09-21",
@@ -185,6 +124,42 @@
    "pnl": null,
    "net_usd": null,
    "triggered": false
+  },
+  {
+   "date": "2026-09-22",
+   "ticker": "SGRY",
+   "session": "afterhours",
+   "result": "eod",
+   "pnl": -1.357,
+   "net_usd": -4.08,
+   "triggered": true
+  },
+  {
+   "date": "2026-09-22",
+   "ticker": "TGB",
+   "session": "afterhours",
+   "result": "eod",
+   "pnl": -0.412,
+   "net_usd": -3.31,
+   "triggered": true
+  },
+  {
+   "date": "2026-09-22",
+   "ticker": "TNGX",
+   "session": "afterhours",
+   "result": "eod",
+   "pnl": -0.024,
+   "net_usd": -3.02,
+   "triggered": true
+  },
+  {
+   "date": "2026-09-22",
+   "ticker": "RIOT",
+   "session": "afterhours",
+   "result": "eod",
+   "pnl": 0.214,
+   "net_usd": -2.84,
+   "triggered": true
   }
  ],
  "meta": {
