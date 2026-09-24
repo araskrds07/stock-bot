@@ -20,23 +20,7 @@
   "BETA": 1790196156.851578,
   "GENI": 1790196156.851578
  },
- "signals": {
-  "GENI-1790196156": {
-   "ticker": "GENI",
-   "created": 1790196156.851578,
-   "session": "afterhours",
-   "kind": "pending",
-   "entry": 6.1461,
-   "stop0": 6.0636,
-   "target": 6.4538,
-   "seen_high": 6.12,
-   "seen_low": 6.12,
-   "sent": 1,
-   "shares": 13,
-   "value": 79.9,
-   "fees": 3.0
-  }
- },
+ "signals": {},
  "history": [
   {
    "date": "2026-09-21",
@@ -216,6 +200,15 @@
    "result": "stop",
    "pnl": -1.089,
    "net_usd": -3.8,
+   "triggered": true
+  },
+  {
+   "date": "2026-09-23",
+   "ticker": "GENI",
+   "session": "afterhours",
+   "result": "eod",
+   "pnl": 1.365,
+   "net_usd": -1.91,
    "triggered": true
   }
  ],
