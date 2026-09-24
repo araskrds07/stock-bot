@@ -1,8 +1,5 @@
 {
  "last_alerted": {
-  "RXT": 1790019735.652981,
-  "RNG": 1790019735.652981,
-  "BMNR": 1790019735.652981,
   "FIVN": 1790030949.075146,
   "LUNR": 1790271562.891082,
   "RDW": 1790271562.891082,
@@ -18,52 +15,55 @@
   "MARA": 1790185728.47728,
   "BETA": 1790196156.851578,
   "GENI": 1790196156.851578,
-  "PBF": 1790271562.891082
+  "PBF": 1790271562.891082,
+  "BB": 1790282726.096602,
+  "RKLB": 1790282726.096602,
+  "IOVA": 1790282726.096602
  },
  "signals": {
-  "LUNR-1790271562": {
-   "ticker": "LUNR",
-   "created": 1790271562.891082,
-   "session": "regular",
-   "kind": "pending",
-   "entry": 16.1011,
-   "stop0": 15.7991,
-   "target": 17.1011,
-   "seen_high": 16.045000076293945,
-   "seen_low": 15.875,
-   "sent": 0,
-   "shares": 4,
-   "value": 64.4,
-   "fees": 3.0
-  },
-  "RDW-1790271562": {
-   "ticker": "RDW",
-   "created": 1790271562.891082,
-   "session": "regular",
-   "kind": "pending",
-   "entry": 11.8669,
-   "stop0": 11.6309,
-   "target": 12.5335,
-   "seen_high": 11.824999809265137,
-   "seen_low": 11.739999771118164,
-   "sent": 0,
-   "shares": 6,
-   "value": 71.2,
-   "fees": 3.0
-  },
-  "PBF-1790271562": {
-   "ticker": "PBF",
-   "created": 1790271562.891082,
-   "session": "regular",
+  "BB-1790282726": {
+   "ticker": "BB",
+   "created": 1790282726.096602,
+   "session": "afterhours",
    "kind": "active",
-   "entry": 73.99,
-   "stop0": 72.8098,
-   "target": 77.99,
-   "seen_high": 73.98999786376953,
-   "seen_low": 73.66000366210938,
+   "entry": 8.8201,
+   "stop0": 8.6514,
+   "target": 9.2645,
+   "seen_high": 8.8201,
+   "seen_low": 8.8201,
+   "sent": 0,
+   "shares": 9,
+   "value": 79.38,
+   "fees": 3.0
+  },
+  "RKLB-1790282726": {
+   "ticker": "RKLB",
+   "created": 1790282726.096602,
+   "session": "afterhours",
+   "kind": "pending",
+   "entry": 74.1941,
+   "stop0": 73.3782,
+   "target": 78.1941,
+   "seen_high": 73.95,
+   "seen_low": 73.95,
    "sent": 0,
    "shares": 1,
-   "value": 73.99,
+   "value": 74.19,
+   "fees": 3.0
+  },
+  "IOVA-1790282726": {
+   "ticker": "IOVA",
+   "created": 1790282726.096602,
+   "session": "afterhours",
+   "kind": "pending",
+   "entry": 10.8408,
+   "stop0": 10.686,
+   "target": 11.4123,
+   "seen_high": 10.7907,
+   "seen_low": 10.7907,
+   "sent": 0,
+   "shares": 7,
+   "value": 75.89,
    "fees": 3.0
   }
  },
@@ -256,10 +256,37 @@
    "pnl": 1.365,
    "net_usd": -1.91,
    "triggered": true
+  },
+  {
+   "date": "2026-09-24",
+   "ticker": "LUNR",
+   "session": "regular",
+   "result": "cancelled",
+   "pnl": null,
+   "net_usd": null,
+   "triggered": false
+  },
+  {
+   "date": "2026-09-24",
+   "ticker": "RDW",
+   "session": "regular",
+   "result": "cancelled",
+   "pnl": null,
+   "net_usd": null,
+   "triggered": false
+  },
+  {
+   "date": "2026-09-24",
+   "ticker": "PBF",
+   "session": "regular",
+   "result": "stop",
+   "pnl": -1.595,
+   "net_usd": -4.18,
+   "triggered": true
   }
  ],
  "meta": {
   "fail_count": 0,
-  "summary_date": "2026-09-23"
+  "summary_date": "2026-09-24"
  }
 }
