@@ -1,6 +1,5 @@
 {
  "last_alerted": {
-  "FIVN": 1790030949.075146,
   "LUNR": 1790271562.891082,
   "RDW": 1790271562.891082,
   "VERA": 1790097681.736174,
@@ -18,7 +17,9 @@
   "PBF": 1790271562.891082,
   "BB": 1790282726.096602,
   "RKLB": 1790282726.096602,
-  "IOVA": 1790282726.096602
+  "IOVA": 1790292535.948809,
+  "RXRX": 1790292535.948809,
+  "BMNR": 1790292535.948809
  },
  "signals": {
   "BB-1790282726": {
@@ -46,24 +47,54 @@
    "target": 78.1941,
    "seen_high": 73.95,
    "seen_low": 73.95,
-   "sent": 0,
+   "sent": 1,
    "shares": 1,
    "value": 74.19,
    "fees": 3.0
   },
-  "IOVA-1790282726": {
+  "RXRX-1790292535": {
+   "ticker": "RXRX",
+   "created": 1790292535.948809,
+   "session": "afterhours",
+   "kind": "active",
+   "entry": 3.93,
+   "stop0": 3.8968,
+   "target": 4.13,
+   "seen_high": 3.93,
+   "seen_low": 3.9,
+   "sent": 0,
+   "shares": 20,
+   "value": 78.6,
+   "fees": 3.0
+  },
+  "IOVA-1790292535": {
    "ticker": "IOVA",
-   "created": 1790282726.096602,
+   "created": 1790292535.948809,
    "session": "afterhours",
    "kind": "pending",
-   "entry": 10.8408,
-   "stop0": 10.686,
-   "target": 11.4123,
-   "seen_high": 10.7907,
-   "seen_low": 10.7907,
+   "entry": 10.8308,
+   "stop0": 10.7892,
+   "target": 11.4022,
+   "seen_high": 10.81,
+   "seen_low": 10.81,
    "sent": 0,
    "shares": 7,
-   "value": 75.89,
+   "value": 75.82,
+   "fees": 3.0
+  },
+  "BMNR-1790292535": {
+   "ticker": "BMNR",
+   "created": 1790292535.948809,
+   "session": "afterhours",
+   "kind": "pending",
+   "entry": 28.078,
+   "stop0": 27.9033,
+   "target": 30.078,
+   "seen_high": 28.05,
+   "seen_low": 27.9869,
+   "sent": 0,
+   "shares": 2,
+   "value": 56.16,
    "fees": 3.0
   }
  },
@@ -283,6 +314,15 @@
    "pnl": -1.595,
    "net_usd": -4.18,
    "triggered": true
+  },
+  {
+   "date": "2026-09-24",
+   "ticker": "IOVA",
+   "session": "afterhours",
+   "result": "expired",
+   "pnl": null,
+   "net_usd": null,
+   "triggered": false
   }
  ],
  "meta": {
