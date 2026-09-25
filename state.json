@@ -3,8 +3,6 @@
   "LUNR": 1790271562.891082,
   "RDW": 1790271562.891082,
   "TGB": 1790117844.797597,
-  "SGRY": 1790108102.10535,
-  "COHU": 1790108102.10535,
   "TNGX": 1790117844.797597,
   "RIOT": 1790117844.797597,
   "CLF": 1790185728.47728,
@@ -18,53 +16,55 @@
   "IOVA": 1790292535.948809,
   "RXRX": 1790292535.948809,
   "BMNR": 1790292535.948809,
-  "ON": 1790358824.152441,
-  "BTG": 1790358824.152441
+  "ON": 1790369207.535017,
+  "BTG": 1790358824.152441,
+  "ALGM": 1790369207.535017,
+  "MBLY": 1790369207.535017
  },
  "signals": {
-  "ON-1790358824": {
+  "ON-1790369207": {
    "ticker": "ON",
-   "created": 1790358824.152441,
-   "session": "regular",
+   "created": 1790369207.535017,
+   "session": "afterhours",
    "kind": "pending",
-   "entry": 77.7277,
-   "stop0": 76.9779,
-   "target": 81.7277,
-   "seen_high": 77.5199966430664,
-   "seen_low": 77.31500244140625,
+   "entry": 77.6876,
+   "stop0": 77.1686,
+   "target": 81.6876,
+   "seen_high": 77.4,
+   "seen_low": 77.4,
    "sent": 0,
    "shares": 1,
-   "value": 77.73,
+   "value": 77.69,
    "fees": 3.0
   },
-  "BTG-1790358824": {
-   "ticker": "BTG",
-   "created": 1790358824.152441,
-   "session": "regular",
+  "ALGM-1790369207": {
+   "ticker": "ALGM",
+   "created": 1790369207.535017,
+   "session": "afterhours",
    "kind": "pending",
-   "entry": 5.5055,
-   "stop0": 5.4455,
-   "target": 5.7912,
-   "seen_high": 5.479899883270264,
-   "seen_low": 5.460000038146973,
+   "entry": 37.037,
+   "stop0": 36.7014,
+   "target": 39.037,
+   "seen_high": 36.9,
+   "seen_low": 36.5,
    "sent": 0,
-   "shares": 14,
-   "value": 77.08,
+   "shares": 2,
+   "value": 74.07,
    "fees": 3.0
   },
-  "BETA-1790358824": {
-   "ticker": "BETA",
-   "created": 1790358824.152441,
-   "session": "regular",
+  "MBLY-1790369207": {
+   "ticker": "MBLY",
+   "created": 1790369207.535017,
+   "session": "afterhours",
    "kind": "pending",
-   "entry": 24.6046,
-   "stop0": 24.2572,
-   "target": 25.9379,
-   "seen_high": 24.520000457763672,
-   "seen_low": 24.395000457763672,
+   "entry": 8.0981,
+   "stop0": 8.009,
+   "target": 8.5425,
+   "seen_high": 8.0499,
+   "seen_low": 8.0499,
    "sent": 0,
-   "shares": 3,
-   "value": 73.81,
+   "shares": 9,
+   "value": 72.88,
    "fees": 3.0
   }
  },
@@ -338,10 +338,37 @@
    "pnl": null,
    "net_usd": null,
    "triggered": false
+  },
+  {
+   "date": "2026-09-25",
+   "ticker": "ON",
+   "session": "regular",
+   "result": "expired",
+   "pnl": null,
+   "net_usd": null,
+   "triggered": false
+  },
+  {
+   "date": "2026-09-25",
+   "ticker": "BTG",
+   "session": "regular",
+   "result": "eod",
+   "pnl": -0.463,
+   "net_usd": -3.36,
+   "triggered": true
+  },
+  {
+   "date": "2026-09-25",
+   "ticker": "BETA",
+   "session": "regular",
+   "result": "cancelled",
+   "pnl": null,
+   "net_usd": null,
+   "triggered": false
   }
  ],
  "meta": {
   "fail_count": 0,
-  "summary_date": "2026-09-24"
+  "summary_date": "2026-09-25"
  }
 }
