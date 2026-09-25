@@ -1,6 +1,6 @@
 {
  "date": "2026-09-25",
- "built_at": 1790369215.195945,
+ "built_at": 1790379356.967526,
  "tickers": [
   "SMCI",
   "COHU",
@@ -59,7 +59,7 @@
    "rvol": 1.62,
    "change": 9.28,
    "price": 49.67,
-   "score": 3.28
+   "score": 3.29
   },
   "PENG": {
    "atr_pct": 5.15,
@@ -91,10 +91,10 @@
   },
   "ALGM": {
    "atr_pct": 4.16,
-   "rvol": 1.08,
+   "rvol": 1.12,
    "change": 4.64,
    "price": 36.76,
-   "score": 2.72
+   "score": 2.74
   },
   "EQPT": {
    "atr_pct": 6.32,
