@@ -21,83 +21,7 @@
   "RXRX": 1790292535.948809,
   "BMNR": 1790292535.948809
  },
- "signals": {
-  "BB-1790282726": {
-   "ticker": "BB",
-   "created": 1790282726.096602,
-   "session": "afterhours",
-   "kind": "active",
-   "entry": 8.8201,
-   "stop0": 8.6514,
-   "target": 9.2645,
-   "seen_high": 8.8201,
-   "seen_low": 8.8201,
-   "sent": 0,
-   "shares": 9,
-   "value": 79.38,
-   "fees": 3.0
-  },
-  "RKLB-1790282726": {
-   "ticker": "RKLB",
-   "created": 1790282726.096602,
-   "session": "afterhours",
-   "kind": "pending",
-   "entry": 74.1941,
-   "stop0": 73.3782,
-   "target": 78.1941,
-   "seen_high": 73.95,
-   "seen_low": 73.95,
-   "sent": 1,
-   "shares": 1,
-   "value": 74.19,
-   "fees": 3.0
-  },
-  "RXRX-1790292535": {
-   "ticker": "RXRX",
-   "created": 1790292535.948809,
-   "session": "afterhours",
-   "kind": "active",
-   "entry": 3.93,
-   "stop0": 3.8968,
-   "target": 4.13,
-   "seen_high": 3.93,
-   "seen_low": 3.9,
-   "sent": 0,
-   "shares": 20,
-   "value": 78.6,
-   "fees": 3.0
-  },
-  "IOVA-1790292535": {
-   "ticker": "IOVA",
-   "created": 1790292535.948809,
-   "session": "afterhours",
-   "kind": "pending",
-   "entry": 10.8308,
-   "stop0": 10.7892,
-   "target": 11.4022,
-   "seen_high": 10.81,
-   "seen_low": 10.81,
-   "sent": 0,
-   "shares": 7,
-   "value": 75.82,
-   "fees": 3.0
-  },
-  "BMNR-1790292535": {
-   "ticker": "BMNR",
-   "created": 1790292535.948809,
-   "session": "afterhours",
-   "kind": "pending",
-   "entry": 28.078,
-   "stop0": 27.9033,
-   "target": 30.078,
-   "seen_high": 28.05,
-   "seen_low": 27.9869,
-   "sent": 0,
-   "shares": 2,
-   "value": 56.16,
-   "fees": 3.0
-  }
- },
+ "signals": {},
  "history": [
   {
    "date": "2026-09-21",
@@ -318,6 +242,51 @@
   {
    "date": "2026-09-24",
    "ticker": "IOVA",
+   "session": "afterhours",
+   "result": "expired",
+   "pnl": null,
+   "net_usd": null,
+   "triggered": false
+  },
+  {
+   "date": "2026-09-24",
+   "ticker": "BB",
+   "session": "afterhours",
+   "result": "eod",
+   "pnl": -0.341,
+   "net_usd": -3.27,
+   "triggered": true
+  },
+  {
+   "date": "2026-09-24",
+   "ticker": "RKLB",
+   "session": "afterhours",
+   "result": "eod",
+   "pnl": 0.156,
+   "net_usd": -2.88,
+   "triggered": true
+  },
+  {
+   "date": "2026-09-24",
+   "ticker": "RXRX",
+   "session": "afterhours",
+   "result": "eod",
+   "pnl": 0.254,
+   "net_usd": -2.8,
+   "triggered": true
+  },
+  {
+   "date": "2026-09-24",
+   "ticker": "IOVA",
+   "session": "afterhours",
+   "result": "expired",
+   "pnl": null,
+   "net_usd": null,
+   "triggered": false
+  },
+  {
+   "date": "2026-09-24",
+   "ticker": "BMNR",
    "session": "afterhours",
    "result": "expired",
    "pnl": null,
