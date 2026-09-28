@@ -1,58 +1,56 @@
 {
  "last_alerted": {
-  "BETA": 1790358824.152441,
-  "ON": 1790369207.535017,
-  "BTG": 1790358824.152441,
-  "ALGM": 1790369207.535017,
-  "MBLY": 1790369207.535017,
   "TRMD": 1790611691.058839,
   "VG": 1790611691.058839,
-  "SDGR": 1790611691.058839
+  "SDGR": 1790611691.058839,
+  "WAY": 1790632426.643096,
+  "NKTR": 1790632426.643096,
+  "SECZ": 1790632426.643096
  },
  "signals": {
-  "TRMD-1790611691": {
-   "ticker": "TRMD",
-   "created": 1790611691.058839,
-   "session": "regular",
+  "WAY-1790632426": {
+   "ticker": "WAY",
+   "created": 1790632426.643096,
+   "session": "afterhours",
    "kind": "pending",
-   "entry": 35.8858,
-   "stop0": 35.5473,
-   "target": 37.8858,
-   "seen_high": 35.790000915527344,
-   "seen_low": 35.70000076293945,
+   "entry": 25.8065,
+   "stop0": 25.6253,
+   "target": 27.1398,
+   "seen_high": 25.74,
+   "seen_low": 25.74,
    "sent": 0,
-   "shares": 2,
-   "value": 71.77,
+   "shares": 3,
+   "value": 77.42,
    "fees": 3.0
   },
-  "VG-1790611691": {
-   "ticker": "VG",
-   "created": 1790611691.058839,
-   "session": "regular",
+  "NKTR-1790632426": {
+   "ticker": "NKTR",
+   "created": 1790632426.643096,
+   "session": "afterhours",
    "kind": "pending",
-   "entry": 13.3433,
-   "stop0": 13.1826,
-   "target": 14.1433,
-   "seen_high": 13.274999618530273,
-   "seen_low": 13.234999656677246,
+   "entry": 61.3012,
+   "stop0": 60.5893,
+   "target": 65.3012,
+   "seen_high": 61.0,
+   "seen_low": 61.0,
    "sent": 0,
-   "shares": 5,
-   "value": 66.72,
+   "shares": 1,
+   "value": 61.3,
    "fees": 3.0
   },
-  "SDGR-1790611691": {
-   "ticker": "SDGR",
-   "created": 1790611691.058839,
-   "session": "regular",
+  "SECZ-1790632426": {
+   "ticker": "SECZ",
+   "created": 1790632426.643096,
+   "session": "afterhours",
    "kind": "pending",
-   "entry": 30.2402,
-   "stop0": 29.49,
-   "target": 32.2402,
-   "seen_high": 30.0,
-   "seen_low": 29.860000610351562,
+   "entry": 16.7251,
+   "stop0": 16.5295,
+   "target": 17.7251,
+   "seen_high": 16.68,
+   "seen_low": 16.67,
    "sent": 0,
-   "shares": 2,
-   "value": 60.48,
+   "shares": 4,
+   "value": 66.9,
    "fees": 3.0
   }
  },
@@ -380,10 +378,37 @@
    "pnl": -0.114,
    "net_usd": -3.09,
    "triggered": true
+  },
+  {
+   "date": "2026-09-28",
+   "ticker": "TRMD",
+   "session": "regular",
+   "result": "cancelled",
+   "pnl": null,
+   "net_usd": null,
+   "triggered": false
+  },
+  {
+   "date": "2026-09-28",
+   "ticker": "VG",
+   "session": "regular",
+   "result": "cancelled",
+   "pnl": null,
+   "net_usd": null,
+   "triggered": false
+  },
+  {
+   "date": "2026-09-28",
+   "ticker": "SDGR",
+   "session": "regular",
+   "result": "expired",
+   "pnl": null,
+   "net_usd": null,
+   "triggered": false
   }
  ],
  "meta": {
   "fail_count": 0,
-  "summary_date": "2026-09-25"
+  "summary_date": "2026-09-28"
  }
 }
