@@ -8,7 +8,9 @@
   "SECZ": 1790632426.643096,
   "WRBY": 1790691828.654526,
   "NOK": 1790691828.654526,
-  "GFI": 1790691828.654526
+  "GFI": 1790710177.282175,
+  "AEO": 1790710177.282175,
+  "SG": 1790710177.282175
  },
  "signals": {
   "WRBY-1790691828": {
@@ -21,39 +23,54 @@
    "target": 28.7367,
    "seen_high": 26.700000762939453,
    "seen_low": 26.55500030517578,
-   "sent": 0,
+   "sent": 2,
    "shares": 2,
    "value": 53.47,
    "fees": 3.0
   },
-  "NOK-1790691828": {
-   "ticker": "NOK",
-   "created": 1790691828.654526,
+  "GFI-1790710177": {
+   "ticker": "GFI",
+   "created": 1790710177.282175,
    "session": "regular",
    "kind": "active",
-   "entry": 10.472,
-   "stop0": 10.3805,
-   "target": 11.0434,
-   "seen_high": 10.489999771118164,
-   "seen_low": 10.375,
-   "sent": 0,
-   "shares": 7,
-   "value": 73.3,
-   "fees": 3.0
-  },
-  "GFI-1790691828": {
-   "ticker": "GFI",
-   "created": 1790691828.654526,
-   "session": "regular",
-   "kind": "pending",
-   "entry": 36.9369,
-   "stop0": 36.6208,
-   "target": 38.9369,
-   "seen_high": 36.85499954223633,
-   "seen_low": 36.56999969482422,
+   "entry": 37.015,
+   "stop0": 36.8216,
+   "target": 39.015,
+   "seen_high": 37.21009826660156,
+   "seen_low": 35.93000030517578,
    "sent": 0,
    "shares": 2,
-   "value": 73.87,
+   "value": 74.03,
+   "fees": 3.0
+  },
+  "AEO-1790710177": {
+   "ticker": "AEO",
+   "created": 1790710177.282175,
+   "session": "regular",
+   "kind": "active",
+   "entry": 17.955,
+   "stop0": 17.7552,
+   "target": 18.955,
+   "seen_high": 18.030000686645508,
+   "seen_low": 17.8700008392334,
+   "sent": 0,
+   "shares": 4,
+   "value": 71.82,
+   "fees": 3.0
+  },
+  "SG-1790710177": {
+   "ticker": "SG",
+   "created": 1790710177.282175,
+   "session": "regular",
+   "kind": "active",
+   "entry": 8.895,
+   "stop0": 8.7808,
+   "target": 9.395,
+   "seen_high": 8.904999732971191,
+   "seen_low": 8.774999618530273,
+   "sent": 0,
+   "shares": 8,
+   "value": 71.16,
    "fees": 3.0
   }
  },
@@ -432,6 +449,24 @@
    "ticker": "SECZ",
    "session": "afterhours",
    "result": "expired",
+   "pnl": null,
+   "net_usd": null,
+   "triggered": false
+  },
+  {
+   "date": "2026-09-29",
+   "ticker": "NOK",
+   "session": "regular",
+   "result": "stop",
+   "pnl": -0.874,
+   "net_usd": -3.64,
+   "triggered": true
+  },
+  {
+   "date": "2026-09-29",
+   "ticker": "GFI",
+   "session": "regular",
+   "result": "cancelled",
    "pnl": null,
    "net_usd": null,
    "triggered": false
