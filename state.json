@@ -18,52 +18,23 @@
   "HIMS": 1790777910.274868,
   "PS": 1790796344.662848,
   "BB": 1790796344.662848,
-  "SMMT": 1790796344.662848
+  "SMMT": 1790796344.662848,
+  "LEGN": 1790809581.013744
  },
  "signals": {
-  "PS-1790796344": {
-   "ticker": "PS",
-   "created": 1790796344.662848,
-   "session": "regular",
+  "LEGN-1790809581": {
+   "ticker": "LEGN",
+   "created": 1790809581.013744,
+   "session": "afterhours",
    "kind": "pending",
-   "entry": 57.7576,
-   "stop0": 57.0683,
-   "target": 61.7576,
-   "seen_high": 57.619998931884766,
-   "seen_low": 57.415000915527344,
-   "sent": 0,
-   "shares": 1,
-   "value": 57.76,
-   "fees": 3.0
-  },
-  "BB-1790796344": {
-   "ticker": "BB",
-   "created": 1790796344.662848,
-   "session": "regular",
-   "kind": "pending",
-   "entry": 9.1792,
-   "stop0": 9.0819,
-   "target": 9.6792,
-   "seen_high": 9.100000381469727,
-   "seen_low": 9.0600004196167,
-   "sent": 0,
-   "shares": 8,
-   "value": 73.43,
-   "fees": 3.0
-  },
-  "SMMT-1790796344": {
-   "ticker": "SMMT",
-   "created": 1790796344.662848,
-   "session": "regular",
-   "kind": "pending",
-   "entry": 17.5475,
-   "stop0": 17.2671,
-   "target": 18.5475,
-   "seen_high": 17.469999313354492,
-   "seen_low": 17.34000015258789,
+   "entry": 19.985,
+   "stop0": 19.8645,
+   "target": 20.985,
+   "seen_high": 19.925,
+   "seen_low": 19.925,
    "sent": 0,
    "shares": 4,
-   "value": 70.19,
+   "value": 79.94,
    "fees": 3.0
   }
  },
@@ -553,10 +524,37 @@
    "pnl": 0.0,
    "net_usd": -3.0,
    "triggered": true
+  },
+  {
+   "date": "2026-09-30",
+   "ticker": "PS",
+   "session": "regular",
+   "result": "cancelled",
+   "pnl": null,
+   "net_usd": null,
+   "triggered": false
+  },
+  {
+   "date": "2026-09-30",
+   "ticker": "BB",
+   "session": "regular",
+   "result": "cancelled",
+   "pnl": null,
+   "net_usd": null,
+   "triggered": false
+  },
+  {
+   "date": "2026-09-30",
+   "ticker": "SMMT",
+   "session": "regular",
+   "result": "cancelled",
+   "pnl": null,
+   "net_usd": null,
+   "triggered": false
   }
  ],
  "meta": {
   "fail_count": 0,
-  "summary_date": "2026-09-29"
+  "summary_date": "2026-09-30"
  }
 }
