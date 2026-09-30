@@ -15,52 +15,55 @@
   "ABCL": 1790723147.23423,
   "IBRX": 1790777910.274868,
   "RXRX": 1790777910.274868,
-  "HIMS": 1790777910.274868
+  "HIMS": 1790777910.274868,
+  "PS": 1790796344.662848,
+  "BB": 1790796344.662848,
+  "SMMT": 1790796344.662848
  },
  "signals": {
-  "IBRX-1790777910": {
-   "ticker": "IBRX",
-   "created": 1790777910.274868,
+  "PS-1790796344": {
+   "ticker": "PS",
+   "created": 1790796344.662848,
    "session": "regular",
    "kind": "pending",
-   "entry": 9.4594,
-   "stop0": 9.262,
-   "target": 9.9594,
-   "seen_high": 9.489999771118164,
-   "seen_low": 9.390000343322754,
+   "entry": 57.7576,
+   "stop0": 57.0683,
+   "target": 61.7576,
+   "seen_high": 57.619998931884766,
+   "seen_low": 57.415000915527344,
+   "sent": 0,
+   "shares": 1,
+   "value": 57.76,
+   "fees": 3.0
+  },
+  "BB-1790796344": {
+   "ticker": "BB",
+   "created": 1790796344.662848,
+   "session": "regular",
+   "kind": "pending",
+   "entry": 9.1792,
+   "stop0": 9.0819,
+   "target": 9.6792,
+   "seen_high": 9.100000381469727,
+   "seen_low": 9.0600004196167,
    "sent": 0,
    "shares": 8,
-   "value": 75.68,
+   "value": 73.43,
    "fees": 3.0
   },
-  "RXRX-1790777910": {
-   "ticker": "RXRX",
-   "created": 1790777910.274868,
-   "session": "regular",
-   "kind": "active",
-   "entry": 4.195,
-   "stop0": 4.1259,
-   "target": 4.4055,
-   "seen_high": 4.195000171661377,
-   "seen_low": 4.15500020980835,
-   "sent": 0,
-   "shares": 19,
-   "value": 79.71,
-   "fees": 3.0
-  },
-  "HIMS-1790777910": {
-   "ticker": "HIMS",
-   "created": 1790777910.274868,
+  "SMMT-1790796344": {
+   "ticker": "SMMT",
+   "created": 1790796344.662848,
    "session": "regular",
    "kind": "pending",
-   "entry": 30.5705,
-   "stop0": 30.1365,
-   "target": 32.5705,
-   "seen_high": 30.61989974975586,
-   "seen_low": 30.3799991607666,
+   "entry": 17.5475,
+   "stop0": 17.2671,
+   "target": 18.5475,
+   "seen_high": 17.469999313354492,
+   "seen_low": 17.34000015258789,
    "sent": 0,
-   "shares": 2,
-   "value": 61.14,
+   "shares": 4,
+   "value": 70.19,
    "fees": 3.0
   }
  },
@@ -523,6 +526,33 @@
    "pnl": null,
    "net_usd": null,
    "triggered": false
+  },
+  {
+   "date": "2026-09-30",
+   "ticker": "IBRX",
+   "session": "regular",
+   "result": "target",
+   "pnl": 5.286,
+   "net_usd": 1.0,
+   "triggered": true
+  },
+  {
+   "date": "2026-09-30",
+   "ticker": "RXRX",
+   "session": "regular",
+   "result": "breakeven",
+   "pnl": 0.0,
+   "net_usd": -3.0,
+   "triggered": true
+  },
+  {
+   "date": "2026-09-30",
+   "ticker": "HIMS",
+   "session": "regular",
+   "result": "breakeven",
+   "pnl": 0.0,
+   "net_usd": -3.0,
+   "triggered": true
   }
  ],
  "meta": {
