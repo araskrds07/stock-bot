@@ -21,23 +21,7 @@
   "SMMT": 1790796344.662848,
   "LEGN": 1790809581.013744
  },
- "signals": {
-  "LEGN-1790809581": {
-   "ticker": "LEGN",
-   "created": 1790809581.013744,
-   "session": "afterhours",
-   "kind": "pending",
-   "entry": 19.985,
-   "stop0": 19.8645,
-   "target": 20.985,
-   "seen_high": 19.925,
-   "seen_low": 19.925,
-   "sent": 0,
-   "shares": 4,
-   "value": 79.94,
-   "fees": 3.0
-  }
- },
+ "signals": {},
  "history": [
   {
    "date": "2026-09-21",
@@ -547,6 +531,15 @@
    "date": "2026-09-30",
    "ticker": "SMMT",
    "session": "regular",
+   "result": "cancelled",
+   "pnl": null,
+   "net_usd": null,
+   "triggered": false
+  },
+  {
+   "date": "2026-09-30",
+   "ticker": "LEGN",
+   "session": "afterhours",
    "result": "cancelled",
    "pnl": null,
    "net_usd": null,
