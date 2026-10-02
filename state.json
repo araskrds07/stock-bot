@@ -1,9 +1,7 @@
 {
  "last_alerted": {
   "NOK": 1790968592.342237,
-  "GFI": 1790710177.282175,
   "AEO": 1790723147.23423,
-  "SG": 1790710177.282175,
   "CVNA": 1790723147.23423,
   "ABCL": 1790723147.23423,
   "IBRX": 1790777910.274868,
@@ -18,52 +16,23 @@
   "INOD": 1790897362.094212,
   "LUNR": 1790950383.581307,
   "TGB": 1790968592.342237,
-  "ERO": 1790968592.342237
+  "ERO": 1790968592.342237,
+  "HPE": 1790981943.955857
  },
  "signals": {
-  "NOK-1790968592": {
-   "ticker": "NOK",
-   "created": 1790968592.342237,
-   "session": "regular",
-   "kind": "active",
-   "entry": 10.6035,
-   "stop0": 10.543,
-   "target": 11.1749,
-   "seen_high": 10.619999885559082,
-   "seen_low": 10.585000038146973,
-   "sent": 0,
-   "shares": 7,
-   "value": 74.22,
-   "fees": 3.0
-  },
-  "ERO-1790968592": {
-   "ticker": "ERO",
-   "created": 1790968592.342237,
-   "session": "regular",
+  "HPE-1790981943": {
+   "ticker": "HPE",
+   "created": 1790981943.955857,
+   "session": "afterhours",
    "kind": "pending",
-   "entry": 38.008,
-   "stop0": 37.7401,
-   "target": 40.008,
-   "seen_high": 37.91999816894531,
-   "seen_low": 37.86000061035156,
+   "entry": 69.8698,
+   "stop0": 69.4673,
+   "target": 73.8698,
+   "seen_high": 69.749,
+   "seen_low": 69.6312,
    "sent": 0,
-   "shares": 2,
-   "value": 76.02,
-   "fees": 3.0
-  },
-  "TGB-1790968592": {
-   "ticker": "TGB",
-   "created": 1790968592.342237,
-   "session": "regular",
-   "kind": "pending",
-   "entry": 8.9289,
-   "stop0": 8.8611,
-   "target": 9.4289,
-   "seen_high": 8.914999961853027,
-   "seen_low": 8.904999732971191,
-   "sent": 0,
-   "shares": 8,
-   "value": 71.43,
+   "shares": 1,
+   "value": 69.87,
    "fees": 3.0
   }
  },
@@ -670,10 +639,37 @@
    "pnl": -1.165,
    "net_usd": -3.93,
    "triggered": true
+  },
+  {
+   "date": "2026-10-02",
+   "ticker": "NOK",
+   "session": "regular",
+   "result": "breakeven",
+   "pnl": 0.0,
+   "net_usd": -3.0,
+   "triggered": true
+  },
+  {
+   "date": "2026-10-02",
+   "ticker": "ERO",
+   "session": "regular",
+   "result": "expired",
+   "pnl": null,
+   "net_usd": null,
+   "triggered": false
+  },
+  {
+   "date": "2026-10-02",
+   "ticker": "TGB",
+   "session": "regular",
+   "result": "eod",
+   "pnl": 0.292,
+   "net_usd": -2.79,
+   "triggered": true
   }
  ],
  "meta": {
   "fail_count": 0,
-  "summary_date": "2026-10-01"
+  "summary_date": "2026-10-02"
  }
 }
