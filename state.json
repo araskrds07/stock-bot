@@ -1,7 +1,6 @@
 {
  "last_alerted": {
-  "WRBY": 1790691828.654526,
-  "NOK": 1790884452.808782,
+  "NOK": 1790968592.342237,
   "GFI": 1790710177.282175,
   "AEO": 1790723147.23423,
   "SG": 1790710177.282175,
@@ -18,52 +17,53 @@
   "WOLF": 1790897362.094212,
   "INOD": 1790897362.094212,
   "LUNR": 1790950383.581307,
-  "TGB": 1790950383.581307
+  "TGB": 1790968592.342237,
+  "ERO": 1790968592.342237
  },
  "signals": {
-  "RXRX-1790950383": {
-   "ticker": "RXRX",
-   "created": 1790950383.581307,
+  "NOK-1790968592": {
+   "ticker": "NOK",
+   "created": 1790968592.342237,
    "session": "regular",
    "kind": "active",
-   "entry": 4.235,
-   "stop0": 4.1804,
-   "target": 4.4572,
-   "seen_high": 4.269999980926514,
-   "seen_low": 4.179999828338623,
+   "entry": 10.6035,
+   "stop0": 10.543,
+   "target": 11.1749,
+   "seen_high": 10.619999885559082,
+   "seen_low": 10.585000038146973,
    "sent": 0,
-   "shares": 18,
-   "value": 76.23,
+   "shares": 7,
+   "value": 74.22,
    "fees": 3.0
   },
-  "LUNR-1790950383": {
-   "ticker": "LUNR",
-   "created": 1790950383.581307,
+  "ERO-1790968592": {
+   "ticker": "ERO",
+   "created": 1790968592.342237,
    "session": "regular",
-   "kind": "active",
-   "entry": 15.22,
-   "stop0": 14.9267,
-   "target": 16.02,
-   "seen_high": 15.220000267028809,
-   "seen_low": 14.920100212097168,
+   "kind": "pending",
+   "entry": 38.008,
+   "stop0": 37.7401,
+   "target": 40.008,
+   "seen_high": 37.91999816894531,
+   "seen_low": 37.86000061035156,
    "sent": 0,
-   "shares": 5,
-   "value": 76.1,
+   "shares": 2,
+   "value": 76.02,
    "fees": 3.0
   },
-  "TGB-1790950383": {
+  "TGB-1790968592": {
    "ticker": "TGB",
-   "created": 1790950383.581307,
+   "created": 1790968592.342237,
    "session": "regular",
-   "kind": "active",
-   "entry": 8.87,
-   "stop0": 8.7667,
-   "target": 9.3144,
-   "seen_high": 8.895000457763672,
-   "seen_low": 8.619999885559082,
+   "kind": "pending",
+   "entry": 8.9289,
+   "stop0": 8.8611,
+   "target": 9.4289,
+   "seen_high": 8.914999961853027,
+   "seen_low": 8.904999732971191,
    "sent": 0,
-   "shares": 9,
-   "value": 79.83,
+   "shares": 8,
+   "value": 71.43,
    "fees": 3.0
   }
  },
@@ -643,6 +643,33 @@
    "pnl": null,
    "net_usd": null,
    "triggered": false
+  },
+  {
+   "date": "2026-10-02",
+   "ticker": "RXRX",
+   "session": "regular",
+   "result": "stop",
+   "pnl": -1.289,
+   "net_usd": -3.98,
+   "triggered": true
+  },
+  {
+   "date": "2026-10-02",
+   "ticker": "LUNR",
+   "session": "regular",
+   "result": "stop",
+   "pnl": -1.927,
+   "net_usd": -4.47,
+   "triggered": true
+  },
+  {
+   "date": "2026-10-02",
+   "ticker": "TGB",
+   "session": "regular",
+   "result": "stop",
+   "pnl": -1.165,
+   "net_usd": -3.93,
+   "triggered": true
   }
  ],
  "meta": {
