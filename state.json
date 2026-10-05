@@ -1,57 +1,55 @@
 {
  "last_alerted": {
-  "NOK": 1790968592.342237,
-  "TGB": 1790968592.342237,
-  "ERO": 1790968592.342237,
   "HPE": 1790981943.955857,
-  "AFRM": 1791217730.354206,
-  "CLF": 1791217730.354206,
-  "DKNG": 1791217730.354206
+  "AFRM": 1791240573.205071,
+  "CLF": 1791240573.205071,
+  "DKNG": 1791217730.354206,
+  "DNA": 1791240573.205071
  },
  "signals": {
-  "AFRM-1791217730": {
+  "AFRM-1791240573": {
    "ticker": "AFRM",
-   "created": 1791217730.354206,
-   "session": "regular",
-   "kind": "active",
-   "entry": 73.75,
-   "stop0": 72.7844,
-   "target": 77.75,
-   "seen_high": 73.80000305175781,
-   "seen_low": 73.45999908447266,
+   "created": 1791240573.205071,
+   "session": "afterhours",
+   "kind": "pending",
+   "entry": 75.065,
+   "stop0": 74.8028,
+   "target": 79.065,
+   "seen_high": 74.78,
+   "seen_low": 74.78,
    "sent": 0,
    "shares": 1,
-   "value": 73.75,
+   "value": 75.06,
    "fees": 3.0
   },
-  "CLF-1791217730": {
+  "CLF-1791240573": {
    "ticker": "CLF",
-   "created": 1791217730.354206,
-   "session": "regular",
-   "kind": "active",
-   "entry": 12.225,
-   "stop0": 12.0026,
-   "target": 12.8917,
-   "seen_high": 12.234999656677246,
-   "seen_low": 12.180999755859375,
+   "created": 1791240573.205071,
+   "session": "afterhours",
+   "kind": "pending",
+   "entry": 12.3123,
+   "stop0": 12.2093,
+   "target": 12.979,
+   "seen_high": 12.2845,
+   "seen_low": 12.2845,
    "sent": 0,
    "shares": 6,
-   "value": 73.35,
+   "value": 73.87,
    "fees": 3.0
   },
-  "DKNG-1791217730": {
-   "ticker": "DKNG",
-   "created": 1791217730.354206,
-   "session": "regular",
+  "DNA-1791240573": {
+   "ticker": "DNA",
+   "created": 1791240573.205071,
+   "session": "afterhours",
    "kind": "pending",
-   "entry": 20.2352,
-   "stop0": 19.9419,
-   "target": 21.5685,
-   "seen_high": 20.1200008392334,
-   "seen_low": 20.010700225830078,
+   "entry": 15.1351,
+   "stop0": 14.9933,
+   "target": 15.9351,
+   "seen_high": 15.0876,
+   "seen_low": 15.049,
    "sent": 0,
-   "shares": 3,
-   "value": 60.71,
+   "shares": 5,
+   "value": 75.68,
    "fees": 3.0
   }
  },
@@ -694,10 +692,37 @@
    "pnl": null,
    "net_usd": null,
    "triggered": false
+  },
+  {
+   "date": "2026-10-05",
+   "ticker": "AFRM",
+   "session": "regular",
+   "result": "eod",
+   "pnl": 1.397,
+   "net_usd": -1.97,
+   "triggered": true
+  },
+  {
+   "date": "2026-10-05",
+   "ticker": "CLF",
+   "session": "regular",
+   "result": "breakeven",
+   "pnl": 0.0,
+   "net_usd": -3.0,
+   "triggered": true
+  },
+  {
+   "date": "2026-10-05",
+   "ticker": "DKNG",
+   "session": "regular",
+   "result": "cancelled",
+   "pnl": null,
+   "net_usd": null,
+   "triggered": false
   }
  ],
  "meta": {
   "fail_count": 0,
-  "summary_date": "2026-10-02"
+  "summary_date": "2026-10-05"
  }
 }
