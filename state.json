@@ -1,35 +1,57 @@
 {
  "last_alerted": {
   "NOK": 1790968592.342237,
-  "IBRX": 1790777910.274868,
-  "RXRX": 1790950383.581307,
-  "HIMS": 1790777910.274868,
-  "PS": 1790796344.662848,
-  "BB": 1790796344.662848,
-  "SMMT": 1790796344.662848,
-  "LEGN": 1790809581.013744,
-  "SNAP": 1790897362.094212,
-  "WOLF": 1790897362.094212,
-  "INOD": 1790897362.094212,
-  "LUNR": 1790950383.581307,
   "TGB": 1790968592.342237,
   "ERO": 1790968592.342237,
-  "HPE": 1790981943.955857
+  "HPE": 1790981943.955857,
+  "AFRM": 1791217730.354206,
+  "CLF": 1791217730.354206,
+  "DKNG": 1791217730.354206
  },
  "signals": {
-  "HPE-1790981943": {
-   "ticker": "HPE",
-   "created": 1790981943.955857,
-   "session": "afterhours",
-   "kind": "pending",
-   "entry": 69.8698,
-   "stop0": 69.4673,
-   "target": 73.8698,
-   "seen_high": 69.749,
-   "seen_low": 69.6312,
+  "AFRM-1791217730": {
+   "ticker": "AFRM",
+   "created": 1791217730.354206,
+   "session": "regular",
+   "kind": "active",
+   "entry": 73.75,
+   "stop0": 72.7844,
+   "target": 77.75,
+   "seen_high": 73.80000305175781,
+   "seen_low": 73.45999908447266,
    "sent": 0,
    "shares": 1,
-   "value": 69.87,
+   "value": 73.75,
+   "fees": 3.0
+  },
+  "CLF-1791217730": {
+   "ticker": "CLF",
+   "created": 1791217730.354206,
+   "session": "regular",
+   "kind": "active",
+   "entry": 12.225,
+   "stop0": 12.0026,
+   "target": 12.8917,
+   "seen_high": 12.234999656677246,
+   "seen_low": 12.180999755859375,
+   "sent": 0,
+   "shares": 6,
+   "value": 73.35,
+   "fees": 3.0
+  },
+  "DKNG-1791217730": {
+   "ticker": "DKNG",
+   "created": 1791217730.354206,
+   "session": "regular",
+   "kind": "pending",
+   "entry": 20.2352,
+   "stop0": 19.9419,
+   "target": 21.5685,
+   "seen_high": 20.1200008392334,
+   "seen_low": 20.010700225830078,
+   "sent": 0,
+   "shares": 3,
+   "value": 60.71,
    "fees": 3.0
   }
  },
@@ -663,6 +685,15 @@
    "pnl": 0.292,
    "net_usd": -2.79,
    "triggered": true
+  },
+  {
+   "date": "2026-10-02",
+   "ticker": "HPE",
+   "session": "afterhours",
+   "result": "expired",
+   "pnl": null,
+   "net_usd": null,
+   "triggered": false
   }
  ],
  "meta": {
