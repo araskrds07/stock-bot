@@ -8,52 +8,55 @@
   "INTR": 1791328598.807148,
   "PS": 1791315908.793113,
   "ASTS": 1791328598.807148,
-  "INIO": 1791328598.807148
+  "INIO": 1791328598.807148,
+  "BSP": 1791384506.652117,
+  "SMMT": 1791384506.652117,
+  "NOK": 1791384506.652117
  },
  "signals": {
-  "INTR-1791328598": {
-   "ticker": "INTR",
-   "created": 1791328598.807148,
-   "session": "afterhours",
+  "BSP-1791384506": {
+   "ticker": "BSP",
+   "created": 1791384506.652117,
+   "session": "regular",
    "kind": "active",
-   "entry": 7.04,
-   "stop0": 7.0122,
-   "target": 7.4036,
-   "seen_high": 7.04,
-   "seen_low": 7.0383,
+   "entry": 34.185,
+   "stop0": 33.7478,
+   "target": 36.185,
+   "seen_high": 34.212501525878906,
+   "seen_low": 34.05500030517578,
    "sent": 0,
-   "shares": 11,
-   "value": 77.44,
+   "shares": 2,
+   "value": 68.37,
    "fees": 3.0
   },
-  "INIO-1791328598": {
-   "ticker": "INIO",
-   "created": 1791328598.807148,
-   "session": "afterhours",
+  "SMMT-1791384506": {
+   "ticker": "SMMT",
+   "created": 1791384506.652117,
+   "session": "regular",
    "kind": "active",
-   "entry": 21.52,
-   "stop0": 21.3886,
-   "target": 22.8533,
-   "seen_high": 21.52,
-   "seen_low": 21.52,
+   "entry": 18.235,
+   "stop0": 17.9494,
+   "target": 19.235,
+   "seen_high": 18.235000610351562,
+   "seen_low": 18.1299991607666,
    "sent": 0,
-   "shares": 3,
-   "value": 64.56,
+   "shares": 4,
+   "value": 72.94,
    "fees": 3.0
   },
-  "ASTS-1791328598": {
-   "ticker": "ASTS",
-   "created": 1791328598.807148,
-   "session": "afterhours",
+  "NOK-1791384506": {
+   "ticker": "NOK",
+   "created": 1791384506.652117,
+   "session": "regular",
    "kind": "pending",
-   "entry": 63.4734,
-   "stop0": 63.1068,
-   "target": 67.4734,
-   "seen_high": 63.3758,
-   "seen_low": 63.2,
+   "entry": 10.7708,
+   "stop0": 10.6482,
+   "target": 11.3422,
+   "seen_high": 10.699999809265137,
+   "seen_low": 10.680000305175781,
    "sent": 0,
-   "shares": 1,
-   "value": 63.47,
+   "shares": 7,
+   "value": 75.4,
    "fees": 3.0
   }
  },
@@ -795,6 +798,33 @@
    "pnl": 0.088,
    "net_usd": -2.94,
    "triggered": true
+  },
+  {
+   "date": "2026-10-06",
+   "ticker": "INTR",
+   "session": "afterhours",
+   "result": "eod",
+   "pnl": 0.0,
+   "net_usd": -3.0,
+   "triggered": true
+  },
+  {
+   "date": "2026-10-06",
+   "ticker": "INIO",
+   "session": "afterhours",
+   "result": "eod",
+   "pnl": 0.0,
+   "net_usd": -3.0,
+   "triggered": true
+  },
+  {
+   "date": "2026-10-06",
+   "ticker": "ASTS",
+   "session": "afterhours",
+   "result": "expired",
+   "pnl": null,
+   "net_usd": null,
+   "triggered": false
   }
  ],
  "meta": {
