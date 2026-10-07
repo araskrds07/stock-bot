@@ -10,53 +10,39 @@
   "ASTS": 1791328598.807148,
   "INIO": 1791328598.807148,
   "BSP": 1791384506.652117,
-  "SMMT": 1791384506.652117,
-  "NOK": 1791384506.652117
+  "SMMT": 1791403988.808689,
+  "NOK": 1791384506.652117,
+  "PRGO": 1791403988.808689
  },
  "signals": {
-  "BSP-1791384506": {
-   "ticker": "BSP",
-   "created": 1791384506.652117,
-   "session": "regular",
-   "kind": "active",
-   "entry": 34.185,
-   "stop0": 33.7478,
-   "target": 36.185,
-   "seen_high": 34.212501525878906,
-   "seen_low": 34.05500030517578,
+  "PRGO-1791403988": {
+   "ticker": "PRGO",
+   "created": 1791403988.808689,
+   "session": "afterhours",
+   "kind": "pending",
+   "entry": 14.6296,
+   "stop0": 14.5332,
+   "target": 15.4296,
+   "seen_high": 14.55,
+   "seen_low": 14.55,
    "sent": 0,
-   "shares": 2,
-   "value": 68.37,
+   "shares": 5,
+   "value": 73.15,
    "fees": 3.0
   },
-  "SMMT-1791384506": {
+  "SMMT-1791403988": {
    "ticker": "SMMT",
-   "created": 1791384506.652117,
-   "session": "regular",
-   "kind": "active",
-   "entry": 18.235,
-   "stop0": 17.9494,
-   "target": 19.235,
-   "seen_high": 18.235000610351562,
-   "seen_low": 18.1299991607666,
+   "created": 1791403988.808689,
+   "session": "afterhours",
+   "kind": "pending",
+   "entry": 18.0731,
+   "stop0": 17.8653,
+   "target": 19.0731,
+   "seen_high": 18.0,
+   "seen_low": 17.75,
    "sent": 0,
    "shares": 4,
-   "value": 72.94,
-   "fees": 3.0
-  },
-  "NOK-1791384506": {
-   "ticker": "NOK",
-   "created": 1791384506.652117,
-   "session": "regular",
-   "kind": "pending",
-   "entry": 10.7708,
-   "stop0": 10.6482,
-   "target": 11.3422,
-   "seen_high": 10.699999809265137,
-   "seen_low": 10.680000305175781,
-   "sent": 0,
-   "shares": 7,
-   "value": 75.4,
+   "value": 72.29,
    "fees": 3.0
   }
  },
@@ -825,10 +811,37 @@
    "pnl": null,
    "net_usd": null,
    "triggered": false
+  },
+  {
+   "date": "2026-10-07",
+   "ticker": "BSP",
+   "session": "regular",
+   "result": "breakeven",
+   "pnl": 0.0,
+   "net_usd": -3.0,
+   "triggered": true
+  },
+  {
+   "date": "2026-10-07",
+   "ticker": "SMMT",
+   "session": "regular",
+   "result": "stop",
+   "pnl": -1.566,
+   "net_usd": -4.14,
+   "triggered": true
+  },
+  {
+   "date": "2026-10-07",
+   "ticker": "NOK",
+   "session": "regular",
+   "result": "cancelled",
+   "pnl": null,
+   "net_usd": null,
+   "triggered": false
   }
  ],
  "meta": {
   "fail_count": 0,
-  "summary_date": "2026-10-06"
+  "summary_date": "2026-10-07"
  }
 }
