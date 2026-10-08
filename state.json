@@ -2,7 +2,6 @@
  "last_alerted": {
   "AFRM": 1791240573.205071,
   "CLF": 1791240573.205071,
-  "DKNG": 1791217730.354206,
   "DNA": 1791240573.205071,
   "OKLO": 1791297130.157382,
   "INTR": 1791328598.807148,
@@ -15,52 +14,55 @@
   "PRGO": 1791403988.808689,
   "VG": 1791471569.378187,
   "SNAP": 1791471569.378187,
-  "SKYD": 1791471569.378187
+  "SKYD": 1791471569.378187,
+  "FSM": 1791491391.827237,
+  "FIGS": 1791491391.827237,
+  "ERAS": 1791491391.827237
  },
  "signals": {
-  "VG-1791471569": {
-   "ticker": "VG",
-   "created": 1791471569.378187,
-   "session": "regular",
-   "kind": "active",
-   "entry": 13.505,
-   "stop0": 13.3583,
-   "target": 14.305,
-   "seen_high": 13.505000114440918,
-   "seen_low": 13.4399995803833,
+  "FSM-1791491391": {
+   "ticker": "FSM",
+   "created": 1791491391.827237,
+   "session": "afterhours",
+   "kind": "pending",
+   "entry": 10.6606,
+   "stop0": 10.569,
+   "target": 11.2321,
+   "seen_high": 10.6162,
+   "seen_low": 10.61,
+   "sent": 0,
+   "shares": 7,
+   "value": 74.62,
+   "fees": 3.0
+  },
+  "FIGS-1791491391": {
+   "ticker": "FIGS",
+   "created": 1791491391.827237,
+   "session": "afterhours",
+   "kind": "pending",
+   "entry": 15.055,
+   "stop0": 14.8691,
+   "target": 15.855,
+   "seen_high": 14.98,
+   "seen_low": 14.98,
    "sent": 0,
    "shares": 5,
-   "value": 67.53,
+   "value": 75.28,
    "fees": 3.0
   },
-  "SNAP-1791471569": {
-   "ticker": "SNAP",
-   "created": 1791471569.378187,
-   "session": "regular",
+  "ERAS-1791491391": {
+   "ticker": "ERAS",
+   "created": 1791491391.827237,
+   "session": "afterhours",
    "kind": "pending",
-   "entry": 5.8809,
-   "stop0": 5.8289,
-   "target": 6.1886,
-   "seen_high": 5.849899768829346,
-   "seen_low": 5.820000171661377,
+   "entry": 15.6356,
+   "stop0": 15.2797,
+   "target": 16.4356,
+   "seen_high": 15.68,
+   "seen_low": 15.6,
    "sent": 0,
-   "shares": 13,
-   "value": 76.45,
-   "fees": 3.0
-  },
-  "SKYD-1791471569": {
-   "ticker": "SKYD",
-   "created": 1791471569.378187,
-   "session": "regular",
-   "kind": "pending",
-   "entry": 9.4645,
-   "stop0": 9.3033,
-   "target": 9.9645,
-   "seen_high": 9.399999618530273,
-   "seen_low": 9.329999923706055,
-   "sent": 0,
-   "shares": 8,
-   "value": 75.72,
+   "shares": 5,
+   "value": 78.18,
    "fees": 3.0
   }
  },
@@ -874,10 +876,37 @@
    "pnl": null,
    "net_usd": null,
    "triggered": false
+  },
+  {
+   "date": "2026-10-08",
+   "ticker": "VG",
+   "session": "regular",
+   "result": "stop",
+   "pnl": -1.086,
+   "net_usd": -3.73,
+   "triggered": true
+  },
+  {
+   "date": "2026-10-08",
+   "ticker": "SNAP",
+   "session": "regular",
+   "result": "cancelled",
+   "pnl": null,
+   "net_usd": null,
+   "triggered": false
+  },
+  {
+   "date": "2026-10-08",
+   "ticker": "SKYD",
+   "session": "regular",
+   "result": "stop",
+   "pnl": -1.703,
+   "net_usd": -4.29,
+   "triggered": true
   }
  ],
  "meta": {
   "fail_count": 0,
-  "summary_date": "2026-10-07"
+  "summary_date": "2026-10-08"
  }
 }
