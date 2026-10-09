@@ -1,8 +1,6 @@
 {
  "last_alerted": {
   "INTR": 1791575239.64448,
-  "ASTS": 1791328598.807148,
-  "INIO": 1791328598.807148,
   "BSP": 1791384506.652117,
   "SMMT": 1791403988.808689,
   "NOK": 1791384506.652117,
@@ -14,84 +12,56 @@
   "FIGS": 1791491391.827237,
   "ERAS": 1791491391.827237,
   "TGB": 1791557058.213601,
-  "FSLY": 1791557058.213601,
+  "FSLY": 1791588798.461465,
   "CAI": 1791575239.64448,
-  "PCVX": 1791575239.64448
+  "PCVX": 1791575239.64448,
+  "HIMS": 1791588798.461465,
+  "IOVA": 1791588798.461465
  },
  "signals": {
-  "TGB-1791557058": {
-   "ticker": "TGB",
-   "created": 1791557058.213601,
-   "session": "regular",
-   "kind": "pending",
-   "entry": 8.7988,
-   "stop0": 8.6783,
-   "target": 9.2432,
-   "seen_high": 8.750200271606445,
-   "seen_low": 8.699999809265137,
-   "sent": 2,
-   "shares": 9,
-   "value": 79.19,
-   "fees": 3.0
-  },
-  "FSLY-1791557058": {
-   "ticker": "FSLY",
-   "created": 1791557058.213601,
-   "session": "regular",
+  "HIMS-1791588798": {
+   "ticker": "HIMS",
+   "created": 1791588798.461465,
+   "session": "afterhours",
    "kind": "active",
-   "entry": 28.28,
-   "stop0": 27.7073,
-   "target": 30.28,
-   "seen_high": 28.34000015258789,
-   "seen_low": 27.829999923706055,
-   "sent": 1,
-   "shares": 2,
-   "value": 56.56,
-   "fees": 3.0
-  },
-  "CAI-1791575239": {
-   "ticker": "CAI",
-   "created": 1791575239.64448,
-   "session": "regular",
-   "kind": "pending",
-   "entry": 29.8698,
-   "stop0": 29.6234,
-   "target": 31.8698,
-   "seen_high": 29.709999084472656,
-   "seen_low": 29.639999389648438,
+   "entry": 30.98,
+   "stop0": 30.846,
+   "target": 32.98,
+   "seen_high": 30.9853,
+   "seen_low": 30.92,
    "sent": 0,
    "shares": 2,
-   "value": 59.74,
+   "value": 61.96,
    "fees": 3.0
   },
-  "INTR-1791575239": {
-   "ticker": "INTR",
-   "created": 1791575239.64448,
-   "session": "regular",
+  "IOVA-1791588798": {
+   "ticker": "IOVA",
+   "created": 1791588798.461465,
+   "session": "afterhours",
    "kind": "pending",
-   "entry": 7.6877,
-   "stop0": 7.6175,
-   "target": 8.0877,
-   "seen_high": 7.675000190734863,
-   "seen_low": 7.650100231170654,
+   "entry": 14.6446,
+   "stop0": 14.5754,
+   "target": 15.4446,
+   "seen_high": 14.6,
+   "seen_low": 14.6,
    "sent": 0,
-   "shares": 10,
-   "value": 76.88,
+   "shares": 5,
+   "value": 73.22,
    "fees": 3.0
   },
-  "PCVX-1791575239": {
-   "ticker": "PCVX",
-   "created": 1791575239.64448,
-   "session": "regular",
+  "FSLY-1791588798": {
+   "ticker": "FSLY",
+   "created": 1791588798.461465,
+   "session": "afterhours",
    "kind": "pending",
-   "entry": 72.5124,
-   "stop0": 71.6641,
-   "target": 76.5124,
-   "seen_high": 71.94000244140625,
-   "seen_low": 71.74250030517578,
+   "entry": 29.5695,
+   "stop0": 29.3887,
+   "target": 31.5695,
+   "seen_high": 29.4,
+   "seen_low": 29.4,
    "sent": 0,
-   "shares": 1,
-   "value": 72.51,
+   "shares": 2,
+   "value": 59.14,
    "fees": 3.0
   }
  },
@@ -959,10 +929,55 @@
    "pnl": null,
    "net_usd": null,
    "triggered": false
+  },
+  {
+   "date": "2026-10-09",
+   "ticker": "TGB",
+   "session": "regular",
+   "result": "eod",
+   "pnl": 0.525,
+   "net_usd": -2.58,
+   "triggered": true
+  },
+  {
+   "date": "2026-10-09",
+   "ticker": "FSLY",
+   "session": "regular",
+   "result": "eod",
+   "pnl": 3.678,
+   "net_usd": -0.92,
+   "triggered": true
+  },
+  {
+   "date": "2026-10-09",
+   "ticker": "CAI",
+   "session": "regular",
+   "result": "cancelled",
+   "pnl": null,
+   "net_usd": null,
+   "triggered": false
+  },
+  {
+   "date": "2026-10-09",
+   "ticker": "INTR",
+   "session": "regular",
+   "result": "eod",
+   "pnl": -0.23,
+   "net_usd": -3.18,
+   "triggered": true
+  },
+  {
+   "date": "2026-10-09",
+   "ticker": "PCVX",
+   "session": "regular",
+   "result": "cancelled",
+   "pnl": null,
+   "net_usd": null,
+   "triggered": false
   }
  ],
  "meta": {
   "fail_count": 0,
-  "summary_date": "2026-10-08"
+  "summary_date": "2026-10-09"
  }
 }
