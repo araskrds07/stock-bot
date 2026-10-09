@@ -1,6 +1,5 @@
 {
  "last_alerted": {
-  "OKLO": 1791297130.157382,
   "INTR": 1791328598.807148,
   "PS": 1791315908.793113,
   "ASTS": 1791328598.807148,
@@ -14,52 +13,39 @@
   "SKYD": 1791471569.378187,
   "FSM": 1791491391.827237,
   "FIGS": 1791491391.827237,
-  "ERAS": 1791491391.827237
+  "ERAS": 1791491391.827237,
+  "TGB": 1791557058.213601,
+  "FSLY": 1791557058.213601
  },
  "signals": {
-  "FSM-1791491391": {
-   "ticker": "FSM",
-   "created": 1791491391.827237,
-   "session": "afterhours",
+  "TGB-1791557058": {
+   "ticker": "TGB",
+   "created": 1791557058.213601,
+   "session": "regular",
    "kind": "pending",
-   "entry": 10.6606,
-   "stop0": 10.569,
-   "target": 11.2321,
-   "seen_high": 10.6162,
-   "seen_low": 10.61,
+   "entry": 8.7988,
+   "stop0": 8.6783,
+   "target": 9.2432,
+   "seen_high": 8.750200271606445,
+   "seen_low": 8.699999809265137,
    "sent": 0,
-   "shares": 7,
-   "value": 74.62,
+   "shares": 9,
+   "value": 79.19,
    "fees": 3.0
   },
-  "FIGS-1791491391": {
-   "ticker": "FIGS",
-   "created": 1791491391.827237,
-   "session": "afterhours",
-   "kind": "pending",
-   "entry": 15.055,
-   "stop0": 14.8691,
-   "target": 15.855,
-   "seen_high": 14.98,
-   "seen_low": 14.98,
+  "FSLY-1791557058": {
+   "ticker": "FSLY",
+   "created": 1791557058.213601,
+   "session": "regular",
+   "kind": "active",
+   "entry": 28.28,
+   "stop0": 27.7073,
+   "target": 30.28,
+   "seen_high": 28.34000015258789,
+   "seen_low": 27.829999923706055,
    "sent": 0,
-   "shares": 5,
-   "value": 75.28,
-   "fees": 3.0
-  },
-  "ERAS-1791491391": {
-   "ticker": "ERAS",
-   "created": 1791491391.827237,
-   "session": "afterhours",
-   "kind": "pending",
-   "entry": 15.6356,
-   "stop0": 15.2797,
-   "target": 16.4356,
-   "seen_high": 15.68,
-   "seen_low": 15.6,
-   "sent": 0,
-   "shares": 5,
-   "value": 78.18,
+   "shares": 2,
+   "value": 56.56,
    "fees": 3.0
   }
  },
@@ -900,6 +886,33 @@
    "pnl": -1.703,
    "net_usd": -4.29,
    "triggered": true
+  },
+  {
+   "date": "2026-10-08",
+   "ticker": "FSM",
+   "session": "afterhours",
+   "result": "expired",
+   "pnl": null,
+   "net_usd": null,
+   "triggered": false
+  },
+  {
+   "date": "2026-10-08",
+   "ticker": "FIGS",
+   "session": "afterhours",
+   "result": "expired",
+   "pnl": null,
+   "net_usd": null,
+   "triggered": false
+  },
+  {
+   "date": "2026-10-08",
+   "ticker": "ERAS",
+   "session": "afterhours",
+   "result": "expired",
+   "pnl": null,
+   "net_usd": null,
+   "triggered": false
   }
  ],
  "meta": {
