@@ -1,62 +1,10 @@
 {
  "last_alerted": {
-  "INTR": 1791575239.64448,
   "SNAP": 1791824625.987438,
-  "FSLY": 1791588798.461465,
-  "CAI": 1791575239.64448,
-  "PCVX": 1791575239.64448,
-  "HIMS": 1791588798.461465,
-  "IOVA": 1791588798.461465,
   "DK": 1791824625.987438,
   "INSP": 1791824625.987438
  },
- "signals": {
-  "DK-1791824625": {
-   "ticker": "DK",
-   "created": 1791824625.987438,
-   "session": "regular",
-   "kind": "pending",
-   "entry": 77.9779,
-   "stop0": 77.3015,
-   "target": 81.9779,
-   "seen_high": 77.69999694824219,
-   "seen_low": 77.44999694824219,
-   "sent": 0,
-   "shares": 1,
-   "value": 77.98,
-   "fees": 3.0
-  },
-  "INSP-1791824625": {
-   "ticker": "INSP",
-   "created": 1791824625.987438,
-   "session": "regular",
-   "kind": "pending",
-   "entry": 72.072,
-   "stop0": 71.3586,
-   "target": 76.072,
-   "seen_high": 72.0,
-   "seen_low": 71.91000366210938,
-   "sent": 0,
-   "shares": 1,
-   "value": 72.07,
-   "fees": 3.0
-  },
-  "SNAP-1791824625": {
-   "ticker": "SNAP",
-   "created": 1791824625.987438,
-   "session": "regular",
-   "kind": "pending",
-   "entry": 6.4665,
-   "stop0": 6.3861,
-   "target": 6.7998,
-   "seen_high": 6.440000057220459,
-   "seen_low": 6.409999847412109,
-   "sent": 0,
-   "shares": 12,
-   "value": 77.6,
-   "fees": 3.0
-  }
- },
+ "signals": {},
  "history": [
   {
    "date": "2026-09-21",
@@ -993,10 +941,37 @@
    "pnl": null,
    "net_usd": null,
    "triggered": false
+  },
+  {
+   "date": "2026-10-12",
+   "ticker": "DK",
+   "session": "regular",
+   "result": "cancelled",
+   "pnl": null,
+   "net_usd": null,
+   "triggered": false
+  },
+  {
+   "date": "2026-10-12",
+   "ticker": "INSP",
+   "session": "regular",
+   "result": "cancelled",
+   "pnl": null,
+   "net_usd": null,
+   "triggered": false
+  },
+  {
+   "date": "2026-10-12",
+   "ticker": "SNAP",
+   "session": "regular",
+   "result": "eod",
+   "pnl": 1.137,
+   "net_usd": -2.12,
+   "triggered": true
   }
  ],
  "meta": {
   "fail_count": 0,
-  "summary_date": "2026-10-09"
+  "summary_date": "2026-10-12"
  }
 }
