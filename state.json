@@ -7,53 +7,7 @@
   "KD": 1791904817.348576,
   "VG": 1791904817.348576
  },
- "signals": {
-  "CDNA-1791904817": {
-   "ticker": "CDNA",
-   "created": 1791904817.348576,
-   "session": "regular",
-   "kind": "pending",
-   "entry": 65.8007,
-   "stop0": 64.5956,
-   "target": 69.8007,
-   "seen_high": 65.87999725341797,
-   "seen_low": 65.12999725341797,
-   "sent": 0,
-   "shares": 1,
-   "value": 65.8,
-   "fees": 3.0
-  },
-  "KD-1791904817": {
-   "ticker": "KD",
-   "created": 1791904817.348576,
-   "session": "regular",
-   "kind": "pending",
-   "entry": 12.3974,
-   "stop0": 12.2593,
-   "target": 13.0641,
-   "seen_high": 12.329999923706055,
-   "seen_low": 12.305000305175781,
-   "sent": 0,
-   "shares": 6,
-   "value": 74.38,
-   "fees": 3.0
-  },
-  "VG-1791904817": {
-   "ticker": "VG",
-   "created": 1791904817.348576,
-   "session": "regular",
-   "kind": "pending",
-   "entry": 13.7087,
-   "stop0": 13.5233,
-   "target": 14.5087,
-   "seen_high": 13.65999984741211,
-   "seen_low": 13.64009952545166,
-   "sent": 0,
-   "shares": 5,
-   "value": 68.54,
-   "fees": 3.0
-  }
- },
+ "signals": {},
  "history": [
   {
    "date": "2026-09-21",
@@ -1017,10 +971,37 @@
    "pnl": 1.137,
    "net_usd": -2.12,
    "triggered": true
+  },
+  {
+   "date": "2026-10-13",
+   "ticker": "CDNA",
+   "session": "regular",
+   "result": "breakeven",
+   "pnl": 0.0,
+   "net_usd": -3.0,
+   "triggered": true
+  },
+  {
+   "date": "2026-10-13",
+   "ticker": "KD",
+   "session": "regular",
+   "result": "cancelled",
+   "pnl": null,
+   "net_usd": null,
+   "triggered": false
+  },
+  {
+   "date": "2026-10-13",
+   "ticker": "VG",
+   "session": "regular",
+   "result": "eod",
+   "pnl": 0.958,
+   "net_usd": -2.34,
+   "triggered": true
   }
  ],
  "meta": {
   "fail_count": 0,
-  "summary_date": "2026-10-12"
+  "summary_date": "2026-10-13"
  }
 }
