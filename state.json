@@ -6,9 +6,26 @@
   "CDNA": 1791904817.348576,
   "KD": 1791904817.348576,
   "VG": 1791935638.503583,
-  "EWTX": 1792000692.366328
+  "EWTX": 1792000692.366328,
+  "FIGS": 1792022069.859658
  },
- "signals": {},
+ "signals": {
+  "FIGS-1792022069": {
+   "ticker": "FIGS",
+   "created": 1792022069.859658,
+   "session": "afterhours",
+   "kind": "pending",
+   "entry": 18.6486,
+   "stop0": 18.4715,
+   "target": 19.6486,
+   "seen_high": 18.6,
+   "seen_low": 18.5,
+   "sent": 0,
+   "shares": 4,
+   "value": 74.59,
+   "fees": 3.0
+  }
+ },
  "history": [
   {
    "date": "2026-09-21",
