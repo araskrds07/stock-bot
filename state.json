@@ -7,23 +7,7 @@
   "KD": 1791904817.348576,
   "VG": 1791935638.503583
  },
- "signals": {
-  "VG-1791935638": {
-   "ticker": "VG",
-   "created": 1791935638.503583,
-   "session": "afterhours",
-   "kind": "pending",
-   "entry": 13.8939,
-   "stop0": 13.8275,
-   "target": 14.6939,
-   "seen_high": 13.82,
-   "seen_low": 13.82,
-   "sent": 0,
-   "shares": 5,
-   "value": 69.47,
-   "fees": 3.0
-  }
- },
+ "signals": {},
  "history": [
   {
    "date": "2026-09-21",
@@ -1014,6 +998,15 @@
    "pnl": 0.958,
    "net_usd": -2.34,
    "triggered": true
+  },
+  {
+   "date": "2026-10-13",
+   "ticker": "VG",
+   "session": "afterhours",
+   "result": "cancelled",
+   "pnl": null,
+   "net_usd": null,
+   "triggered": false
   }
  ],
  "meta": {
