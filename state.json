@@ -1,15 +1,61 @@
 {
  "last_alerted": {
-  "SNAP": 1791824625.987438,
-  "DK": 1791824625.987438,
-  "INSP": 1791824625.987438,
   "CDNA": 1791904817.348576,
   "KD": 1791904817.348576,
   "VG": 1791935638.503583,
   "EWTX": 1792000692.366328,
-  "FIGS": 1792022069.859658
+  "FIGS": 1792022069.859658,
+  "KVYO": 1792085088.071251,
+  "FIGR": 1792085088.071251,
+  "RGTI": 1792085088.071251
  },
- "signals": {},
+ "signals": {
+  "KVYO-1792085088": {
+   "ticker": "KVYO",
+   "created": 1792085088.071251,
+   "session": "regular",
+   "kind": "pending",
+   "entry": 18.2632,
+   "stop0": 18.0619,
+   "target": 19.2632,
+   "seen_high": 18.219999313354492,
+   "seen_low": 18.184999465942383,
+   "sent": 0,
+   "shares": 4,
+   "value": 73.05,
+   "fees": 3.0
+  },
+  "FIGR-1792085088": {
+   "ticker": "FIGR",
+   "created": 1792085088.071251,
+   "session": "regular",
+   "kind": "pending",
+   "entry": 26.6766,
+   "stop0": 26.1668,
+   "target": 28.6766,
+   "seen_high": 26.6299991607666,
+   "seen_low": 26.5,
+   "sent": 0,
+   "shares": 2,
+   "value": 53.35,
+   "fees": 3.0
+  },
+  "RGTI-1792085088": {
+   "ticker": "RGTI",
+   "created": 1792085088.071251,
+   "session": "regular",
+   "kind": "pending",
+   "entry": 12.1722,
+   "stop0": 11.9921,
+   "target": 12.8388,
+   "seen_high": 12.149999618530273,
+   "seen_low": 12.110099792480469,
+   "sent": 0,
+   "shares": 6,
+   "value": 73.03,
+   "fees": 3.0
+  }
+ },
  "history": [
   {
    "date": "2026-09-21",
