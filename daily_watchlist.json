@@ -1,12 +1,12 @@
 {
  "date": "2026-10-15",
- "built_at": 1792095925.8438506,
+ "built_at": 1792105693.6482952,
  "tickers": [
   "APPN",
   "WULF",
   "CRWV",
-  "RBLX",
   "SNAP",
+  "RBLX",
   "CCC",
   "RXRX",
   "HIMS",
@@ -28,35 +28,35 @@
   },
   "WULF": {
    "atr_pct": 7.41,
-   "rvol": 3.68,
+   "rvol": 3.7,
    "change": 9.36,
    "price": 12.62,
-   "score": 3.6
+   "score": 3.61
   },
   "CRWV": {
    "atr_pct": 7.28,
-   "rvol": 3.61,
+   "rvol": 3.63,
    "change": 5.94,
    "price": 69.69,
-   "score": 3.59
+   "score": 3.6
+  },
+  "SNAP": {
+   "atr_pct": 4.73,
+   "rvol": 1.11,
+   "change": 5.57,
+   "price": 6.44,
+   "score": 3.54
   },
   "RBLX": {
    "atr_pct": 4.67,
-   "rvol": 0.62,
+   "rvol": 0.63,
    "change": 7.55,
    "price": 51.13,
    "score": 3.51
   },
-  "SNAP": {
-   "atr_pct": 4.73,
-   "rvol": 0.96,
-   "change": 5.57,
-   "price": 6.44,
-   "score": 3.47
-  },
   "CCC": {
    "atr_pct": 4.11,
-   "rvol": 24.56,
+   "rvol": 24.59,
    "change": -0.13,
    "price": 7.63,
    "score": 3.26
@@ -70,14 +70,14 @@
   },
   "HIMS": {
    "atr_pct": 5.79,
-   "rvol": 1.53,
+   "rvol": 1.56,
    "change": 5.99,
    "price": 29.38,
-   "score": 3.1
+   "score": 3.11
   },
   "BRZE": {
    "atr_pct": 4.39,
-   "rvol": 1.08,
+   "rvol": 1.09,
    "change": 7.54,
    "price": 30.38,
    "score": 3.02
@@ -91,10 +91,10 @@
   },
   "MMYT": {
    "atr_pct": 4.09,
-   "rvol": 1.41,
+   "rvol": 1.43,
    "change": 7.2,
    "price": 46.78,
-   "score": 2.9
+   "score": 2.91
   },
   "AFRM": {
    "atr_pct": 4.48,
@@ -105,17 +105,17 @@
   },
   "USAR": {
    "atr_pct": 5.94,
-   "rvol": 1.7,
+   "rvol": 1.71,
    "change": 7.46,
    "price": 11.09,
-   "score": 2.84
+   "score": 2.85
   },
   "RGTI": {
    "atr_pct": 6.04,
-   "rvol": 1.56,
+   "rvol": 1.63,
    "change": 8.13,
    "price": 12.63,
-   "score": 2.78
+   "score": 2.81
   },
   "KRMN": {
    "atr_pct": 5.78,

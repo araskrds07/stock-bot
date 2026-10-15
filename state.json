@@ -7,41 +7,13 @@
   "FIGS": 1792022069.859658,
   "KVYO": 1792085088.071251,
   "FIGR": 1792085088.071251,
-  "RGTI": 1792085088.071251,
+  "RGTI": 1792105689.335174,
   "USAR": 1792095914.385357,
-  "KRMN": 1792095914.385357
+  "KRMN": 1792095914.385357,
+  "HIMS": 1792105689.335174,
+  "SNAP": 1792105689.335174
  },
  "signals": {
-  "KD-1792095914": {
-   "ticker": "KD",
-   "created": 1792095914.385357,
-   "session": "afterhours",
-   "kind": "pending",
-   "entry": 13.2482,
-   "stop0": 13.1224,
-   "target": 13.9149,
-   "seen_high": 13.15,
-   "seen_low": 13.15,
-   "sent": 0,
-   "shares": 6,
-   "value": 79.49,
-   "fees": 3.0
-  },
-  "USAR-1792095914": {
-   "ticker": "USAR",
-   "created": 1792095914.385357,
-   "session": "afterhours",
-   "kind": "pending",
-   "entry": 11.2112,
-   "stop0": 11.0926,
-   "target": 11.7826,
-   "seen_high": 11.2,
-   "seen_low": 11.1607,
-   "sent": 0,
-   "shares": 7,
-   "value": 78.48,
-   "fees": 3.0
-  },
   "KRMN-1792095914": {
    "ticker": "KRMN",
    "created": 1792095914.385357,
@@ -52,9 +24,54 @@
    "target": 36.064,
    "seen_high": 34.13999938964844,
    "seen_low": 33.849998474121094,
-   "sent": 0,
+   "sent": 1,
    "shares": 2,
    "value": 68.13,
+   "fees": 3.0
+  },
+  "HIMS-1792105689": {
+   "ticker": "HIMS",
+   "created": 1792105689.335174,
+   "session": "afterhours",
+   "kind": "pending",
+   "entry": 29.2692,
+   "stop0": 29.0941,
+   "target": 31.2692,
+   "seen_high": 29.178,
+   "seen_low": 29.15,
+   "sent": 0,
+   "shares": 2,
+   "value": 58.54,
+   "fees": 3.0
+  },
+  "RGTI-1792105689": {
+   "ticker": "RGTI",
+   "created": 1792105689.335174,
+   "session": "afterhours",
+   "kind": "pending",
+   "entry": 12.6732,
+   "stop0": 12.5874,
+   "target": 13.3398,
+   "seen_high": 12.61,
+   "seen_low": 12.6,
+   "sent": 0,
+   "shares": 6,
+   "value": 76.04,
+   "fees": 3.0
+  },
+  "SNAP-1792105689": {
+   "ticker": "SNAP",
+   "created": 1792105689.335174,
+   "session": "afterhours",
+   "kind": "pending",
+   "entry": 6.4464,
+   "stop0": 6.3995,
+   "target": 6.7798,
+   "seen_high": 6.43,
+   "seen_low": 6.41,
+   "sent": 0,
+   "shares": 12,
+   "value": 77.36,
    "fees": 3.0
   }
  },
@@ -1102,6 +1119,24 @@
    "pnl": -1.48,
    "net_usd": -4.08,
    "triggered": true
+  },
+  {
+   "date": "2026-10-15",
+   "ticker": "KD",
+   "session": "afterhours",
+   "result": "cancelled",
+   "pnl": null,
+   "net_usd": null,
+   "triggered": false
+  },
+  {
+   "date": "2026-10-15",
+   "ticker": "USAR",
+   "session": "afterhours",
+   "result": "cancelled",
+   "pnl": null,
+   "net_usd": null,
+   "triggered": false
   }
  ],
  "meta": {
