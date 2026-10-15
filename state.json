@@ -1,58 +1,60 @@
 {
  "last_alerted": {
   "CDNA": 1791904817.348576,
-  "KD": 1791904817.348576,
+  "KD": 1792095914.385357,
   "VG": 1791935638.503583,
   "EWTX": 1792000692.366328,
   "FIGS": 1792022069.859658,
   "KVYO": 1792085088.071251,
   "FIGR": 1792085088.071251,
-  "RGTI": 1792085088.071251
+  "RGTI": 1792085088.071251,
+  "USAR": 1792095914.385357,
+  "KRMN": 1792095914.385357
  },
  "signals": {
-  "KVYO-1792085088": {
-   "ticker": "KVYO",
-   "created": 1792085088.071251,
-   "session": "regular",
+  "KD-1792095914": {
+   "ticker": "KD",
+   "created": 1792095914.385357,
+   "session": "afterhours",
    "kind": "pending",
-   "entry": 18.2632,
-   "stop0": 18.0619,
-   "target": 19.2632,
-   "seen_high": 18.219999313354492,
-   "seen_low": 18.184999465942383,
-   "sent": 0,
-   "shares": 4,
-   "value": 73.05,
-   "fees": 3.0
-  },
-  "FIGR-1792085088": {
-   "ticker": "FIGR",
-   "created": 1792085088.071251,
-   "session": "regular",
-   "kind": "pending",
-   "entry": 26.6766,
-   "stop0": 26.1668,
-   "target": 28.6766,
-   "seen_high": 26.6299991607666,
-   "seen_low": 26.5,
-   "sent": 0,
-   "shares": 2,
-   "value": 53.35,
-   "fees": 3.0
-  },
-  "RGTI-1792085088": {
-   "ticker": "RGTI",
-   "created": 1792085088.071251,
-   "session": "regular",
-   "kind": "pending",
-   "entry": 12.1722,
-   "stop0": 11.9921,
-   "target": 12.8388,
-   "seen_high": 12.149999618530273,
-   "seen_low": 12.110099792480469,
+   "entry": 13.2482,
+   "stop0": 13.1224,
+   "target": 13.9149,
+   "seen_high": 13.15,
+   "seen_low": 13.15,
    "sent": 0,
    "shares": 6,
-   "value": 73.03,
+   "value": 79.49,
+   "fees": 3.0
+  },
+  "USAR-1792095914": {
+   "ticker": "USAR",
+   "created": 1792095914.385357,
+   "session": "afterhours",
+   "kind": "pending",
+   "entry": 11.2112,
+   "stop0": 11.0926,
+   "target": 11.7826,
+   "seen_high": 11.2,
+   "seen_low": 11.1607,
+   "sent": 0,
+   "shares": 7,
+   "value": 78.48,
+   "fees": 3.0
+  },
+  "KRMN-1792095914": {
+   "ticker": "KRMN",
+   "created": 1792095914.385357,
+   "session": "afterhours",
+   "kind": "pending",
+   "entry": 34.064,
+   "stop0": 33.6203,
+   "target": 36.064,
+   "seen_high": 34.13999938964844,
+   "seen_low": 33.849998474121094,
+   "sent": 0,
+   "shares": 2,
+   "value": 68.13,
    "fees": 3.0
   }
  },
@@ -1073,10 +1075,37 @@
    "pnl": null,
    "net_usd": null,
    "triggered": false
+  },
+  {
+   "date": "2026-10-15",
+   "ticker": "KVYO",
+   "session": "regular",
+   "result": "cancelled",
+   "pnl": null,
+   "net_usd": null,
+   "triggered": false
+  },
+  {
+   "date": "2026-10-15",
+   "ticker": "FIGR",
+   "session": "regular",
+   "result": "eod",
+   "pnl": 3.78,
+   "net_usd": -0.98,
+   "triggered": true
+  },
+  {
+   "date": "2026-10-15",
+   "ticker": "RGTI",
+   "session": "regular",
+   "result": "stop",
+   "pnl": -1.48,
+   "net_usd": -4.08,
+   "triggered": true
   }
  ],
  "meta": {
   "fail_count": 0,
-  "summary_date": "2026-10-14"
+  "summary_date": "2026-10-15"
  }
 }
