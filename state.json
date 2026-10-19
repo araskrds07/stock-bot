@@ -2,52 +2,55 @@
  "last_alerted": {
   "CLSK": 1792422214.27955,
   "IREN": 1792422214.27955,
-  "AXTI": 1792422214.27955
+  "AXTI": 1792422214.27955,
+  "RLAY": 1792441869.897107,
+  "RNG": 1792441869.897107,
+  "WRBY": 1792441869.897107
  },
  "signals": {
-  "CLSK-1792422214": {
-   "ticker": "CLSK",
-   "created": 1792422214.27955,
-   "session": "regular",
+  "RLAY-1792441869": {
+   "ticker": "RLAY",
+   "created": 1792441869.897107,
+   "session": "afterhours",
    "kind": "pending",
-   "entry": 8.9589,
-   "stop0": 8.8015,
-   "target": 9.4589,
-   "seen_high": 8.869500160217285,
-   "seen_low": 8.829999923706055,
+   "entry": 17.2222,
+   "stop0": 17.0872,
+   "target": 18.2222,
+   "seen_high": 17.09,
+   "seen_low": 17.09,
    "sent": 0,
-   "shares": 8,
-   "value": 71.67,
+   "shares": 4,
+   "value": 68.89,
    "fees": 3.0
   },
-  "IREN-1792422214": {
-   "ticker": "IREN",
-   "created": 1792422214.27955,
-   "session": "regular",
+  "RNG-1792441869": {
+   "ticker": "RNG",
+   "created": 1792441869.897107,
+   "session": "afterhours",
    "kind": "pending",
-   "entry": 28.8188,
-   "stop0": 28.2078,
-   "target": 30.8188,
-   "seen_high": 28.600000381469727,
-   "seen_low": 28.469999313354492,
-   "sent": 0,
-   "shares": 2,
-   "value": 57.64,
-   "fees": 3.0
-  },
-  "AXTI-1792422214": {
-   "ticker": "AXTI",
-   "created": 1792422214.27955,
-   "session": "regular",
-   "kind": "pending",
-   "entry": 58.2182,
-   "stop0": 56.8737,
-   "target": 62.2182,
-   "seen_high": 57.9556999206543,
-   "seen_low": 57.5,
+   "entry": 79.7747,
+   "stop0": 79.2276,
+   "target": 83.7747,
+   "seen_high": 79.22,
+   "seen_low": 79.19,
    "sent": 0,
    "shares": 1,
-   "value": 58.22,
+   "value": 79.77,
+   "fees": 3.0
+  },
+  "WRBY-1792441869": {
+   "ticker": "WRBY",
+   "created": 1792441869.897107,
+   "session": "afterhours",
+   "kind": "pending",
+   "entry": 25.1051,
+   "stop0": 24.8118,
+   "target": 26.4384,
+   "seen_high": 24.99,
+   "seen_low": 24.99,
+   "sent": 0,
+   "shares": 3,
+   "value": 75.32,
    "fees": 3.0
   }
  },
@@ -1149,10 +1152,37 @@
    "pnl": null,
    "net_usd": null,
    "triggered": false
+  },
+  {
+   "date": "2026-10-19",
+   "ticker": "CLSK",
+   "session": "regular",
+   "result": "cancelled",
+   "pnl": null,
+   "net_usd": null,
+   "triggered": false
+  },
+  {
+   "date": "2026-10-19",
+   "ticker": "IREN",
+   "session": "regular",
+   "result": "expired",
+   "pnl": null,
+   "net_usd": null,
+   "triggered": false
+  },
+  {
+   "date": "2026-10-19",
+   "ticker": "AXTI",
+   "session": "regular",
+   "result": "stop",
+   "pnl": -2.309,
+   "net_usd": -4.34,
+   "triggered": true
   }
  ],
  "meta": {
   "fail_count": 0,
-  "summary_date": "2026-10-16"
+  "summary_date": "2026-10-19"
  }
 }
