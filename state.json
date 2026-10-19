@@ -1,17 +1,56 @@
 {
  "last_alerted": {
-  "KD": 1792095914.385357,
-  "EWTX": 1792000692.366328,
-  "FIGS": 1792022069.859658,
-  "KVYO": 1792085088.071251,
-  "FIGR": 1792085088.071251,
-  "RGTI": 1792105689.335174,
-  "USAR": 1792095914.385357,
-  "KRMN": 1792095914.385357,
-  "HIMS": 1792105689.335174,
-  "SNAP": 1792105689.335174
+  "CLSK": 1792422214.27955,
+  "IREN": 1792422214.27955,
+  "AXTI": 1792422214.27955
  },
- "signals": {},
+ "signals": {
+  "CLSK-1792422214": {
+   "ticker": "CLSK",
+   "created": 1792422214.27955,
+   "session": "regular",
+   "kind": "pending",
+   "entry": 8.9589,
+   "stop0": 8.8015,
+   "target": 9.4589,
+   "seen_high": 8.869500160217285,
+   "seen_low": 8.829999923706055,
+   "sent": 0,
+   "shares": 8,
+   "value": 71.67,
+   "fees": 3.0
+  },
+  "IREN-1792422214": {
+   "ticker": "IREN",
+   "created": 1792422214.27955,
+   "session": "regular",
+   "kind": "pending",
+   "entry": 28.8188,
+   "stop0": 28.2078,
+   "target": 30.8188,
+   "seen_high": 28.600000381469727,
+   "seen_low": 28.469999313354492,
+   "sent": 0,
+   "shares": 2,
+   "value": 57.64,
+   "fees": 3.0
+  },
+  "AXTI-1792422214": {
+   "ticker": "AXTI",
+   "created": 1792422214.27955,
+   "session": "regular",
+   "kind": "pending",
+   "entry": 58.2182,
+   "stop0": 56.8737,
+   "target": 62.2182,
+   "seen_high": 57.9556999206543,
+   "seen_low": 57.5,
+   "sent": 0,
+   "shares": 1,
+   "value": 58.22,
+   "fees": 3.0
+  }
+ },
  "history": [
   {
    "date": "2026-09-21",
