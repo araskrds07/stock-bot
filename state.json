@@ -5,52 +5,39 @@
   "AXTI": 1792422214.27955,
   "RLAY": 1792441869.897107,
   "RNG": 1792441869.897107,
-  "WRBY": 1792441869.897107
+  "WRBY": 1792441869.897107,
+  "SNAP": 1792453982.568055,
+  "CLF": 1792453982.568055
  },
  "signals": {
-  "RLAY-1792441869": {
-   "ticker": "RLAY",
-   "created": 1792441869.897107,
+  "SNAP-1792453982": {
+   "ticker": "SNAP",
+   "created": 1792453982.568055,
    "session": "afterhours",
-   "kind": "pending",
-   "entry": 17.2222,
-   "stop0": 17.0872,
-   "target": 18.2222,
-   "seen_high": 17.09,
-   "seen_low": 17.09,
+   "kind": "active",
+   "entry": 6.29,
+   "stop0": 6.2737,
+   "target": 6.6233,
+   "seen_high": 6.29,
+   "seen_low": 6.28,
    "sent": 0,
-   "shares": 4,
-   "value": 68.89,
+   "shares": 12,
+   "value": 75.48,
    "fees": 3.0
   },
-  "RNG-1792441869": {
-   "ticker": "RNG",
-   "created": 1792441869.897107,
+  "CLF-1792453982": {
+   "ticker": "CLF",
+   "created": 1792453982.568055,
    "session": "afterhours",
    "kind": "pending",
-   "entry": 79.7747,
-   "stop0": 79.2276,
-   "target": 83.7747,
-   "seen_high": 79.22,
-   "seen_low": 79.19,
+   "entry": 14.2026,
+   "stop0": 14.1514,
+   "target": 15.0026,
+   "seen_high": 14.1685,
+   "seen_low": 14.13,
    "sent": 0,
-   "shares": 1,
-   "value": 79.77,
-   "fees": 3.0
-  },
-  "WRBY-1792441869": {
-   "ticker": "WRBY",
-   "created": 1792441869.897107,
-   "session": "afterhours",
-   "kind": "pending",
-   "entry": 25.1051,
-   "stop0": 24.8118,
-   "target": 26.4384,
-   "seen_high": 24.99,
-   "seen_low": 24.99,
-   "sent": 0,
-   "shares": 3,
-   "value": 75.32,
+   "shares": 5,
+   "value": 71.01,
    "fees": 3.0
   }
  },
@@ -1179,6 +1166,33 @@
    "pnl": -2.309,
    "net_usd": -4.34,
    "triggered": true
+  },
+  {
+   "date": "2026-10-19",
+   "ticker": "RLAY",
+   "session": "afterhours",
+   "result": "expired",
+   "pnl": null,
+   "net_usd": null,
+   "triggered": false
+  },
+  {
+   "date": "2026-10-19",
+   "ticker": "RNG",
+   "session": "afterhours",
+   "result": "expired",
+   "pnl": null,
+   "net_usd": null,
+   "triggered": false
+  },
+  {
+   "date": "2026-10-19",
+   "ticker": "WRBY",
+   "session": "afterhours",
+   "result": "expired",
+   "pnl": null,
+   "net_usd": null,
+   "triggered": false
   }
  ],
  "meta": {
