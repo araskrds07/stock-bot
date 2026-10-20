@@ -8,54 +8,56 @@
   "WRBY": 1792441869.897107,
   "SNAP": 1792453982.568055,
   "CLF": 1792453982.568055,
-  "BB": 1792518936.545488,
+  "BB": 1792529845.232483,
   "ASAN": 1792518936.545488,
-  "BBD": 1792518936.545488
+  "BBD": 1792518936.545488,
+  "ITUB": 1792529845.232483,
+  "SLS": 1792529845.232483
  },
  "signals": {
-  "BB-1792518936": {
+  "ITUB-1792529845": {
+   "ticker": "ITUB",
+   "created": 1792529845.232483,
+   "session": "afterhours",
+   "kind": "active",
+   "entry": 9.76,
+   "stop0": 9.7097,
+   "target": 10.26,
+   "seen_high": 9.76,
+   "seen_low": 9.76,
+   "sent": 0,
+   "shares": 8,
+   "value": 78.08,
+   "fees": 3.0
+  },
+  "BB-1792529845": {
    "ticker": "BB",
-   "created": 1792518936.545488,
-   "session": "regular",
-   "kind": "pending",
-   "entry": 8.8263,
-   "stop0": 8.6921,
-   "target": 9.2708,
-   "seen_high": 8.774999618530273,
-   "seen_low": 8.739999771118164,
+   "created": 1792529845.232483,
+   "session": "afterhours",
+   "kind": "active",
+   "entry": 8.89,
+   "stop0": 8.8211,
+   "target": 9.39,
+   "seen_high": 8.89,
+   "seen_low": 8.86,
    "sent": 0,
-   "shares": 9,
-   "value": 79.44,
+   "shares": 8,
+   "value": 71.12,
    "fees": 3.0
   },
-  "ASAN-1792518936": {
-   "ticker": "ASAN",
-   "created": 1792518936.545488,
-   "session": "regular",
+  "SLS-1792529845": {
+   "ticker": "SLS",
+   "created": 1792529845.232483,
+   "session": "afterhours",
    "kind": "pending",
-   "entry": 10.8859,
-   "stop0": 10.7786,
-   "target": 11.4573,
-   "seen_high": 10.880000114440918,
-   "seen_low": 10.84000015258789,
+   "entry": 12.012,
+   "stop0": 11.8814,
+   "target": 12.6787,
+   "seen_high": 11.97,
+   "seen_low": 11.92,
    "sent": 0,
-   "shares": 7,
-   "value": 76.2,
-   "fees": 3.0
-  },
-  "BBD-1792518936": {
-   "ticker": "BBD",
-   "created": 1792518936.545488,
-   "session": "regular",
-   "kind": "pending",
-   "entry": 4.1241,
-   "stop0": 4.0839,
-   "target": 4.3346,
-   "seen_high": 4.090000152587891,
-   "seen_low": 4.079999923706055,
-   "sent": 0,
-   "shares": 19,
-   "value": 78.36,
+   "shares": 6,
+   "value": 72.07,
    "fees": 3.0
   }
  },
@@ -1229,10 +1231,37 @@
    "pnl": null,
    "net_usd": null,
    "triggered": false
+  },
+  {
+   "date": "2026-10-20",
+   "ticker": "BB",
+   "session": "regular",
+   "result": "expired",
+   "pnl": null,
+   "net_usd": null,
+   "triggered": false
+  },
+  {
+   "date": "2026-10-20",
+   "ticker": "ASAN",
+   "session": "regular",
+   "result": "stop",
+   "pnl": -0.986,
+   "net_usd": -3.75,
+   "triggered": true
+  },
+  {
+   "date": "2026-10-20",
+   "ticker": "BBD",
+   "session": "regular",
+   "result": "cancelled",
+   "pnl": null,
+   "net_usd": null,
+   "triggered": false
   }
  ],
  "meta": {
   "fail_count": 0,
-  "summary_date": "2026-10-19"
+  "summary_date": "2026-10-20"
  }
 }
