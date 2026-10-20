@@ -1,6 +1,6 @@
 {
  "date": "2026-10-20",
- "built_at": 1792529853.0323682,
+ "built_at": 1792539250.1972969,
  "tickers": [
   "HTFL",
   "RCUS",
@@ -63,17 +63,17 @@
   },
   "CLF": {
    "atr_pct": 5.95,
-   "rvol": 1.98,
+   "rvol": 2.0,
    "change": -3.19,
    "price": 13.65,
-   "score": 3.16
+   "score": 3.17
   },
   "LCID": {
    "atr_pct": 6.98,
-   "rvol": 2.49,
+   "rvol": 2.5,
    "change": 5.65,
    "price": 3.27,
-   "score": 3.08
+   "score": 3.09
   },
   "SNAP": {
    "atr_pct": 5.69,
@@ -91,7 +91,7 @@
   },
   "NESR": {
    "atr_pct": 6.03,
-   "rvol": 2.05,
+   "rvol": 2.06,
    "change": 11.12,
    "price": 21.09,
    "score": 3.02

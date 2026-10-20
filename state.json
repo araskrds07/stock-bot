@@ -12,24 +12,11 @@
   "ASAN": 1792518936.545488,
   "BBD": 1792518936.545488,
   "ITUB": 1792529845.232483,
-  "SLS": 1792529845.232483
+  "SLS": 1792529845.232483,
+  "LCID": 1792539243.302535,
+  "KVYO": 1792539243.302535
  },
  "signals": {
-  "ITUB-1792529845": {
-   "ticker": "ITUB",
-   "created": 1792529845.232483,
-   "session": "afterhours",
-   "kind": "active",
-   "entry": 9.76,
-   "stop0": 9.7097,
-   "target": 10.26,
-   "seen_high": 9.76,
-   "seen_low": 9.76,
-   "sent": 0,
-   "shares": 8,
-   "value": 78.08,
-   "fees": 3.0
-  },
   "BB-1792529845": {
    "ticker": "BB",
    "created": 1792529845.232483,
@@ -45,19 +32,34 @@
    "value": 71.12,
    "fees": 3.0
   },
-  "SLS-1792529845": {
-   "ticker": "SLS",
-   "created": 1792529845.232483,
+  "LCID-1792539243": {
+   "ticker": "LCID",
+   "created": 1792539243.302535,
    "session": "afterhours",
    "kind": "pending",
-   "entry": 12.012,
-   "stop0": 11.8814,
-   "target": 12.6787,
-   "seen_high": 11.97,
-   "seen_low": 11.92,
+   "entry": 3.2933,
+   "stop0": 3.2753,
+   "target": 3.46,
+   "seen_high": 3.29,
+   "seen_low": 3.2815,
    "sent": 0,
-   "shares": 6,
-   "value": 72.07,
+   "shares": 24,
+   "value": 79.04,
+   "fees": 3.0
+  },
+  "KVYO-1792539243": {
+   "ticker": "KVYO",
+   "created": 1792539243.302535,
+   "session": "afterhours",
+   "kind": "pending",
+   "entry": 19.8398,
+   "stop0": 19.6254,
+   "target": 20.8398,
+   "seen_high": 19.72,
+   "seen_low": 19.72,
+   "sent": 0,
+   "shares": 4,
+   "value": 79.36,
    "fees": 3.0
   }
  },
@@ -1258,6 +1260,24 @@
    "pnl": null,
    "net_usd": null,
    "triggered": false
+  },
+  {
+   "date": "2026-10-20",
+   "ticker": "ITUB",
+   "session": "afterhours",
+   "result": "stop",
+   "pnl": -0.515,
+   "net_usd": -3.4,
+   "triggered": true
+  },
+  {
+   "date": "2026-10-20",
+   "ticker": "SLS",
+   "session": "afterhours",
+   "result": "breakeven",
+   "pnl": 0.0,
+   "net_usd": -3.0,
+   "triggered": true
   }
  ],
  "meta": {
