@@ -7,9 +7,58 @@
   "RNG": 1792441869.897107,
   "WRBY": 1792441869.897107,
   "SNAP": 1792453982.568055,
-  "CLF": 1792453982.568055
+  "CLF": 1792453982.568055,
+  "BB": 1792518936.545488,
+  "ASAN": 1792518936.545488,
+  "BBD": 1792518936.545488
  },
- "signals": {},
+ "signals": {
+  "BB-1792518936": {
+   "ticker": "BB",
+   "created": 1792518936.545488,
+   "session": "regular",
+   "kind": "pending",
+   "entry": 8.8263,
+   "stop0": 8.6921,
+   "target": 9.2708,
+   "seen_high": 8.774999618530273,
+   "seen_low": 8.739999771118164,
+   "sent": 0,
+   "shares": 9,
+   "value": 79.44,
+   "fees": 3.0
+  },
+  "ASAN-1792518936": {
+   "ticker": "ASAN",
+   "created": 1792518936.545488,
+   "session": "regular",
+   "kind": "pending",
+   "entry": 10.8859,
+   "stop0": 10.7786,
+   "target": 11.4573,
+   "seen_high": 10.880000114440918,
+   "seen_low": 10.84000015258789,
+   "sent": 0,
+   "shares": 7,
+   "value": 76.2,
+   "fees": 3.0
+  },
+  "BBD-1792518936": {
+   "ticker": "BBD",
+   "created": 1792518936.545488,
+   "session": "regular",
+   "kind": "pending",
+   "entry": 4.1241,
+   "stop0": 4.0839,
+   "target": 4.3346,
+   "seen_high": 4.090000152587891,
+   "seen_low": 4.079999923706055,
+   "sent": 0,
+   "shares": 19,
+   "value": 78.36,
+   "fees": 3.0
+  }
+ },
  "history": [
   {
    "date": "2026-09-21",
