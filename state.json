@@ -14,9 +14,58 @@
   "ITUB": 1792529845.232483,
   "SLS": 1792529845.232483,
   "LCID": 1792539243.302535,
-  "KVYO": 1792539243.302535
+  "KVYO": 1792539243.302535,
+  "GTM": 1792605879.914411,
+  "TNGX": 1792605879.914411,
+  "NTSK": 1792605879.914411
  },
- "signals": {},
+ "signals": {
+  "GTM-1792605879": {
+   "ticker": "GTM",
+   "created": 1792605879.914411,
+   "session": "regular",
+   "kind": "active",
+   "entry": 4.3395,
+   "stop0": 4.2934,
+   "target": 4.5617,
+   "seen_high": 4.340000152587891,
+   "seen_low": 4.295000076293945,
+   "sent": 0,
+   "shares": 18,
+   "value": 78.11,
+   "fees": 3.0
+  },
+  "TNGX-1792605879": {
+   "ticker": "TNGX",
+   "created": 1792605879.914411,
+   "session": "regular",
+   "kind": "active",
+   "entry": 26.98,
+   "stop0": 26.442,
+   "target": 28.98,
+   "seen_high": 27.0049991607666,
+   "seen_low": 26.90999984741211,
+   "sent": 0,
+   "shares": 2,
+   "value": 53.96,
+   "fees": 3.0
+  },
+  "NTSK-1792605879": {
+   "ticker": "NTSK",
+   "created": 1792605879.914411,
+   "session": "regular",
+   "kind": "pending",
+   "entry": 21.5115,
+   "stop0": 21.2838,
+   "target": 22.8448,
+   "seen_high": 21.479999542236328,
+   "seen_low": 21.420000076293945,
+   "sent": 0,
+   "shares": 3,
+   "value": 64.53,
+   "fees": 3.0
+  }
+ },
  "history": [
   {
    "date": "2026-09-21",
