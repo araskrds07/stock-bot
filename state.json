@@ -17,52 +17,22 @@
   "KVYO": 1792539243.302535,
   "GTM": 1792605879.914411,
   "TNGX": 1792605879.914411,
-  "NTSK": 1792605879.914411
+  "NTSK": 1792618404.275144
  },
  "signals": {
-  "GTM-1792605879": {
-   "ticker": "GTM",
-   "created": 1792605879.914411,
-   "session": "regular",
-   "kind": "active",
-   "entry": 4.3395,
-   "stop0": 4.2934,
-   "target": 4.5617,
-   "seen_high": 4.340000152587891,
-   "seen_low": 4.295000076293945,
-   "sent": 0,
-   "shares": 18,
-   "value": 78.11,
-   "fees": 3.0
-  },
-  "TNGX-1792605879": {
-   "ticker": "TNGX",
-   "created": 1792605879.914411,
-   "session": "regular",
-   "kind": "active",
-   "entry": 26.98,
-   "stop0": 26.442,
-   "target": 28.98,
-   "seen_high": 27.0049991607666,
-   "seen_low": 26.90999984741211,
-   "sent": 0,
-   "shares": 2,
-   "value": 53.96,
-   "fees": 3.0
-  },
-  "NTSK-1792605879": {
+  "NTSK-1792618404": {
    "ticker": "NTSK",
-   "created": 1792605879.914411,
-   "session": "regular",
+   "created": 1792618404.275144,
+   "session": "afterhours",
    "kind": "pending",
-   "entry": 21.5115,
-   "stop0": 21.2838,
-   "target": 22.8448,
-   "seen_high": 21.479999542236328,
-   "seen_low": 21.420000076293945,
+   "entry": 21.9619,
+   "stop0": 21.7374,
+   "target": 23.2953,
+   "seen_high": 21.81,
+   "seen_low": 21.81,
    "sent": 0,
    "shares": 3,
-   "value": 64.53,
+   "value": 65.89,
    "fees": 3.0
   }
  },
@@ -1308,10 +1278,37 @@
    "pnl": null,
    "net_usd": null,
    "triggered": false
+  },
+  {
+   "date": "2026-10-21",
+   "ticker": "GTM",
+   "session": "regular",
+   "result": "stop",
+   "pnl": -1.062,
+   "net_usd": -3.83,
+   "triggered": true
+  },
+  {
+   "date": "2026-10-21",
+   "ticker": "TNGX",
+   "session": "regular",
+   "result": "eod",
+   "pnl": 0.037,
+   "net_usd": -2.98,
+   "triggered": true
+  },
+  {
+   "date": "2026-10-21",
+   "ticker": "NTSK",
+   "session": "regular",
+   "result": "eod",
+   "pnl": 1.388,
+   "net_usd": -2.1,
+   "triggered": true
   }
  ],
  "meta": {
   "fail_count": 0,
-  "summary_date": "2026-10-20"
+  "summary_date": "2026-10-21"
  }
 }
