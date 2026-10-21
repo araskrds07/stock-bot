@@ -16,53 +16,7 @@
   "LCID": 1792539243.302535,
   "KVYO": 1792539243.302535
  },
- "signals": {
-  "BB-1792529845": {
-   "ticker": "BB",
-   "created": 1792529845.232483,
-   "session": "afterhours",
-   "kind": "active",
-   "entry": 8.89,
-   "stop0": 8.8211,
-   "target": 9.39,
-   "seen_high": 8.89,
-   "seen_low": 8.86,
-   "sent": 0,
-   "shares": 8,
-   "value": 71.12,
-   "fees": 3.0
-  },
-  "LCID-1792539243": {
-   "ticker": "LCID",
-   "created": 1792539243.302535,
-   "session": "afterhours",
-   "kind": "pending",
-   "entry": 3.2933,
-   "stop0": 3.2753,
-   "target": 3.46,
-   "seen_high": 3.29,
-   "seen_low": 3.2815,
-   "sent": 0,
-   "shares": 24,
-   "value": 79.04,
-   "fees": 3.0
-  },
-  "KVYO-1792539243": {
-   "ticker": "KVYO",
-   "created": 1792539243.302535,
-   "session": "afterhours",
-   "kind": "pending",
-   "entry": 19.8398,
-   "stop0": 19.6254,
-   "target": 20.8398,
-   "seen_high": 19.72,
-   "seen_low": 19.72,
-   "sent": 0,
-   "shares": 4,
-   "value": 79.36,
-   "fees": 3.0
-  }
- },
+ "signals": {},
  "history": [
   {
    "date": "2026-09-21",
@@ -1278,6 +1232,33 @@
    "pnl": 0.0,
    "net_usd": -3.0,
    "triggered": true
+  },
+  {
+   "date": "2026-10-20",
+   "ticker": "BB",
+   "session": "afterhours",
+   "result": "eod",
+   "pnl": 0.337,
+   "net_usd": -2.76,
+   "triggered": true
+  },
+  {
+   "date": "2026-10-20",
+   "ticker": "LCID",
+   "session": "afterhours",
+   "result": "expired",
+   "pnl": null,
+   "net_usd": null,
+   "triggered": false
+  },
+  {
+   "date": "2026-10-20",
+   "ticker": "KVYO",
+   "session": "afterhours",
+   "result": "cancelled",
+   "pnl": null,
+   "net_usd": null,
+   "triggered": false
   }
  ],
  "meta": {
