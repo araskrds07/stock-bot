@@ -1,6 +1,6 @@
 {
  "date": "2026-10-22",
- "built_at": 1792703353.0521028,
+ "built_at": 1792713481.1003644,
  "tickers": [
   "BHVN",
   "KSS",
@@ -21,7 +21,7 @@
  "meta": {
   "BHVN": {
    "atr_pct": 4.74,
-   "rvol": 15.97,
+   "rvol": 15.98,
    "change": 25.02,
    "price": 14.69,
    "score": 4.54
@@ -35,7 +35,7 @@
   },
   "QS": {
    "atr_pct": 5.71,
-   "rvol": 2.45,
+   "rvol": 2.46,
    "change": 4.27,
    "price": 4.15,
    "score": 3.03
@@ -70,10 +70,10 @@
   },
   "NOK": {
    "atr_pct": 5.96,
-   "rvol": 3.02,
+   "rvol": 3.04,
    "change": -14.81,
    "price": 7.88,
-   "score": 2.5
+   "score": 2.51
   },
   "LCID": {
    "atr_pct": 7.15,
@@ -91,7 +91,7 @@
   },
   "FPS": {
    "atr_pct": 10.18,
-   "rvol": 5.67,
+   "rvol": 5.68,
    "change": -21.54,
    "price": 24.92,
    "score": 2.3
