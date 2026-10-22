@@ -19,23 +19,7 @@
   "TNGX": 1792605879.914411,
   "NTSK": 1792618404.275144
  },
- "signals": {
-  "NTSK-1792618404": {
-   "ticker": "NTSK",
-   "created": 1792618404.275144,
-   "session": "afterhours",
-   "kind": "pending",
-   "entry": 21.9619,
-   "stop0": 21.7374,
-   "target": 23.2953,
-   "seen_high": 21.81,
-   "seen_low": 21.81,
-   "sent": 0,
-   "shares": 3,
-   "value": 65.89,
-   "fees": 3.0
-  }
- },
+ "signals": {},
  "history": [
   {
    "date": "2026-09-21",
@@ -1305,6 +1289,15 @@
    "pnl": 1.388,
    "net_usd": -2.1,
    "triggered": true
+  },
+  {
+   "date": "2026-10-21",
+   "ticker": "NTSK",
+   "session": "afterhours",
+   "result": "cancelled",
+   "pnl": null,
+   "net_usd": null,
+   "triggered": false
   }
  ],
  "meta": {
