@@ -1,36 +1,20 @@
 {
  "last_alerted": {
-  "BB": 1792529845.232483,
-  "ITUB": 1792529845.232483,
-  "SLS": 1792529845.232483,
   "LCID": 1792713471.361193,
   "KVYO": 1792539243.302535,
   "GTM": 1792605879.914411,
   "TNGX": 1792605879.914411,
-  "NTSK": 1792618404.275144,
+  "NTSK": 1792797945.800206,
   "VG": 1792776668.349915,
   "FIVN": 1792776668.349915,
   "HSAI": 1792776668.349915,
   "KRMN": 1792787735.100019,
   "INTR": 1792787735.100019,
-  "PTEN": 1792787735.100019
+  "PTEN": 1792787735.100019,
+  "SAIL": 1792797945.800206,
+  "CLF": 1792797945.800206
  },
  "signals": {
-  "KRMN-1792787735": {
-   "ticker": "KRMN",
-   "created": 1792787735.100019,
-   "session": "afterhours",
-   "kind": "active",
-   "entry": 37.15,
-   "stop0": 36.6705,
-   "target": 39.15,
-   "seen_high": 37.15,
-   "seen_low": 36.65,
-   "sent": 0,
-   "shares": 2,
-   "value": 74.3,
-   "fees": 3.0
-  },
   "INTR-1792787735": {
    "ticker": "INTR",
    "created": 1792787735.100019,
@@ -56,9 +40,54 @@
    "target": 12.6787,
    "seen_high": 11.97,
    "seen_low": 11.9,
-   "sent": 0,
+   "sent": 2,
    "shares": 6,
    "value": 72.07,
+   "fees": 3.0
+  },
+  "SAIL-1792797945": {
+   "ticker": "SAIL",
+   "created": 1792797945.800206,
+   "session": "afterhours",
+   "kind": "active",
+   "entry": 21.91,
+   "stop0": 21.7986,
+   "target": 23.2433,
+   "seen_high": 21.91,
+   "seen_low": 21.85,
+   "sent": 0,
+   "shares": 3,
+   "value": 65.73,
+   "fees": 3.0
+  },
+  "CLF-1792797945": {
+   "ticker": "CLF",
+   "created": 1792797945.800206,
+   "session": "afterhours",
+   "kind": "pending",
+   "entry": 13.9539,
+   "stop0": 13.8975,
+   "target": 14.7539,
+   "seen_high": 13.93,
+   "seen_low": 13.93,
+   "sent": 0,
+   "shares": 5,
+   "value": 69.77,
+   "fees": 3.0
+  },
+  "NTSK-1792797945": {
+   "ticker": "NTSK",
+   "created": 1792797945.800206,
+   "session": "afterhours",
+   "kind": "pending",
+   "entry": 24.4244,
+   "stop0": 24.2258,
+   "target": 25.7577,
+   "seen_high": 24.28,
+   "seen_low": 24.28,
+   "sent": 0,
+   "shares": 3,
+   "value": 73.27,
    "fees": 3.0
   }
  },
@@ -1375,6 +1404,15 @@
    "result": "eod",
    "pnl": -0.024,
    "net_usd": -3.02,
+   "triggered": true
+  },
+  {
+   "date": "2026-10-23",
+   "ticker": "KRMN",
+   "session": "afterhours",
+   "result": "stop",
+   "pnl": -1.291,
+   "net_usd": -3.96,
    "triggered": true
   }
  ],
