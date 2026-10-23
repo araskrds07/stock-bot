@@ -9,9 +9,58 @@
   "KVYO": 1792539243.302535,
   "GTM": 1792605879.914411,
   "TNGX": 1792605879.914411,
-  "NTSK": 1792618404.275144
+  "NTSK": 1792618404.275144,
+  "VG": 1792776668.349915,
+  "FIVN": 1792776668.349915,
+  "HSAI": 1792776668.349915
  },
- "signals": {},
+ "signals": {
+  "VG-1792776668": {
+   "ticker": "VG",
+   "created": 1792776668.349915,
+   "session": "regular",
+   "kind": "pending",
+   "entry": 13.7387,
+   "stop0": 13.5753,
+   "target": 14.5387,
+   "seen_high": 13.614999771118164,
+   "seen_low": 13.595000267028809,
+   "sent": 0,
+   "shares": 5,
+   "value": 68.69,
+   "fees": 3.0
+  },
+  "FIVN-1792776668": {
+   "ticker": "FIVN",
+   "created": 1792776668.349915,
+   "session": "regular",
+   "kind": "pending",
+   "entry": 37.6376,
+   "stop0": 37.132,
+   "target": 39.6376,
+   "seen_high": 37.275001525878906,
+   "seen_low": 37.275001525878906,
+   "sent": 0,
+   "shares": 2,
+   "value": 75.28,
+   "fees": 3.0
+  },
+  "HSAI-1792776668": {
+   "ticker": "HSAI",
+   "created": 1792776668.349915,
+   "session": "regular",
+   "kind": "pending",
+   "entry": 13.1431,
+   "stop0": 13.0273,
+   "target": 13.8098,
+   "seen_high": 13.020000457763672,
+   "seen_low": 13.020000457763672,
+   "sent": 0,
+   "shares": 6,
+   "value": 78.86,
+   "fees": 3.0
+  }
+ },
  "history": [
   {
    "date": "2026-09-21",
