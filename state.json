@@ -1,8 +1,6 @@
 {
  "last_alerted": {
   "BB": 1792529845.232483,
-  "ASAN": 1792518936.545488,
-  "BBD": 1792518936.545488,
   "ITUB": 1792529845.232483,
   "SLS": 1792529845.232483,
   "LCID": 1792713471.361193,
@@ -12,52 +10,55 @@
   "NTSK": 1792618404.275144,
   "VG": 1792776668.349915,
   "FIVN": 1792776668.349915,
-  "HSAI": 1792776668.349915
+  "HSAI": 1792776668.349915,
+  "KRMN": 1792787735.100019,
+  "INTR": 1792787735.100019,
+  "PTEN": 1792787735.100019
  },
  "signals": {
-  "VG-1792776668": {
-   "ticker": "VG",
-   "created": 1792776668.349915,
-   "session": "regular",
-   "kind": "pending",
-   "entry": 13.7387,
-   "stop0": 13.5753,
-   "target": 14.5387,
-   "seen_high": 13.614999771118164,
-   "seen_low": 13.595000267028809,
-   "sent": 0,
-   "shares": 5,
-   "value": 68.69,
-   "fees": 3.0
-  },
-  "FIVN-1792776668": {
-   "ticker": "FIVN",
-   "created": 1792776668.349915,
-   "session": "regular",
-   "kind": "pending",
-   "entry": 37.6376,
-   "stop0": 37.132,
-   "target": 39.6376,
-   "seen_high": 37.275001525878906,
-   "seen_low": 37.275001525878906,
+  "KRMN-1792787735": {
+   "ticker": "KRMN",
+   "created": 1792787735.100019,
+   "session": "afterhours",
+   "kind": "active",
+   "entry": 37.15,
+   "stop0": 36.6705,
+   "target": 39.15,
+   "seen_high": 37.15,
+   "seen_low": 36.65,
    "sent": 0,
    "shares": 2,
-   "value": 75.28,
+   "value": 74.3,
    "fees": 3.0
   },
-  "HSAI-1792776668": {
-   "ticker": "HSAI",
-   "created": 1792776668.349915,
-   "session": "regular",
+  "INTR-1792787735": {
+   "ticker": "INTR",
+   "created": 1792787735.100019,
+   "session": "afterhours",
+   "kind": "active",
+   "entry": 7.2499,
+   "stop0": 7.1588,
+   "target": 7.6135,
+   "seen_high": 7.2499,
+   "seen_low": 7.2499,
+   "sent": 0,
+   "shares": 11,
+   "value": 79.75,
+   "fees": 3.0
+  },
+  "PTEN-1792787735": {
+   "ticker": "PTEN",
+   "created": 1792787735.100019,
+   "session": "afterhours",
    "kind": "pending",
-   "entry": 13.1431,
-   "stop0": 13.0273,
-   "target": 13.8098,
-   "seen_high": 13.020000457763672,
-   "seen_low": 13.020000457763672,
+   "entry": 12.012,
+   "stop0": 11.9315,
+   "target": 12.6787,
+   "seen_high": 11.97,
+   "seen_low": 11.9,
    "sent": 0,
    "shares": 6,
-   "value": 78.86,
+   "value": 72.07,
    "fees": 3.0
   }
  },
@@ -1348,10 +1349,37 @@
    "pnl": null,
    "net_usd": null,
    "triggered": false
+  },
+  {
+   "date": "2026-10-23",
+   "ticker": "VG",
+   "session": "regular",
+   "result": "cancelled",
+   "pnl": null,
+   "net_usd": null,
+   "triggered": false
+  },
+  {
+   "date": "2026-10-23",
+   "ticker": "FIVN",
+   "session": "regular",
+   "result": "eod",
+   "pnl": -0.047,
+   "net_usd": -3.04,
+   "triggered": true
+  },
+  {
+   "date": "2026-10-23",
+   "ticker": "HSAI",
+   "session": "regular",
+   "result": "eod",
+   "pnl": -0.024,
+   "net_usd": -3.02,
+   "triggered": true
   }
  ],
  "meta": {
   "fail_count": 0,
-  "summary_date": "2026-10-22"
+  "summary_date": "2026-10-23"
  }
 }
