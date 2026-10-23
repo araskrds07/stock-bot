@@ -11,23 +11,7 @@
   "TNGX": 1792605879.914411,
   "NTSK": 1792618404.275144
  },
- "signals": {
-  "LCID-1792713471": {
-   "ticker": "LCID",
-   "created": 1792713471.361193,
-   "session": "afterhours",
-   "kind": "pending",
-   "entry": 3.4635,
-   "stop0": 3.4366,
-   "target": 3.6374,
-   "seen_high": 3.4594,
-   "seen_low": 3.4594,
-   "sent": 0,
-   "shares": 23,
-   "value": 79.66,
-   "fees": 3.0
-  }
- },
+ "signals": {},
  "history": [
   {
    "date": "2026-09-21",
@@ -1303,6 +1287,15 @@
    "ticker": "NTSK",
    "session": "afterhours",
    "result": "cancelled",
+   "pnl": null,
+   "net_usd": null,
+   "triggered": false
+  },
+  {
+   "date": "2026-10-22",
+   "ticker": "LCID",
+   "session": "afterhours",
+   "result": "expired",
    "pnl": null,
    "net_usd": null,
    "triggered": false
