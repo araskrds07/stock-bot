@@ -1,9 +1,6 @@
 {
  "last_alerted": {
-  "LCID": 1792713471.361193,
-  "GTM": 1792605879.914411,
-  "TNGX": 1792605879.914411,
-  "NTSK": 1792797945.800206,
+  "NTSK": 1793025421.217168,
   "VG": 1792776668.349915,
   "FIVN": 1792776668.349915,
   "HSAI": 1792776668.349915,
@@ -11,82 +8,54 @@
   "INTR": 1792787735.100019,
   "PTEN": 1792787735.100019,
   "SAIL": 1792797945.800206,
-  "CLF": 1792797945.800206
+  "CLF": 1792797945.800206,
+  "S": 1793025421.217168,
+  "WTTR": 1793025421.217168
  },
  "signals": {
-  "INTR-1792787735": {
-   "ticker": "INTR",
-   "created": 1792787735.100019,
-   "session": "afterhours",
-   "kind": "active",
-   "entry": 7.2499,
-   "stop0": 7.1588,
-   "target": 7.6135,
-   "seen_high": 7.2499,
-   "seen_low": 7.2499,
-   "sent": 0,
-   "shares": 11,
-   "value": 79.75,
-   "fees": 3.0
-  },
-  "PTEN-1792787735": {
-   "ticker": "PTEN",
-   "created": 1792787735.100019,
-   "session": "afterhours",
-   "kind": "pending",
-   "entry": 12.012,
-   "stop0": 11.9315,
-   "target": 12.6787,
-   "seen_high": 11.97,
-   "seen_low": 11.9,
-   "sent": 2,
-   "shares": 6,
-   "value": 72.07,
-   "fees": 3.0
-  },
-  "SAIL-1792797945": {
-   "ticker": "SAIL",
-   "created": 1792797945.800206,
-   "session": "afterhours",
-   "kind": "active",
-   "entry": 21.91,
-   "stop0": 21.7986,
-   "target": 23.2433,
-   "seen_high": 21.91,
-   "seen_low": 21.85,
-   "sent": 0,
-   "shares": 3,
-   "value": 65.73,
-   "fees": 3.0
-  },
-  "CLF-1792797945": {
-   "ticker": "CLF",
-   "created": 1792797945.800206,
-   "session": "afterhours",
-   "kind": "pending",
-   "entry": 13.9539,
-   "stop0": 13.8975,
-   "target": 14.7539,
-   "seen_high": 13.93,
-   "seen_low": 13.93,
-   "sent": 0,
-   "shares": 5,
-   "value": 69.77,
-   "fees": 3.0
-  },
-  "NTSK-1792797945": {
+  "NTSK-1793025421": {
    "ticker": "NTSK",
-   "created": 1792797945.800206,
-   "session": "afterhours",
-   "kind": "pending",
-   "entry": 24.4244,
-   "stop0": 24.2258,
-   "target": 25.7577,
-   "seen_high": 24.28,
-   "seen_low": 24.28,
+   "created": 1793025421.217168,
+   "session": "regular",
+   "kind": "active",
+   "entry": 25.3088,
+   "stop0": 25.0121,
+   "target": 26.6421,
+   "seen_high": 25.308799743652344,
+   "seen_low": 25.03499984741211,
    "sent": 0,
    "shares": 3,
-   "value": 73.27,
+   "value": 75.93,
+   "fees": 3.0
+  },
+  "S-1793025421": {
+   "ticker": "S",
+   "created": 1793025421.217168,
+   "session": "regular",
+   "kind": "pending",
+   "entry": 25.4354,
+   "stop0": 25.1334,
+   "target": 26.7687,
+   "seen_high": 25.424999237060547,
+   "seen_low": 25.281400680541992,
+   "sent": 0,
+   "shares": 3,
+   "value": 76.31,
+   "fees": 3.0
+  },
+  "WTTR-1793025421": {
+   "ticker": "WTTR",
+   "created": 1793025421.217168,
+   "session": "regular",
+   "kind": "pending",
+   "entry": 18.9289,
+   "stop0": 18.6423,
+   "target": 19.9289,
+   "seen_high": 18.940000534057617,
+   "seen_low": 18.799999237060547,
+   "sent": 0,
+   "shares": 4,
+   "value": 75.72,
    "fees": 3.0
   }
  },
@@ -1413,6 +1382,51 @@
    "pnl": -1.291,
    "net_usd": -3.96,
    "triggered": true
+  },
+  {
+   "date": "2026-10-23",
+   "ticker": "INTR",
+   "session": "afterhours",
+   "result": "eod",
+   "pnl": -0.137,
+   "net_usd": -3.11,
+   "triggered": true
+  },
+  {
+   "date": "2026-10-23",
+   "ticker": "PTEN",
+   "session": "afterhours",
+   "result": "breakeven",
+   "pnl": 0.0,
+   "net_usd": -3.0,
+   "triggered": true
+  },
+  {
+   "date": "2026-10-23",
+   "ticker": "SAIL",
+   "session": "afterhours",
+   "result": "eod",
+   "pnl": -0.07,
+   "net_usd": -3.05,
+   "triggered": true
+  },
+  {
+   "date": "2026-10-23",
+   "ticker": "CLF",
+   "session": "afterhours",
+   "result": "expired",
+   "pnl": null,
+   "net_usd": null,
+   "triggered": false
+  },
+  {
+   "date": "2026-10-23",
+   "ticker": "NTSK",
+   "session": "afterhours",
+   "result": "expired",
+   "pnl": null,
+   "net_usd": null,
+   "triggered": false
   }
  ],
  "meta": {
