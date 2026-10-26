@@ -1,28 +1,23 @@
 {
  "last_alerted": {
   "NTSK": 1793025421.217168,
-  "KRMN": 1792787735.100019,
-  "INTR": 1792787735.100019,
-  "PTEN": 1792787735.100019,
-  "SAIL": 1792797945.800206,
-  "CLF": 1792797945.800206,
-  "S": 1793045215.272082,
+  "S": 1793058437.023878,
   "WTTR": 1793025421.217168
  },
  "signals": {
-  "S-1793045215": {
+  "S-1793058437": {
    "ticker": "S",
-   "created": 1793045215.272082,
+   "created": 1793058437.023878,
    "session": "afterhours",
-   "kind": "pending",
-   "entry": 25.5856,
-   "stop0": 25.4013,
-   "target": 26.9189,
-   "seen_high": 25.55,
-   "seen_low": 25.5,
+   "kind": "active",
+   "entry": 25.6,
+   "stop0": 25.4344,
+   "target": 26.9333,
+   "seen_high": 25.6,
+   "seen_low": 25.46,
    "sent": 0,
    "shares": 3,
-   "value": 76.76,
+   "value": 76.8,
    "fees": 3.0
   }
  },
@@ -1421,6 +1416,15 @@
    "pnl": -1.514,
    "net_usd": -4.15,
    "triggered": true
+  },
+  {
+   "date": "2026-10-26",
+   "ticker": "S",
+   "session": "afterhours",
+   "result": "cancelled",
+   "pnl": null,
+   "net_usd": null,
+   "triggered": false
   }
  ],
  "meta": {
