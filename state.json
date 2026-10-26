@@ -1,61 +1,28 @@
 {
  "last_alerted": {
   "NTSK": 1793025421.217168,
-  "VG": 1792776668.349915,
-  "FIVN": 1792776668.349915,
-  "HSAI": 1792776668.349915,
   "KRMN": 1792787735.100019,
   "INTR": 1792787735.100019,
   "PTEN": 1792787735.100019,
   "SAIL": 1792797945.800206,
   "CLF": 1792797945.800206,
-  "S": 1793025421.217168,
+  "S": 1793045215.272082,
   "WTTR": 1793025421.217168
  },
  "signals": {
-  "NTSK-1793025421": {
-   "ticker": "NTSK",
-   "created": 1793025421.217168,
-   "session": "regular",
-   "kind": "active",
-   "entry": 25.3088,
-   "stop0": 25.0121,
-   "target": 26.6421,
-   "seen_high": 25.308799743652344,
-   "seen_low": 25.03499984741211,
-   "sent": 0,
-   "shares": 3,
-   "value": 75.93,
-   "fees": 3.0
-  },
-  "S-1793025421": {
+  "S-1793045215": {
    "ticker": "S",
-   "created": 1793025421.217168,
-   "session": "regular",
+   "created": 1793045215.272082,
+   "session": "afterhours",
    "kind": "pending",
-   "entry": 25.4354,
-   "stop0": 25.1334,
-   "target": 26.7687,
-   "seen_high": 25.424999237060547,
-   "seen_low": 25.281400680541992,
+   "entry": 25.5856,
+   "stop0": 25.4013,
+   "target": 26.9189,
+   "seen_high": 25.55,
+   "seen_low": 25.5,
    "sent": 0,
    "shares": 3,
-   "value": 76.31,
-   "fees": 3.0
-  },
-  "WTTR-1793025421": {
-   "ticker": "WTTR",
-   "created": 1793025421.217168,
-   "session": "regular",
-   "kind": "pending",
-   "entry": 18.9289,
-   "stop0": 18.6423,
-   "target": 19.9289,
-   "seen_high": 18.940000534057617,
-   "seen_low": 18.799999237060547,
-   "sent": 0,
-   "shares": 4,
-   "value": 75.72,
+   "value": 76.76,
    "fees": 3.0
   }
  },
@@ -1427,10 +1394,37 @@
    "pnl": null,
    "net_usd": null,
    "triggered": false
+  },
+  {
+   "date": "2026-10-26",
+   "ticker": "NTSK",
+   "session": "regular",
+   "result": "breakeven",
+   "pnl": 0.0,
+   "net_usd": -3.0,
+   "triggered": true
+  },
+  {
+   "date": "2026-10-26",
+   "ticker": "S",
+   "session": "regular",
+   "result": "stop",
+   "pnl": -1.187,
+   "net_usd": -3.91,
+   "triggered": true
+  },
+  {
+   "date": "2026-10-26",
+   "ticker": "WTTR",
+   "session": "regular",
+   "result": "stop",
+   "pnl": -1.514,
+   "net_usd": -4.15,
+   "triggered": true
   }
  ],
  "meta": {
   "fail_count": 0,
-  "summary_date": "2026-10-23"
+  "summary_date": "2026-10-26"
  }
 }
