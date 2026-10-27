@@ -7,53 +7,55 @@
   "AMKR": 1793108446.608063,
   "STLA": 1793108446.608063,
   "PPTA": 1793127448.68692,
-  "ONDS": 1793127448.68692,
-  "TEM": 1793127448.68692
+  "ONDS": 1793141272.691574,
+  "TEM": 1793127448.68692,
+  "ACHR": 1793141272.691574,
+  "INFQ": 1793141272.691574
  },
  "signals": {
-  "PPTA-1793127448": {
-   "ticker": "PPTA",
-   "created": 1793127448.68692,
-   "session": "regular",
-   "kind": "active",
-   "entry": 18.21,
-   "stop0": 18.0494,
-   "target": 19.21,
-   "seen_high": 18.209999084472656,
-   "seen_low": 18.125,
-   "sent": 0,
-   "shares": 4,
-   "value": 72.84,
-   "fees": 3.0
-  },
-  "ONDS-1793127448": {
+  "ONDS-1793141272": {
    "ticker": "ONDS",
-   "created": 1793127448.68692,
-   "session": "regular",
+   "created": 1793141272.691574,
+   "session": "afterhours",
    "kind": "pending",
    "entry": 6.6867,
-   "stop0": 6.6176,
+   "stop0": 6.6364,
    "target": 7.0503,
-   "seen_high": 6.659999847412109,
-   "seen_low": 6.619999885559082,
+   "seen_high": 6.6598,
+   "seen_low": 6.65,
    "sent": 0,
    "shares": 11,
    "value": 73.55,
    "fees": 3.0
   },
-  "TEM-1793127448": {
-   "ticker": "TEM",
-   "created": 1793127448.68692,
-   "session": "regular",
+  "ACHR-1793141272": {
+   "ticker": "ACHR",
+   "created": 1793141272.691574,
+   "session": "afterhours",
    "kind": "pending",
-   "entry": 72.9629,
-   "stop0": 72.1877,
-   "target": 76.9629,
-   "seen_high": 72.83000183105469,
-   "seen_low": 72.30000305175781,
+   "entry": 4.2542,
+   "stop0": 4.2195,
+   "target": 4.4765,
+   "seen_high": 4.24,
+   "seen_low": 4.24,
    "sent": 0,
-   "shares": 1,
-   "value": 72.96,
+   "shares": 18,
+   "value": 76.58,
+   "fees": 3.0
+  },
+  "INFQ-1793141272": {
+   "ticker": "INFQ",
+   "created": 1793141272.691574,
+   "session": "afterhours",
+   "kind": "pending",
+   "entry": 9.8098,
+   "stop0": 9.7243,
+   "target": 10.3098,
+   "seen_high": 9.78,
+   "seen_low": 9.78,
+   "sent": 0,
+   "shares": 8,
+   "value": 78.48,
    "fees": 3.0
   }
  },
@@ -1497,10 +1499,37 @@
    "pnl": 0.0,
    "net_usd": -3.0,
    "triggered": true
+  },
+  {
+   "date": "2026-10-27",
+   "ticker": "PPTA",
+   "session": "regular",
+   "result": "eod",
+   "pnl": 0.879,
+   "net_usd": -2.36,
+   "triggered": true
+  },
+  {
+   "date": "2026-10-27",
+   "ticker": "ONDS",
+   "session": "regular",
+   "result": "stop",
+   "pnl": -1.033,
+   "net_usd": -3.76,
+   "triggered": true
+  },
+  {
+   "date": "2026-10-27",
+   "ticker": "TEM",
+   "session": "regular",
+   "result": "cancelled",
+   "pnl": null,
+   "net_usd": null,
+   "triggered": false
   }
  ],
  "meta": {
   "fail_count": 0,
-  "summary_date": "2026-10-26"
+  "summary_date": "2026-10-27"
  }
 }
