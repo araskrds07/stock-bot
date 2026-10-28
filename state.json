@@ -16,52 +16,39 @@
   "SG": 1793198109.578927,
   "SOFI": 1793216939.742215,
   "INIO": 1793216939.742215,
-  "SDGR": 1793216939.742215
+  "SDGR": 1793216939.742215,
+  "ABSI": 1793230684.692774,
+  "HIMS": 1793230684.692774
  },
  "signals": {
-  "SOFI-1793216939": {
-   "ticker": "SOFI",
-   "created": 1793216939.742215,
-   "session": "regular",
-   "kind": "pending",
-   "entry": 17.1271,
-   "stop0": 16.9386,
-   "target": 18.1271,
-   "seen_high": 17.12700080871582,
-   "seen_low": 17.059999465942383,
+  "ABSI-1793230684": {
+   "ticker": "ABSI",
+   "created": 1793230684.692774,
+   "session": "afterhours",
+   "kind": "active",
+   "entry": 11.65,
+   "stop0": 11.4985,
+   "target": 12.3167,
+   "seen_high": 11.65,
+   "seen_low": 11.65,
    "sent": 0,
-   "shares": 4,
-   "value": 68.51,
+   "shares": 6,
+   "value": 69.9,
    "fees": 3.0
   },
-  "INIO-1793216939": {
-   "ticker": "INIO",
-   "created": 1793216939.742215,
-   "session": "regular",
+  "HIMS-1793230684": {
+   "ticker": "HIMS",
+   "created": 1793230684.692774,
+   "session": "afterhours",
    "kind": "pending",
-   "entry": 18.1982,
-   "stop0": 17.849,
-   "target": 19.1982,
-   "seen_high": 18.170000076293945,
-   "seen_low": 18.104999542236328,
-   "sent": 0,
-   "shares": 4,
-   "value": 72.79,
-   "fees": 3.0
-  },
-  "SDGR-1793216939": {
-   "ticker": "SDGR",
-   "created": 1793216939.742215,
-   "session": "regular",
-   "kind": "pending",
-   "entry": 30.6606,
-   "stop0": 30.1489,
-   "target": 32.6606,
-   "seen_high": 30.6299991607666,
-   "seen_low": 30.549999237060547,
+   "entry": 29.3695,
+   "stop0": 29.2108,
+   "target": 31.3695,
+   "seen_high": 29.32,
+   "seen_low": 29.27,
    "sent": 0,
    "shares": 2,
-   "value": 61.32,
+   "value": 58.74,
    "fees": 3.0
   }
  },
@@ -1586,10 +1573,37 @@
    "pnl": 0.0,
    "net_usd": -3.0,
    "triggered": true
+  },
+  {
+   "date": "2026-10-28",
+   "ticker": "SOFI",
+   "session": "regular",
+   "result": "eod",
+   "pnl": 0.075,
+   "net_usd": -2.95,
+   "triggered": true
+  },
+  {
+   "date": "2026-10-28",
+   "ticker": "INIO",
+   "session": "regular",
+   "result": "eod",
+   "pnl": 0.944,
+   "net_usd": -2.31,
+   "triggered": true
+  },
+  {
+   "date": "2026-10-28",
+   "ticker": "SDGR",
+   "session": "regular",
+   "result": "eod",
+   "pnl": 0.569,
+   "net_usd": -2.65,
+   "triggered": true
   }
  ],
  "meta": {
   "fail_count": 0,
-  "summary_date": "2026-10-27"
+  "summary_date": "2026-10-28"
  }
 }
