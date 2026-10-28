@@ -13,52 +13,55 @@
   "INFQ": 1793141272.691574,
   "FTRE": 1793198109.578927,
   "CAI": 1793198109.578927,
-  "SG": 1793198109.578927
+  "SG": 1793198109.578927,
+  "SOFI": 1793216939.742215,
+  "INIO": 1793216939.742215,
+  "SDGR": 1793216939.742215
  },
  "signals": {
-  "FTRE-1793198109": {
-   "ticker": "FTRE",
-   "created": 1793198109.578927,
+  "SOFI-1793216939": {
+   "ticker": "SOFI",
+   "created": 1793216939.742215,
    "session": "regular",
    "kind": "pending",
-   "entry": 25.7657,
-   "stop0": 25.3987,
-   "target": 27.0991,
-   "seen_high": 25.6200008392334,
-   "seen_low": 25.450000762939453,
+   "entry": 17.1271,
+   "stop0": 16.9386,
+   "target": 18.1271,
+   "seen_high": 17.12700080871582,
+   "seen_low": 17.059999465942383,
    "sent": 0,
-   "shares": 3,
-   "value": 77.3,
+   "shares": 4,
+   "value": 68.51,
    "fees": 3.0
   },
-  "CAI-1793198109": {
-   "ticker": "CAI",
-   "created": 1793198109.578927,
+  "INIO-1793216939": {
+   "ticker": "INIO",
+   "created": 1793216939.742215,
    "session": "regular",
    "kind": "pending",
-   "entry": 35.7657,
-   "stop0": 35.1333,
-   "target": 37.7657,
-   "seen_high": 35.619998931884766,
-   "seen_low": 35.45500183105469,
+   "entry": 18.1982,
+   "stop0": 17.849,
+   "target": 19.1982,
+   "seen_high": 18.170000076293945,
+   "seen_low": 18.104999542236328,
+   "sent": 0,
+   "shares": 4,
+   "value": 72.79,
+   "fees": 3.0
+  },
+  "SDGR-1793216939": {
+   "ticker": "SDGR",
+   "created": 1793216939.742215,
+   "session": "regular",
+   "kind": "pending",
+   "entry": 30.6606,
+   "stop0": 30.1489,
+   "target": 32.6606,
+   "seen_high": 30.6299991607666,
+   "seen_low": 30.549999237060547,
    "sent": 0,
    "shares": 2,
-   "value": 71.53,
-   "fees": 3.0
-  },
-  "SG-1793198109": {
-   "ticker": "SG",
-   "created": 1793198109.578927,
-   "session": "regular",
-   "kind": "pending",
-   "entry": 11.2411,
-   "stop0": 11.0429,
-   "target": 11.8126,
-   "seen_high": 11.21500015258789,
-   "seen_low": 11.175000190734863,
-   "sent": 0,
-   "shares": 7,
-   "value": 78.69,
+   "value": 61.32,
    "fees": 3.0
   }
  },
@@ -1556,6 +1559,33 @@
    "pnl": null,
    "net_usd": null,
    "triggered": false
+  },
+  {
+   "date": "2026-10-28",
+   "ticker": "FTRE",
+   "session": "regular",
+   "result": "breakeven",
+   "pnl": 0.0,
+   "net_usd": -3.0,
+   "triggered": true
+  },
+  {
+   "date": "2026-10-28",
+   "ticker": "CAI",
+   "session": "regular",
+   "result": "breakeven",
+   "pnl": 0.0,
+   "net_usd": -3.0,
+   "triggered": true
+  },
+  {
+   "date": "2026-10-28",
+   "ticker": "SG",
+   "session": "regular",
+   "result": "breakeven",
+   "pnl": 0.0,
+   "net_usd": -3.0,
+   "triggered": true
   }
  ],
  "meta": {
