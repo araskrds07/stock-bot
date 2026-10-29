@@ -1,8 +1,6 @@
 {
  "last_alerted": {
-  "NTSK": 1793025421.217168,
   "S": 1793058437.023878,
-  "WTTR": 1793025421.217168,
   "XP": 1793108446.608063,
   "AMKR": 1793108446.608063,
   "STLA": 1793108446.608063,
@@ -14,41 +12,58 @@
   "FTRE": 1793198109.578927,
   "CAI": 1793198109.578927,
   "SG": 1793198109.578927,
-  "SOFI": 1793216939.742215,
+  "SOFI": 1793284963.775999,
   "INIO": 1793216939.742215,
   "SDGR": 1793216939.742215,
   "ABSI": 1793230684.692774,
-  "HIMS": 1793230684.692774
+  "HIMS": 1793230684.692774,
+  "FIGS": 1793284963.775999,
+  "AFRM": 1793284963.775999
  },
  "signals": {
-  "ABSI-1793230684": {
-   "ticker": "ABSI",
-   "created": 1793230684.692774,
-   "session": "afterhours",
+  "FIGS-1793284963": {
+   "ticker": "FIGS",
+   "created": 1793284963.775999,
+   "session": "regular",
    "kind": "active",
-   "entry": 11.65,
-   "stop0": 11.4985,
-   "target": 12.3167,
-   "seen_high": 11.65,
-   "seen_low": 11.65,
+   "entry": 22.1,
+   "stop0": 21.6783,
+   "target": 23.4333,
+   "seen_high": 22.149999618530273,
+   "seen_low": 22.0,
    "sent": 0,
-   "shares": 6,
-   "value": 69.9,
+   "shares": 3,
+   "value": 66.3,
    "fees": 3.0
   },
-  "HIMS-1793230684": {
-   "ticker": "HIMS",
-   "created": 1793230684.692774,
-   "session": "afterhours",
+  "AFRM-1793284963": {
+   "ticker": "AFRM",
+   "created": 1793284963.775999,
+   "session": "regular",
    "kind": "pending",
-   "entry": 29.3695,
-   "stop0": 29.2108,
-   "target": 31.3695,
-   "seen_high": 29.32,
-   "seen_low": 29.27,
+   "entry": 76.2762,
+   "stop0": 75.2419,
+   "target": 80.2762,
+   "seen_high": 75.87999725341797,
+   "seen_low": 75.31999969482422,
    "sent": 0,
-   "shares": 2,
-   "value": 58.74,
+   "shares": 1,
+   "value": 76.28,
+   "fees": 3.0
+  },
+  "SOFI-1793284963": {
+   "ticker": "SOFI",
+   "created": 1793284963.775999,
+   "session": "regular",
+   "kind": "pending",
+   "entry": 17.5776,
+   "stop0": 17.3941,
+   "target": 18.5776,
+   "seen_high": 17.479999542236328,
+   "seen_low": 17.350000381469727,
+   "sent": 0,
+   "shares": 4,
+   "value": 70.31,
    "fees": 3.0
   }
  },
@@ -1600,6 +1615,24 @@
    "pnl": 0.569,
    "net_usd": -2.65,
    "triggered": true
+  },
+  {
+   "date": "2026-10-28",
+   "ticker": "ABSI",
+   "session": "afterhours",
+   "result": "eod",
+   "pnl": 1.288,
+   "net_usd": -2.1,
+   "triggered": true
+  },
+  {
+   "date": "2026-10-28",
+   "ticker": "HIMS",
+   "session": "afterhours",
+   "result": "expired",
+   "pnl": null,
+   "net_usd": null,
+   "triggered": false
   }
  ],
  "meta": {
