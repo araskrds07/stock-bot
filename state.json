@@ -22,53 +22,7 @@
   "WGS": 1793303529.578516,
   "UPST": 1793303529.578516
  },
- "signals": {
-  "WGS-1793303529": {
-   "ticker": "WGS",
-   "created": 1793303529.578516,
-   "session": "regular",
-   "kind": "active",
-   "entry": 71.41,
-   "stop0": 70.2772,
-   "target": 75.41,
-   "seen_high": 71.41000366210938,
-   "seen_low": 70.61000061035156,
-   "sent": 0,
-   "shares": 1,
-   "value": 71.41,
-   "fees": 3.0
-  },
-  "UPST-1793303529": {
-   "ticker": "UPST",
-   "created": 1793303529.578516,
-   "session": "regular",
-   "kind": "pending",
-   "entry": 24.9103,
-   "stop0": 24.7671,
-   "target": 26.2436,
-   "seen_high": 24.815000534057617,
-   "seen_low": 24.684999465942383,
-   "sent": 0,
-   "shares": 3,
-   "value": 74.73,
-   "fees": 3.0
-  },
-  "SOFI-1793303529": {
-   "ticker": "SOFI",
-   "created": 1793303529.578516,
-   "session": "regular",
-   "kind": "pending",
-   "entry": 17.6176,
-   "stop0": 17.504,
-   "target": 18.6176,
-   "seen_high": 17.579999923706055,
-   "seen_low": 17.43000030517578,
-   "sent": 0,
-   "shares": 4,
-   "value": 70.47,
-   "fees": 3.0
-  }
- },
+ "signals": {},
  "history": [
   {
    "date": "2026-09-21",
@@ -1662,10 +1616,37 @@
    "pnl": null,
    "net_usd": null,
    "triggered": false
+  },
+  {
+   "date": "2026-10-29",
+   "ticker": "WGS",
+   "session": "regular",
+   "result": "eod",
+   "pnl": -0.602,
+   "net_usd": -3.43,
+   "triggered": true
+  },
+  {
+   "date": "2026-10-29",
+   "ticker": "UPST",
+   "session": "regular",
+   "result": "expired",
+   "pnl": null,
+   "net_usd": null,
+   "triggered": false
+  },
+  {
+   "date": "2026-10-29",
+   "ticker": "SOFI",
+   "session": "regular",
+   "result": "eod",
+   "pnl": -0.072,
+   "net_usd": -3.05,
+   "triggered": true
   }
  ],
  "meta": {
   "fail_count": 0,
-  "summary_date": "2026-10-28"
+  "summary_date": "2026-10-29"
  }
 }
