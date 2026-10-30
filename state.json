@@ -1,8 +1,5 @@
 {
  "last_alerted": {
-  "ONDS": 1793141272.691574,
-  "ACHR": 1793141272.691574,
-  "INFQ": 1793141272.691574,
   "FTRE": 1793198109.578927,
   "CAI": 1793198109.578927,
   "SG": 1793198109.578927,
@@ -19,67 +16,23 @@
   "CSGP": 1793371088.784424,
   "PGEN": 1793389179.500147,
   "FMC": 1793389179.500147,
-  "CVNA": 1793389179.500147
+  "CVNA": 1793389179.500147,
+  "RKT": 1793401906.356607
  },
  "signals": {
-  "CSGP-1793371088": {
-   "ticker": "CSGP",
-   "created": 1793371088.784424,
-   "session": "regular",
+  "RKT-1793401906": {
+   "ticker": "RKT",
+   "created": 1793401906.356607,
+   "session": "afterhours",
    "kind": "pending",
-   "entry": 29.8648,
-   "stop0": 29.4213,
-   "target": 31.8648,
-   "seen_high": 29.799999237060547,
-   "seen_low": 29.604999542236328,
-   "sent": 1,
-   "shares": 2,
-   "value": 59.73,
-   "fees": 3.0
-  },
-  "PGEN-1793389179": {
-   "ticker": "PGEN",
-   "created": 1793389179.500147,
-   "session": "regular",
-   "kind": "active",
-   "entry": 6.8882,
-   "stop0": 6.7842,
-   "target": 7.2518,
-   "seen_high": 6.940000057220459,
-   "seen_low": 6.864999771118164,
+   "entry": 12.8128,
+   "stop0": 12.7173,
+   "target": 13.4795,
+   "seen_high": 12.77,
+   "seen_low": 12.77,
    "sent": 0,
-   "shares": 11,
-   "value": 75.77,
-   "fees": 3.0
-  },
-  "FMC-1793389179": {
-   "ticker": "FMC",
-   "created": 1793389179.500147,
-   "session": "regular",
-   "kind": "active",
-   "entry": 6.13,
-   "stop0": 6.0144,
-   "target": 6.4377,
-   "seen_high": 6.130000114440918,
-   "seen_low": 6.019999980926514,
-   "sent": 0,
-   "shares": 13,
-   "value": 79.69,
-   "fees": 3.0
-  },
-  "CVNA-1793389179": {
-   "ticker": "CVNA",
-   "created": 1793389179.500147,
-   "session": "regular",
-   "kind": "pending",
-   "entry": 69.7897,
-   "stop0": 69.0056,
-   "target": 73.7897,
-   "seen_high": 69.58999633789062,
-   "seen_low": 69.18000030517578,
-   "sent": 0,
-   "shares": 1,
-   "value": 69.79,
+   "shares": 6,
+   "value": 76.88,
    "fees": 3.0
   }
  },
@@ -1712,10 +1665,46 @@
    "pnl": null,
    "net_usd": null,
    "triggered": false
+  },
+  {
+   "date": "2026-10-30",
+   "ticker": "CSGP",
+   "session": "regular",
+   "result": "eod",
+   "pnl": 1.055,
+   "net_usd": -2.37,
+   "triggered": true
+  },
+  {
+   "date": "2026-10-30",
+   "ticker": "PGEN",
+   "session": "regular",
+   "result": "eod",
+   "pnl": 0.462,
+   "net_usd": -2.65,
+   "triggered": true
+  },
+  {
+   "date": "2026-10-30",
+   "ticker": "FMC",
+   "session": "regular",
+   "result": "eod",
+   "pnl": 1.06,
+   "net_usd": -2.15,
+   "triggered": true
+  },
+  {
+   "date": "2026-10-30",
+   "ticker": "CVNA",
+   "session": "regular",
+   "result": "cancelled",
+   "pnl": null,
+   "net_usd": null,
+   "triggered": false
   }
  ],
  "meta": {
   "fail_count": 0,
-  "summary_date": "2026-10-29"
+  "summary_date": "2026-10-30"
  }
 }
