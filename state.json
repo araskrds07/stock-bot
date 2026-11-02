@@ -1,38 +1,41 @@
 {
  "last_alerted": {
-  "FTRE": 1793198109.578927,
-  "CAI": 1793198109.578927,
-  "SG": 1793198109.578927,
-  "SOFI": 1793303529.578516,
-  "INIO": 1793216939.742215,
-  "SDGR": 1793216939.742215,
-  "ABSI": 1793230684.692774,
-  "HIMS": 1793230684.692774,
-  "FIGS": 1793284963.775999,
-  "AFRM": 1793284963.775999,
-  "WGS": 1793303529.578516,
-  "UPST": 1793303529.578516,
-  "DK": 1793371088.784424,
-  "CSGP": 1793371088.784424,
   "PGEN": 1793389179.500147,
   "FMC": 1793389179.500147,
   "CVNA": 1793389179.500147,
-  "RKT": 1793401906.356607
+  "RKT": 1793401906.356607,
+  "SRAD": 1793640565.3609,
+  "SFM": 1793640565.3609
  },
  "signals": {
-  "RKT-1793401906": {
-   "ticker": "RKT",
-   "created": 1793401906.356607,
-   "session": "afterhours",
+  "SRAD-1793640565": {
+   "ticker": "SRAD",
+   "created": 1793640565.3609,
+   "session": "regular",
    "kind": "pending",
-   "entry": 12.8128,
-   "stop0": 12.7173,
-   "target": 13.4795,
-   "seen_high": 12.77,
-   "seen_low": 12.77,
+   "entry": 12.993,
+   "stop0": 12.7872,
+   "target": 13.6596,
+   "seen_high": 12.960000038146973,
+   "seen_low": 12.890000343322754,
    "sent": 0,
    "shares": 6,
-   "value": 76.88,
+   "value": 77.96,
+   "fees": 3.0
+  },
+  "SFM-1793640565": {
+   "ticker": "SFM",
+   "created": 1793640565.3609,
+   "session": "regular",
+   "kind": "active",
+   "entry": 54.02,
+   "stop0": 53.1243,
+   "target": 58.02,
+   "seen_high": 54.20000076293945,
+   "seen_low": 53.779998779296875,
+   "sent": 0,
+   "shares": 1,
+   "value": 54.02,
    "fees": 3.0
   }
  },
@@ -1698,6 +1701,15 @@
    "ticker": "CVNA",
    "session": "regular",
    "result": "cancelled",
+   "pnl": null,
+   "net_usd": null,
+   "triggered": false
+  },
+  {
+   "date": "2026-10-30",
+   "ticker": "RKT",
+   "session": "afterhours",
+   "result": "expired",
    "pnl": null,
    "net_usd": null,
    "triggered": false
