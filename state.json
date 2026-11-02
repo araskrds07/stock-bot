@@ -1,41 +1,55 @@
 {
  "last_alerted": {
-  "PGEN": 1793389179.500147,
-  "FMC": 1793389179.500147,
-  "CVNA": 1793389179.500147,
-  "RKT": 1793401906.356607,
+  "CVNA": 1793663929.38496,
   "SRAD": 1793640565.3609,
-  "SFM": 1793640565.3609
+  "SFM": 1793640565.3609,
+  "RUN": 1793663929.38496,
+  "IMNM": 1793663929.38496
  },
  "signals": {
-  "SRAD-1793640565": {
-   "ticker": "SRAD",
-   "created": 1793640565.3609,
-   "session": "regular",
+  "CVNA-1793663929": {
+   "ticker": "CVNA",
+   "created": 1793663929.38496,
+   "session": "afterhours",
    "kind": "pending",
-   "entry": 12.993,
-   "stop0": 12.7872,
-   "target": 13.6596,
-   "seen_high": 12.960000038146973,
-   "seen_low": 12.890000343322754,
-   "sent": 0,
-   "shares": 6,
-   "value": 77.96,
-   "fees": 3.0
-  },
-  "SFM-1793640565": {
-   "ticker": "SFM",
-   "created": 1793640565.3609,
-   "session": "regular",
-   "kind": "active",
-   "entry": 54.02,
-   "stop0": 53.1243,
-   "target": 58.02,
-   "seen_high": 54.20000076293945,
-   "seen_low": 53.779998779296875,
+   "entry": 72.2783,
+   "stop0": 71.7489,
+   "target": 76.2783,
+   "seen_high": 72.04,
+   "seen_low": 72.04,
    "sent": 0,
    "shares": 1,
-   "value": 54.02,
+   "value": 72.28,
+   "fees": 3.0
+  },
+  "RUN-1793663929": {
+   "ticker": "RUN",
+   "created": 1793663929.38496,
+   "session": "afterhours",
+   "kind": "pending",
+   "entry": 8.3397,
+   "stop0": 8.2596,
+   "target": 8.7842,
+   "seen_high": 8.3,
+   "seen_low": 8.3,
+   "sent": 0,
+   "shares": 9,
+   "value": 75.06,
+   "fees": 3.0
+  },
+  "IMNM-1793663929": {
+   "ticker": "IMNM",
+   "created": 1793663929.38496,
+   "session": "afterhours",
+   "kind": "pending",
+   "entry": 19.7898,
+   "stop0": 19.58,
+   "target": 20.7898,
+   "seen_high": 19.7538,
+   "seen_low": 19.71,
+   "sent": 0,
+   "shares": 4,
+   "value": 79.16,
    "fees": 3.0
   }
  },
@@ -1713,10 +1727,28 @@
    "pnl": null,
    "net_usd": null,
    "triggered": false
+  },
+  {
+   "date": "2026-11-02",
+   "ticker": "SRAD",
+   "session": "regular",
+   "result": "expired",
+   "pnl": null,
+   "net_usd": null,
+   "triggered": false
+  },
+  {
+   "date": "2026-11-02",
+   "ticker": "SFM",
+   "session": "regular",
+   "result": "eod",
+   "pnl": 2.221,
+   "net_usd": -1.8,
+   "triggered": true
   }
  ],
  "meta": {
   "fail_count": 0,
-  "summary_date": "2026-10-30"
+  "summary_date": "2026-11-02"
  }
 }
