@@ -7,52 +7,55 @@
   "IMNM": 1793663929.38496,
   "SMMT": 1793719862.658963,
   "NVTS": 1793719862.658963,
-  "ENPH": 1793719862.658963
+  "ENPH": 1793719862.658963,
+  "SEDG": 1793740341.848666,
+  "RIOT": 1793740341.848666,
+  "PRIM": 1793740341.848666
  },
  "signals": {
-  "SMMT-1793719862": {
-   "ticker": "SMMT",
-   "created": 1793719862.658963,
-   "session": "regular",
+  "SEDG-1793740341": {
+   "ticker": "SEDG",
+   "created": 1793740341.848666,
+   "session": "afterhours",
    "kind": "pending",
-   "entry": 15.9465,
-   "stop0": 15.67,
-   "target": 16.7465,
-   "seen_high": 15.989999771118164,
-   "seen_low": 15.789999961853027,
-   "sent": 0,
-   "shares": 5,
-   "value": 79.73,
-   "fees": 3.0
-  },
-  "NVTS-1793719862": {
-   "ticker": "NVTS",
-   "created": 1793719862.658963,
-   "session": "regular",
-   "kind": "pending",
-   "entry": 8.8589,
-   "stop0": 8.6574,
-   "target": 9.3033,
-   "seen_high": 8.824999809265137,
-   "seen_low": 8.78499984741211,
-   "sent": 0,
-   "shares": 9,
-   "value": 79.73,
-   "fees": 3.0
-  },
-  "ENPH-1793719862": {
-   "ticker": "ENPH",
-   "created": 1793719862.658963,
-   "session": "regular",
-   "kind": "pending",
-   "entry": 30.1551,
-   "stop0": 29.5641,
-   "target": 32.1551,
-   "seen_high": 30.06999969482422,
-   "seen_low": 30.0,
+   "entry": 32.9729,
+   "stop0": 32.4487,
+   "target": 34.9729,
+   "seen_high": 32.88,
+   "seen_low": 32.47,
    "sent": 0,
    "shares": 2,
-   "value": 60.31,
+   "value": 65.95,
+   "fees": 3.0
+  },
+  "RIOT-1793740341": {
+   "ticker": "RIOT",
+   "created": 1793740341.848666,
+   "session": "afterhours",
+   "kind": "pending",
+   "entry": 14.0841,
+   "stop0": 13.8511,
+   "target": 14.8841,
+   "seen_high": 14.06,
+   "seen_low": 13.93,
+   "sent": 0,
+   "shares": 5,
+   "value": 70.42,
+   "fees": 3.0
+  },
+  "PRIM-1793740341": {
+   "ticker": "PRIM",
+   "created": 1793740341.848666,
+   "session": "afterhours",
+   "kind": "pending",
+   "entry": 79.8648,
+   "stop0": 79.2659,
+   "target": 83.8648,
+   "seen_high": 79.8499984741211,
+   "seen_low": 79.41000366210938,
+   "sent": 0,
+   "shares": 1,
+   "value": 79.86,
    "fees": 3.0
   }
  },
@@ -1775,10 +1778,37 @@
    "pnl": null,
    "net_usd": null,
    "triggered": false
+  },
+  {
+   "date": "2026-11-03",
+   "ticker": "SMMT",
+   "session": "regular",
+   "result": "breakeven",
+   "pnl": 0.0,
+   "net_usd": -3.0,
+   "triggered": true
+  },
+  {
+   "date": "2026-11-03",
+   "ticker": "NVTS",
+   "session": "regular",
+   "result": "stop",
+   "pnl": -2.275,
+   "net_usd": -4.81,
+   "triggered": true
+  },
+  {
+   "date": "2026-11-03",
+   "ticker": "ENPH",
+   "session": "regular",
+   "result": "breakeven",
+   "pnl": 0.0,
+   "net_usd": -3.0,
+   "triggered": true
   }
  ],
  "meta": {
   "fail_count": 0,
-  "summary_date": "2026-11-02"
+  "summary_date": "2026-11-03"
  }
 }
