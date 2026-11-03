@@ -4,52 +4,55 @@
   "SRAD": 1793640565.3609,
   "SFM": 1793640565.3609,
   "RUN": 1793663929.38496,
-  "IMNM": 1793663929.38496
+  "IMNM": 1793663929.38496,
+  "SMMT": 1793719862.658963,
+  "NVTS": 1793719862.658963,
+  "ENPH": 1793719862.658963
  },
  "signals": {
-  "CVNA-1793663929": {
-   "ticker": "CVNA",
-   "created": 1793663929.38496,
-   "session": "afterhours",
+  "SMMT-1793719862": {
+   "ticker": "SMMT",
+   "created": 1793719862.658963,
+   "session": "regular",
    "kind": "pending",
-   "entry": 72.2783,
-   "stop0": 71.7489,
-   "target": 76.2783,
-   "seen_high": 72.04,
-   "seen_low": 72.04,
+   "entry": 15.9465,
+   "stop0": 15.67,
+   "target": 16.7465,
+   "seen_high": 15.989999771118164,
+   "seen_low": 15.789999961853027,
    "sent": 0,
-   "shares": 1,
-   "value": 72.28,
+   "shares": 5,
+   "value": 79.73,
    "fees": 3.0
   },
-  "RUN-1793663929": {
-   "ticker": "RUN",
-   "created": 1793663929.38496,
-   "session": "afterhours",
+  "NVTS-1793719862": {
+   "ticker": "NVTS",
+   "created": 1793719862.658963,
+   "session": "regular",
    "kind": "pending",
-   "entry": 8.3397,
-   "stop0": 8.2596,
-   "target": 8.7842,
-   "seen_high": 8.3,
-   "seen_low": 8.3,
+   "entry": 8.8589,
+   "stop0": 8.6574,
+   "target": 9.3033,
+   "seen_high": 8.824999809265137,
+   "seen_low": 8.78499984741211,
    "sent": 0,
    "shares": 9,
-   "value": 75.06,
+   "value": 79.73,
    "fees": 3.0
   },
-  "IMNM-1793663929": {
-   "ticker": "IMNM",
-   "created": 1793663929.38496,
-   "session": "afterhours",
+  "ENPH-1793719862": {
+   "ticker": "ENPH",
+   "created": 1793719862.658963,
+   "session": "regular",
    "kind": "pending",
-   "entry": 19.7898,
-   "stop0": 19.58,
-   "target": 20.7898,
-   "seen_high": 19.7538,
-   "seen_low": 19.71,
+   "entry": 30.1551,
+   "stop0": 29.5641,
+   "target": 32.1551,
+   "seen_high": 30.06999969482422,
+   "seen_low": 30.0,
    "sent": 0,
-   "shares": 4,
-   "value": 79.16,
+   "shares": 2,
+   "value": 60.31,
    "fees": 3.0
   }
  },
@@ -1745,6 +1748,33 @@
    "pnl": 2.221,
    "net_usd": -1.8,
    "triggered": true
+  },
+  {
+   "date": "2026-11-02",
+   "ticker": "CVNA",
+   "session": "afterhours",
+   "result": "expired",
+   "pnl": null,
+   "net_usd": null,
+   "triggered": false
+  },
+  {
+   "date": "2026-11-02",
+   "ticker": "RUN",
+   "session": "afterhours",
+   "result": "expired",
+   "pnl": null,
+   "net_usd": null,
+   "triggered": false
+  },
+  {
+   "date": "2026-11-02",
+   "ticker": "IMNM",
+   "session": "afterhours",
+   "result": "expired",
+   "pnl": null,
+   "net_usd": null,
+   "triggered": false
   }
  ],
  "meta": {
