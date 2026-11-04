@@ -1,6 +1,6 @@
 {
  "last_alerted": {
-  "CVNA": 1793663929.38496,
+  "CVNA": 1793807374.316166,
   "SRAD": 1793640565.3609,
   "SFM": 1793640565.3609,
   "RUN": 1793663929.38496,
@@ -10,52 +10,54 @@
   "ENPH": 1793719862.658963,
   "SEDG": 1793740341.848666,
   "RIOT": 1793740341.848666,
-  "PRIM": 1793740341.848666
+  "PRIM": 1793740341.848666,
+  "Z": 1793807374.316166,
+  "ZG": 1793807374.316166
  },
  "signals": {
-  "SEDG-1793740341": {
-   "ticker": "SEDG",
-   "created": 1793740341.848666,
-   "session": "afterhours",
-   "kind": "pending",
-   "entry": 32.9729,
-   "stop0": 32.4487,
-   "target": 34.9729,
-   "seen_high": 32.88,
-   "seen_low": 32.47,
+  "Z-1793807374": {
+   "ticker": "Z",
+   "created": 1793807374.316166,
+   "session": "regular",
+   "kind": "active",
+   "entry": 34.23,
+   "stop0": 33.6225,
+   "target": 36.23,
+   "seen_high": 34.22999954223633,
+   "seen_low": 33.91999816894531,
    "sent": 0,
    "shares": 2,
-   "value": 65.95,
+   "value": 68.46,
    "fees": 3.0
   },
-  "RIOT-1793740341": {
-   "ticker": "RIOT",
-   "created": 1793740341.848666,
-   "session": "afterhours",
+  "CVNA-1793807374": {
+   "ticker": "CVNA",
+   "created": 1793807374.316166,
+   "session": "regular",
    "kind": "pending",
-   "entry": 14.0841,
-   "stop0": 13.8511,
-   "target": 14.8841,
-   "seen_high": 14.06,
-   "seen_low": 13.93,
-   "sent": 0,
-   "shares": 5,
-   "value": 70.42,
-   "fees": 3.0
-  },
-  "PRIM-1793740341": {
-   "ticker": "PRIM",
-   "created": 1793740341.848666,
-   "session": "afterhours",
-   "kind": "pending",
-   "entry": 79.8648,
-   "stop0": 79.2659,
-   "target": 83.8648,
-   "seen_high": 79.8499984741211,
-   "seen_low": 79.41000366210938,
+   "entry": 77.1549,
+   "stop0": 75.9166,
+   "target": 81.1549,
+   "seen_high": 76.66000366210938,
+   "seen_low": 76.1050033569336,
    "sent": 0,
    "shares": 1,
-   "value": 79.86,
+   "value": 77.15,
+   "fees": 3.0
+  },
+  "ZG-1793807374": {
+   "ticker": "ZG",
+   "created": 1793807374.316166,
+   "session": "regular",
+   "kind": "pending",
+   "entry": 34.7247,
+   "stop0": 34.0169,
+   "target": 36.7247,
+   "seen_high": 34.595001220703125,
+   "seen_low": 34.29999923706055,
+   "sent": 0,
+   "shares": 2,
+   "value": 69.45,
    "fees": 3.0
   }
  },
@@ -1804,6 +1806,33 @@
    "result": "breakeven",
    "pnl": 0.0,
    "net_usd": -3.0,
+   "triggered": true
+  },
+  {
+   "date": "2026-11-03",
+   "ticker": "SEDG",
+   "session": "afterhours",
+   "result": "eod",
+   "pnl": -0.464,
+   "net_usd": -3.31,
+   "triggered": true
+  },
+  {
+   "date": "2026-11-03",
+   "ticker": "RIOT",
+   "session": "afterhours",
+   "result": "eod",
+   "pnl": -0.739,
+   "net_usd": -3.52,
+   "triggered": true
+  },
+  {
+   "date": "2026-11-03",
+   "ticker": "PRIM",
+   "session": "afterhours",
+   "result": "target",
+   "pnl": 5.008,
+   "net_usd": 1.0,
    "triggered": true
   }
  ],
