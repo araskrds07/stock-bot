@@ -1,6 +1,6 @@
 {
  "last_alerted": {
-  "CVNA": 1793807374.316166,
+  "CVNA": 1793828036.03416,
   "SRAD": 1793640565.3609,
   "SFM": 1793640565.3609,
   "RUN": 1793663929.38496,
@@ -12,52 +12,38 @@
   "RIOT": 1793740341.848666,
   "PRIM": 1793740341.848666,
   "Z": 1793807374.316166,
-  "ZG": 1793807374.316166
+  "ZG": 1793807374.316166,
+  "AFRM": 1793828036.03416
  },
  "signals": {
-  "Z-1793807374": {
-   "ticker": "Z",
-   "created": 1793807374.316166,
-   "session": "regular",
-   "kind": "active",
-   "entry": 34.23,
-   "stop0": 33.6225,
-   "target": 36.23,
-   "seen_high": 34.22999954223633,
-   "seen_low": 33.91999816894531,
-   "sent": 0,
-   "shares": 2,
-   "value": 68.46,
-   "fees": 3.0
-  },
-  "CVNA-1793807374": {
-   "ticker": "CVNA",
-   "created": 1793807374.316166,
-   "session": "regular",
+  "AFRM-1793828036": {
+   "ticker": "AFRM",
+   "created": 1793828036.03416,
+   "session": "afterhours",
    "kind": "pending",
-   "entry": 77.1549,
-   "stop0": 75.9166,
-   "target": 81.1549,
-   "seen_high": 76.66000366210938,
-   "seen_low": 76.1050033569336,
+   "entry": 76.8668,
+   "stop0": 76.2418,
+   "target": 80.8668,
+   "seen_high": 76.5,
+   "seen_low": 75.59,
    "sent": 0,
    "shares": 1,
-   "value": 77.15,
+   "value": 76.87,
    "fees": 3.0
   },
-  "ZG-1793807374": {
-   "ticker": "ZG",
-   "created": 1793807374.316166,
-   "session": "regular",
+  "CVNA-1793828036": {
+   "ticker": "CVNA",
+   "created": 1793828036.03416,
+   "session": "afterhours",
    "kind": "pending",
-   "entry": 34.7247,
-   "stop0": 34.0169,
-   "target": 36.7247,
-   "seen_high": 34.595001220703125,
-   "seen_low": 34.29999923706055,
+   "entry": 78.1622,
+   "stop0": 77.4498,
+   "target": 82.1622,
+   "seen_high": 77.6302,
+   "seen_low": 77.6302,
    "sent": 0,
-   "shares": 2,
-   "value": 69.45,
+   "shares": 1,
+   "value": 78.16,
    "fees": 3.0
   }
  },
@@ -1834,10 +1820,37 @@
    "pnl": 5.008,
    "net_usd": 1.0,
    "triggered": true
+  },
+  {
+   "date": "2026-11-04",
+   "ticker": "Z",
+   "session": "regular",
+   "result": "eod",
+   "pnl": -1.052,
+   "net_usd": -3.72,
+   "triggered": true
+  },
+  {
+   "date": "2026-11-04",
+   "ticker": "CVNA",
+   "session": "regular",
+   "result": "breakeven",
+   "pnl": 0.0,
+   "net_usd": -3.0,
+   "triggered": true
+  },
+  {
+   "date": "2026-11-04",
+   "ticker": "ZG",
+   "session": "regular",
+   "result": "stop",
+   "pnl": -2.038,
+   "net_usd": -4.42,
+   "triggered": true
   }
  ],
  "meta": {
   "fail_count": 0,
-  "summary_date": "2026-11-03"
+  "summary_date": "2026-11-04"
  }
 }
