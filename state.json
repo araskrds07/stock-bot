@@ -15,38 +15,7 @@
   "ZG": 1793807374.316166,
   "AFRM": 1793828036.03416
  },
- "signals": {
-  "AFRM-1793828036": {
-   "ticker": "AFRM",
-   "created": 1793828036.03416,
-   "session": "afterhours",
-   "kind": "pending",
-   "entry": 76.8668,
-   "stop0": 76.2418,
-   "target": 80.8668,
-   "seen_high": 76.5,
-   "seen_low": 75.59,
-   "sent": 0,
-   "shares": 1,
-   "value": 76.87,
-   "fees": 3.0
-  },
-  "CVNA-1793828036": {
-   "ticker": "CVNA",
-   "created": 1793828036.03416,
-   "session": "afterhours",
-   "kind": "pending",
-   "entry": 78.1622,
-   "stop0": 77.4498,
-   "target": 82.1622,
-   "seen_high": 77.6302,
-   "seen_low": 77.6302,
-   "sent": 0,
-   "shares": 1,
-   "value": 78.16,
-   "fees": 3.0
-  }
- },
+ "signals": {},
  "history": [
   {
    "date": "2026-09-21",
@@ -1847,6 +1816,24 @@
    "pnl": -2.038,
    "net_usd": -4.42,
    "triggered": true
+  },
+  {
+   "date": "2026-11-04",
+   "ticker": "AFRM",
+   "session": "afterhours",
+   "result": "cancelled",
+   "pnl": null,
+   "net_usd": null,
+   "triggered": false
+  },
+  {
+   "date": "2026-11-04",
+   "ticker": "CVNA",
+   "session": "afterhours",
+   "result": "expired",
+   "pnl": null,
+   "net_usd": null,
+   "triggered": false
   }
  ],
  "meta": {
