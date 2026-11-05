@@ -1,8 +1,6 @@
 {
  "last_alerted": {
   "CVNA": 1793828036.03416,
-  "SRAD": 1793640565.3609,
-  "SFM": 1793640565.3609,
   "RUN": 1793663929.38496,
   "IMNM": 1793663929.38496,
   "SMMT": 1793719862.658963,
@@ -13,9 +11,42 @@
   "PRIM": 1793740341.848666,
   "Z": 1793807374.316166,
   "ZG": 1793807374.316166,
-  "AFRM": 1793828036.03416
+  "AFRM": 1793828036.03416,
+  "PRKS": 1793914577.803877,
+  "APPN": 1793914577.803877
  },
- "signals": {},
+ "signals": {
+  "PRKS-1793914577": {
+   "ticker": "PRKS",
+   "created": 1793914577.803877,
+   "session": "afterhours",
+   "kind": "active",
+   "entry": 37.86,
+   "stop0": 37.2868,
+   "target": 39.86,
+   "seen_high": 37.86,
+   "seen_low": 37.86,
+   "sent": 0,
+   "shares": 2,
+   "value": 75.72,
+   "fees": 3.0
+  },
+  "APPN-1793914577": {
+   "ticker": "APPN",
+   "created": 1793914577.803877,
+   "session": "afterhours",
+   "kind": "pending",
+   "entry": 54.2542,
+   "stop0": 52.9706,
+   "target": 58.2542,
+   "seen_high": 54.03,
+   "seen_low": 54.03,
+   "sent": 0,
+   "shares": 1,
+   "value": 54.25,
+   "fees": 3.0
+  }
+ },
  "history": [
   {
    "date": "2026-09-21",
@@ -1838,6 +1869,6 @@
  ],
  "meta": {
   "fail_count": 0,
-  "summary_date": "2026-11-04"
+  "summary_date": "2026-11-05"
  }
 }
