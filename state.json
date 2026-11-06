@@ -11,37 +11,39 @@
   "ZG": 1793807374.316166,
   "AFRM": 1793828036.03416,
   "PRKS": 1793914577.803877,
-  "APPN": 1793914577.803877
+  "APPN": 1793914577.803877,
+  "RUN": 1793978762.723359,
+  "MBLY": 1793978762.723359
  },
  "signals": {
-  "PRKS-1793914577": {
-   "ticker": "PRKS",
-   "created": 1793914577.803877,
-   "session": "afterhours",
+  "RUN-1793978762": {
+   "ticker": "RUN",
+   "created": 1793978762.723359,
+   "session": "regular",
    "kind": "active",
-   "entry": 37.86,
-   "stop0": 37.2868,
-   "target": 39.86,
-   "seen_high": 37.86,
-   "seen_low": 37.86,
+   "entry": 10.425,
+   "stop0": 10.1877,
+   "target": 10.9964,
+   "seen_high": 10.449999809265137,
+   "seen_low": 10.300000190734863,
    "sent": 0,
-   "shares": 2,
-   "value": 75.72,
+   "shares": 7,
+   "value": 72.98,
    "fees": 3.0
   },
-  "APPN-1793914577": {
-   "ticker": "APPN",
-   "created": 1793914577.803877,
-   "session": "afterhours",
+  "MBLY-1793978762": {
+   "ticker": "MBLY",
+   "created": 1793978762.723359,
+   "session": "regular",
    "kind": "pending",
-   "entry": 54.2542,
-   "stop0": 52.9706,
-   "target": 58.2542,
-   "seen_high": 54.03,
-   "seen_low": 54.03,
+   "entry": 5.4104,
+   "stop0": 5.3386,
+   "target": 5.6961,
+   "seen_high": 5.389999866485596,
+   "seen_low": 5.349999904632568,
    "sent": 0,
-   "shares": 1,
-   "value": 54.25,
+   "shares": 14,
+   "value": 75.75,
    "fees": 3.0
   }
  },
@@ -1858,6 +1860,24 @@
   {
    "date": "2026-11-04",
    "ticker": "CVNA",
+   "session": "afterhours",
+   "result": "expired",
+   "pnl": null,
+   "net_usd": null,
+   "triggered": false
+  },
+  {
+   "date": "2026-11-05",
+   "ticker": "PRKS",
+   "session": "afterhours",
+   "result": "eod",
+   "pnl": 0.0,
+   "net_usd": -3.0,
+   "triggered": true
+  },
+  {
+   "date": "2026-11-05",
+   "ticker": "APPN",
    "session": "afterhours",
    "result": "expired",
    "pnl": null,
