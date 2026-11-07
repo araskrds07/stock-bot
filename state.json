@@ -1,9 +1,7 @@
 {
  "last_alerted": {
   "CVNA": 1793828036.03416,
-  "SEDG": 1793740341.848666,
-  "RIOT": 1793740341.848666,
-  "PRIM": 1793740341.848666,
+  "RIOT": 1794011605.045837,
   "Z": 1793807374.316166,
   "ZG": 1793807374.316166,
   "AFRM": 1793828036.03416,
@@ -13,52 +11,53 @@
   "MBLY": 1793978762.723359,
   "LASR": 1793998660.902887,
   "XERS": 1793998660.902887,
-  "JOBY": 1793998660.902887
+  "JOBY": 1794011605.045837,
+  "FLY": 1794011605.045837
  },
  "signals": {
-  "LASR-1793998660": {
-   "ticker": "LASR",
-   "created": 1793998660.902887,
-   "session": "regular",
-   "kind": "pending",
-   "entry": 37.917,
-   "stop0": 37.3295,
-   "target": 39.917,
-   "seen_high": 37.88999938964844,
-   "seen_low": 37.29999923706055,
-   "sent": 0,
-   "shares": 2,
-   "value": 75.83,
-   "fees": 3.0
-  },
-  "XERS-1793998660": {
-   "ticker": "XERS",
-   "created": 1793998660.902887,
-   "session": "regular",
-   "kind": "pending",
-   "entry": 15.1451,
-   "stop0": 14.8301,
-   "target": 15.9451,
-   "seen_high": 15.1899995803833,
-   "seen_low": 15.020000457763672,
-   "sent": 0,
-   "shares": 5,
-   "value": 75.73,
-   "fees": 3.0
-  },
-  "JOBY-1793998660": {
+  "JOBY-1794011605": {
    "ticker": "JOBY",
-   "created": 1793998660.902887,
-   "session": "regular",
+   "created": 1794011605.045837,
+   "session": "afterhours",
    "kind": "active",
-   "entry": 5.91,
-   "stop0": 5.8197,
-   "target": 6.2177,
-   "seen_high": 5.909999847412109,
-   "seen_low": 5.840000152587891,
+   "entry": 5.93,
+   "stop0": 5.8918,
+   "target": 6.2377,
+   "seen_high": 5.93,
+   "seen_low": 5.92,
    "sent": 0,
    "shares": 13,
-   "value": 76.83,
+   "value": 77.09,
+   "fees": 3.0
+  },
+  "RIOT-1794011605": {
+   "ticker": "RIOT",
+   "created": 1794011605.045837,
+   "session": "afterhours",
+   "kind": "pending",
+   "entry": 16.7951,
+   "stop0": 16.676,
+   "target": 17.7951,
+   "seen_high": 16.7007,
+   "seen_low": 16.66,
+   "sent": 0,
+   "shares": 4,
+   "value": 67.18,
+   "fees": 3.0
+  },
+  "FLY-1794011605": {
+   "ticker": "FLY",
+   "created": 1794011605.045837,
+   "session": "afterhours",
+   "kind": "pending",
+   "entry": 20.9816,
+   "stop0": 20.774,
+   "target": 22.3149,
+   "seen_high": 20.8345,
+   "seen_low": 20.7715,
+   "sent": 0,
+   "shares": 3,
+   "value": 62.94,
    "fees": 3.0
   }
  },
@@ -1916,10 +1915,37 @@
    "pnl": null,
    "net_usd": null,
    "triggered": false
+  },
+  {
+   "date": "2026-11-06",
+   "ticker": "LASR",
+   "session": "regular",
+   "result": "eod",
+   "pnl": 0.219,
+   "net_usd": -2.83,
+   "triggered": true
+  },
+  {
+   "date": "2026-11-06",
+   "ticker": "XERS",
+   "session": "regular",
+   "result": "eod",
+   "pnl": 0.296,
+   "net_usd": -2.78,
+   "triggered": true
+  },
+  {
+   "date": "2026-11-06",
+   "ticker": "JOBY",
+   "session": "regular",
+   "result": "eod",
+   "pnl": 0.338,
+   "net_usd": -2.74,
+   "triggered": true
   }
  ],
  "meta": {
   "fail_count": 0,
-  "summary_date": "2026-11-05"
+  "summary_date": "2026-11-06"
  }
 }
