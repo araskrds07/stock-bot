@@ -4,9 +4,58 @@
   "AAL": 1794271928.59252,
   "IONQ": 1794246736.329449,
   "QXO": 1794271928.59252,
-  "BTG": 1794271928.59252
+  "BTG": 1794271928.59252,
+  "GCT": 1794346058.095909,
+  "REPL": 1794346058.095909,
+  "CRK": 1794346058.095909
  },
- "signals": {},
+ "signals": {
+  "GCT-1794346058": {
+   "ticker": "GCT",
+   "created": 1794346058.095909,
+   "session": "afterhours",
+   "kind": "pending",
+   "entry": 62.062,
+   "stop0": 61.4009,
+   "target": 66.062,
+   "seen_high": 62.06,
+   "seen_low": 61.79,
+   "sent": 0,
+   "shares": 1,
+   "value": 62.06,
+   "fees": 3.0
+  },
+  "REPL-1794346058": {
+   "ticker": "REPL",
+   "created": 1794346058.095909,
+   "session": "afterhours",
+   "kind": "pending",
+   "entry": 23.4334,
+   "stop0": 23.1655,
+   "target": 24.7667,
+   "seen_high": 23.28,
+   "seen_low": 23.28,
+   "sent": 0,
+   "shares": 3,
+   "value": 70.3,
+   "fees": 3.0
+  },
+  "CRK-1794346058": {
+   "ticker": "CRK",
+   "created": 1794346058.095909,
+   "session": "afterhours",
+   "kind": "active",
+   "entry": 14.5648,
+   "stop0": 14.4352,
+   "target": 15.3648,
+   "seen_high": 14.5648,
+   "seen_low": 14.42,
+   "sent": 0,
+   "shares": 5,
+   "value": 72.82,
+   "fees": 3.0
+  }
+ },
  "history": [
   {
    "date": "2026-09-21",
@@ -1973,6 +2022,6 @@
  ],
  "meta": {
   "fail_count": 0,
-  "summary_date": "2026-11-09"
+  "summary_date": "2026-11-10"
  }
 }
