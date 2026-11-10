@@ -6,53 +6,7 @@
   "QXO": 1794271928.59252,
   "BTG": 1794271928.59252
  },
- "signals": {
-  "AAL-1794271928": {
-   "ticker": "AAL",
-   "created": 1794271928.59252,
-   "session": "afterhours",
-   "kind": "pending",
-   "entry": 14.3243,
-   "stop0": 14.2737,
-   "target": 15.1243,
-   "seen_high": 14.3001,
-   "seen_low": 14.26,
-   "sent": 0,
-   "shares": 5,
-   "value": 71.62,
-   "fees": 3.0
-  },
-  "QXO-1794271928": {
-   "ticker": "QXO",
-   "created": 1794271928.59252,
-   "session": "afterhours",
-   "kind": "pending",
-   "entry": 13.8438,
-   "stop0": 13.7897,
-   "target": 14.6438,
-   "seen_high": 13.8031,
-   "seen_low": 13.8031,
-   "sent": 0,
-   "shares": 5,
-   "value": 69.22,
-   "fees": 3.0
-  },
-  "BTG-1794271928": {
-   "ticker": "BTG",
-   "created": 1794271928.59252,
-   "session": "afterhours",
-   "kind": "pending",
-   "entry": 5.708,
-   "stop0": 5.6696,
-   "target": 5.9938,
-   "seen_high": 5.67,
-   "seen_low": 5.67,
-   "sent": 0,
-   "shares": 14,
-   "value": 79.91,
-   "fees": 3.0
-  }
- },
+ "signals": {},
  "history": [
   {
    "date": "2026-09-21",
@@ -1988,6 +1942,33 @@
    "pnl": -1.521,
    "net_usd": -4.09,
    "triggered": true
+  },
+  {
+   "date": "2026-11-09",
+   "ticker": "AAL",
+   "session": "afterhours",
+   "result": "expired",
+   "pnl": null,
+   "net_usd": null,
+   "triggered": false
+  },
+  {
+   "date": "2026-11-09",
+   "ticker": "QXO",
+   "session": "afterhours",
+   "result": "expired",
+   "pnl": null,
+   "net_usd": null,
+   "triggered": false
+  },
+  {
+   "date": "2026-11-09",
+   "ticker": "BTG",
+   "session": "afterhours",
+   "result": "expired",
+   "pnl": null,
+   "net_usd": null,
+   "triggered": false
   }
  ],
  "meta": {
