@@ -1,58 +1,55 @@
 {
  "last_alerted": {
-  "RIOT": 1794011605.045837,
-  "LASR": 1793998660.902887,
-  "XERS": 1793998660.902887,
-  "JOBY": 1794011605.045837,
-  "FLY": 1794011605.045837,
   "LFST": 1794246736.329449,
-  "AAL": 1794246736.329449,
-  "IONQ": 1794246736.329449
+  "AAL": 1794271928.59252,
+  "IONQ": 1794246736.329449,
+  "QXO": 1794271928.59252,
+  "BTG": 1794271928.59252
  },
  "signals": {
-  "LFST-1794246736": {
-   "ticker": "LFST",
-   "created": 1794246736.329449,
-   "session": "regular",
-   "kind": "active",
-   "entry": 14.465,
-   "stop0": 14.1708,
-   "target": 15.265,
-   "seen_high": 14.479999542236328,
-   "seen_low": 14.375,
-   "sent": 0,
-   "shares": 5,
-   "value": 72.33,
-   "fees": 3.0
-  },
-  "AAL-1794246736": {
+  "AAL-1794271928": {
    "ticker": "AAL",
-   "created": 1794246736.329449,
-   "session": "regular",
+   "created": 1794271928.59252,
+   "session": "afterhours",
    "kind": "pending",
-   "entry": 14.1341,
-   "stop0": 14.016,
-   "target": 14.9341,
-   "seen_high": 14.09000015258789,
-   "seen_low": 14.069999694824219,
+   "entry": 14.3243,
+   "stop0": 14.2737,
+   "target": 15.1243,
+   "seen_high": 14.3001,
+   "seen_low": 14.26,
    "sent": 0,
    "shares": 5,
-   "value": 70.67,
+   "value": 71.62,
    "fees": 3.0
   },
-  "IONQ-1794246736": {
-   "ticker": "IONQ",
-   "created": 1794246736.329449,
-   "session": "regular",
+  "QXO-1794271928": {
+   "ticker": "QXO",
+   "created": 1794271928.59252,
+   "session": "afterhours",
    "kind": "pending",
-   "entry": 35.8959,
-   "stop0": 35.2148,
-   "target": 37.8959,
-   "seen_high": 35.68000030517578,
-   "seen_low": 35.34000015258789,
+   "entry": 13.8438,
+   "stop0": 13.7897,
+   "target": 14.6438,
+   "seen_high": 13.8031,
+   "seen_low": 13.8031,
    "sent": 0,
-   "shares": 2,
-   "value": 71.79,
+   "shares": 5,
+   "value": 69.22,
+   "fees": 3.0
+  },
+  "BTG-1794271928": {
+   "ticker": "BTG",
+   "created": 1794271928.59252,
+   "session": "afterhours",
+   "kind": "pending",
+   "entry": 5.708,
+   "stop0": 5.6696,
+   "target": 5.9938,
+   "seen_high": 5.67,
+   "seen_low": 5.67,
+   "sent": 0,
+   "shares": 14,
+   "value": 79.91,
    "fees": 3.0
   }
  },
@@ -1964,10 +1961,37 @@
    "pnl": null,
    "net_usd": null,
    "triggered": false
+  },
+  {
+   "date": "2026-11-09",
+   "ticker": "LFST",
+   "session": "regular",
+   "result": "breakeven",
+   "pnl": 0.0,
+   "net_usd": -3.0,
+   "triggered": true
+  },
+  {
+   "date": "2026-11-09",
+   "ticker": "AAL",
+   "session": "regular",
+   "result": "expired",
+   "pnl": null,
+   "net_usd": null,
+   "triggered": false
+  },
+  {
+   "date": "2026-11-09",
+   "ticker": "IONQ",
+   "session": "regular",
+   "result": "eod",
+   "pnl": -1.521,
+   "net_usd": -4.09,
+   "triggered": true
   }
  ],
  "meta": {
   "fail_count": 0,
-  "summary_date": "2026-11-06"
+  "summary_date": "2026-11-09"
  }
 }
