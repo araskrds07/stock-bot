@@ -1,128 +1,128 @@
 {
- "date": "2026-11-10",
- "built_at": 1794346064.6425114,
+ "date": "2026-11-11",
+ "built_at": 1794411598.4719477,
  "tickers": [
-  "PRCH",
-  "VIA",
-  "ZETA",
-  "TRAX",
-  "CSQR",
-  "FOXA",
+  "AZTA",
+  "BW",
+  "FLY",
+  "RUM",
+  "RKLB",
+  "CRWV",
   "TTD",
-  "REPL",
-  "BTSG",
-  "AAON",
-  "CRK",
-  "LCID",
-  "MBX",
-  "GCT",
-  "ATRO"
+  "ACHR",
+  "LUNR",
+  "FRVO",
+  "NVTS",
+  "FUN",
+  "CORZ",
+  "WULF",
+  "BMNR"
  ],
  "meta": {
-  "PRCH": {
-   "atr_pct": 6.09,
-   "rvol": 1.81,
-   "change": 6.35,
-   "price": 21.95,
-   "score": 4.39
+  "AZTA": {
+   "atr_pct": 4.57,
+   "rvol": 2.74,
+   "change": 17.91,
+   "price": 47.73,
+   "score": 4.63
   },
-  "VIA": {
-   "atr_pct": 5.38,
-   "rvol": 1.83,
-   "change": 4.94,
-   "price": 44.65,
-   "score": 4.26
+  "BW": {
+   "atr_pct": 8.46,
+   "rvol": 5.52,
+   "change": 15.22,
+   "price": 5.16,
+   "score": 4.34
   },
-  "ZETA": {
-   "atr_pct": 4.48,
-   "rvol": 2.19,
-   "change": 8.17,
-   "price": 35.07,
-   "score": 4.25
+  "FLY": {
+   "atr_pct": 7.66,
+   "rvol": 3.4,
+   "change": 9.2,
+   "price": 25.88,
+   "score": 4.17
   },
-  "TRAX": {
-   "atr_pct": 5.7,
-   "rvol": 1.43,
-   "change": 5.29,
-   "price": 52.33,
-   "score": 4.16
+  "RUM": {
+   "atr_pct": 6.42,
+   "rvol": 4.19,
+   "change": 11.55,
+   "price": 5.7,
+   "score": 4.0
   },
-  "CSQR": {
-   "atr_pct": 7.19,
-   "rvol": 3.12,
-   "change": 14.73,
-   "price": 17.52,
-   "score": 4.08
+  "RKLB": {
+   "atr_pct": 7.52,
+   "rvol": 2.37,
+   "change": 6.89,
+   "price": 67.03,
+   "score": 3.68
   },
-  "FOXA": {
-   "atr_pct": 4.14,
-   "rvol": 6.79,
-   "change": -0.47,
-   "price": 67.37,
-   "score": 3.97
+  "CRWV": {
+   "atr_pct": 9.12,
+   "rvol": 5.44,
+   "change": 21.91,
+   "price": 59.41,
+   "score": 3.48
   },
   "TTD": {
-   "atr_pct": 4.56,
-   "rvol": 3.46,
-   "change": 3.28,
-   "price": 15.42,
-   "score": 3.9
+   "atr_pct": 4.93,
+   "rvol": 2.09,
+   "change": 3.86,
+   "price": 16.01,
+   "score": 3.39
   },
-  "REPL": {
-   "atr_pct": 6.34,
-   "rvol": 0.94,
-   "change": 4.58,
-   "price": 23.28,
-   "score": 3.83
+  "ACHR": {
+   "atr_pct": 7.0,
+   "rvol": 1.99,
+   "change": 4.14,
+   "price": 4.91,
+   "score": 3.33
   },
-  "BTSG": {
-   "atr_pct": 4.23,
-   "rvol": 1.13,
-   "change": 4.83,
-   "price": 72.49,
-   "score": 3.74
+  "LUNR": {
+   "atr_pct": 8.68,
+   "rvol": 2.21,
+   "change": 3.98,
+   "price": 12.28,
+   "score": 3.2
   },
-  "AAON": {
-   "atr_pct": 7.17,
-   "rvol": 3.67,
-   "change": 19.31,
-   "price": 75.01,
-   "score": 3.73
+  "FRVO": {
+   "atr_pct": 8.02,
+   "rvol": 1.57,
+   "change": 10.9,
+   "price": 12.62,
+   "score": 3.2
   },
-  "CRK": {
-   "atr_pct": 4.4,
-   "rvol": 1.23,
-   "change": 4.72,
-   "price": 14.42,
-   "score": 3.59
+  "NVTS": {
+   "atr_pct": 8.34,
+   "rvol": 1.46,
+   "change": 8.26,
+   "price": 10.15,
+   "score": 3.09
   },
-  "LCID": {
-   "atr_pct": 8.17,
-   "rvol": 2.43,
-   "change": 4.72,
-   "price": 3.77,
-   "score": 3.55
+  "FUN": {
+   "atr_pct": 6.78,
+   "rvol": 0.78,
+   "change": 9.45,
+   "price": 11.12,
+   "score": 3.01
   },
-  "MBX": {
-   "atr_pct": 6.64,
-   "rvol": 2.03,
-   "change": 4.2,
-   "price": 56.33,
-   "score": 3.4
+  "CORZ": {
+   "atr_pct": 8.94,
+   "rvol": 1.4,
+   "change": 9.25,
+   "price": 14.35,
+   "score": 2.72
   },
-  "GCT": {
-   "atr_pct": 5.74,
-   "rvol": 0.99,
-   "change": 4.11,
-   "price": 61.77,
-   "score": 3.37
+  "WULF": {
+   "atr_pct": 10.01,
+   "rvol": 1.33,
+   "change": 5.89,
+   "price": 13.3,
+   "score": 2.69
   },
-  "ATRO": {
-   "atr_pct": 5.71,
-   "rvol": 1.44,
-   "change": 5.1,
-   "price": 62.0,
-   "score": 3.25
+  "BMNR": {
+   "atr_pct": 7.75,
+   "rvol": 1.95,
+   "change": 5.25,
+   "price": 19.03,
+   "score": 2.68
   }
  },
  "post_open_ranked": true,

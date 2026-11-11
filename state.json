@@ -7,52 +7,55 @@
   "BTG": 1794271928.59252,
   "GCT": 1794346058.095909,
   "REPL": 1794346058.095909,
-  "CRK": 1794346058.095909
+  "CRK": 1794346058.095909,
+  "CORZ": 1794411592.09448,
+  "FRVO": 1794411592.09448,
+  "BMNR": 1794411592.09448
  },
  "signals": {
-  "GCT-1794346058": {
-   "ticker": "GCT",
-   "created": 1794346058.095909,
-   "session": "afterhours",
-   "kind": "pending",
-   "entry": 62.062,
-   "stop0": 61.4009,
-   "target": 66.062,
-   "seen_high": 62.06,
-   "seen_low": 61.79,
-   "sent": 0,
-   "shares": 1,
-   "value": 62.06,
-   "fees": 3.0
-  },
-  "REPL-1794346058": {
-   "ticker": "REPL",
-   "created": 1794346058.095909,
-   "session": "afterhours",
-   "kind": "pending",
-   "entry": 23.4334,
-   "stop0": 23.1655,
-   "target": 24.7667,
-   "seen_high": 23.28,
-   "seen_low": 23.28,
-   "sent": 0,
-   "shares": 3,
-   "value": 70.3,
-   "fees": 3.0
-  },
-  "CRK-1794346058": {
-   "ticker": "CRK",
-   "created": 1794346058.095909,
-   "session": "afterhours",
+  "CORZ-1794411592": {
+   "ticker": "CORZ",
+   "created": 1794411592.09448,
+   "session": "regular",
    "kind": "active",
-   "entry": 14.5648,
-   "stop0": 14.4352,
-   "target": 15.3648,
-   "seen_high": 14.5648,
-   "seen_low": 14.42,
+   "entry": 14.345,
+   "stop0": 14.0273,
+   "target": 15.145,
+   "seen_high": 14.385499954223633,
+   "seen_low": 14.180000305175781,
    "sent": 0,
    "shares": 5,
-   "value": 72.82,
+   "value": 71.73,
+   "fees": 3.0
+  },
+  "FRVO-1794411592": {
+   "ticker": "FRVO",
+   "created": 1794411592.09448,
+   "session": "regular",
+   "kind": "active",
+   "entry": 12.62,
+   "stop0": 12.3117,
+   "target": 13.2867,
+   "seen_high": 12.680000305175781,
+   "seen_low": 12.369999885559082,
+   "sent": 0,
+   "shares": 6,
+   "value": 75.72,
+   "fees": 3.0
+  },
+  "BMNR-1794411592": {
+   "ticker": "BMNR",
+   "created": 1794411592.09448,
+   "session": "regular",
+   "kind": "active",
+   "entry": 19.035,
+   "stop0": 18.748,
+   "target": 20.035,
+   "seen_high": 19.15999984741211,
+   "seen_low": 18.700000762939453,
+   "sent": 0,
+   "shares": 4,
+   "value": 76.14,
    "fees": 3.0
   }
  },
@@ -2018,6 +2021,33 @@
    "pnl": null,
    "net_usd": null,
    "triggered": false
+  },
+  {
+   "date": "2026-11-10",
+   "ticker": "GCT",
+   "session": "afterhours",
+   "result": "expired",
+   "pnl": null,
+   "net_usd": null,
+   "triggered": false
+  },
+  {
+   "date": "2026-11-10",
+   "ticker": "REPL",
+   "session": "afterhours",
+   "result": "eod",
+   "pnl": -0.209,
+   "net_usd": -3.15,
+   "triggered": true
+  },
+  {
+   "date": "2026-11-10",
+   "ticker": "CRK",
+   "session": "afterhours",
+   "result": "stop",
+   "pnl": -0.89,
+   "net_usd": -3.65,
+   "triggered": true
   }
  ],
  "meta": {
