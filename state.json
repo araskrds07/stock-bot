@@ -12,53 +12,7 @@
   "FRVO": 1794411592.09448,
   "BMNR": 1794411592.09448
  },
- "signals": {
-  "CORZ-1794411592": {
-   "ticker": "CORZ",
-   "created": 1794411592.09448,
-   "session": "regular",
-   "kind": "active",
-   "entry": 14.345,
-   "stop0": 14.0273,
-   "target": 15.145,
-   "seen_high": 14.385499954223633,
-   "seen_low": 14.180000305175781,
-   "sent": 0,
-   "shares": 5,
-   "value": 71.73,
-   "fees": 3.0
-  },
-  "FRVO-1794411592": {
-   "ticker": "FRVO",
-   "created": 1794411592.09448,
-   "session": "regular",
-   "kind": "active",
-   "entry": 12.62,
-   "stop0": 12.3117,
-   "target": 13.2867,
-   "seen_high": 12.680000305175781,
-   "seen_low": 12.369999885559082,
-   "sent": 0,
-   "shares": 6,
-   "value": 75.72,
-   "fees": 3.0
-  },
-  "BMNR-1794411592": {
-   "ticker": "BMNR",
-   "created": 1794411592.09448,
-   "session": "regular",
-   "kind": "active",
-   "entry": 19.035,
-   "stop0": 18.748,
-   "target": 20.035,
-   "seen_high": 19.15999984741211,
-   "seen_low": 18.700000762939453,
-   "sent": 0,
-   "shares": 4,
-   "value": 76.14,
-   "fees": 3.0
-  }
- },
+ "signals": {},
  "history": [
   {
    "date": "2026-09-21",
@@ -2048,10 +2002,37 @@
    "pnl": -0.89,
    "net_usd": -3.65,
    "triggered": true
+  },
+  {
+   "date": "2026-11-11",
+   "ticker": "CORZ",
+   "session": "regular",
+   "result": "stop",
+   "pnl": -2.215,
+   "net_usd": -4.59,
+   "triggered": true
+  },
+  {
+   "date": "2026-11-11",
+   "ticker": "FRVO",
+   "session": "regular",
+   "result": "eod",
+   "pnl": 2.575,
+   "net_usd": -1.05,
+   "triggered": true
+  },
+  {
+   "date": "2026-11-11",
+   "ticker": "BMNR",
+   "session": "regular",
+   "result": "breakeven",
+   "pnl": 0.0,
+   "net_usd": -3.0,
+   "triggered": true
   }
  ],
  "meta": {
   "fail_count": 0,
-  "summary_date": "2026-11-10"
+  "summary_date": "2026-11-11"
  }
 }
