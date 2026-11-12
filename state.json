@@ -10,9 +10,58 @@
   "CRK": 1794346058.095909,
   "CORZ": 1794411592.09448,
   "FRVO": 1794411592.09448,
-  "BMNR": 1794411592.09448
+  "BMNR": 1794411592.09448,
+  "BSBR": 1794500618.821949,
+  "YOU": 1794500618.821949,
+  "LQDA": 1794500618.821949
  },
- "signals": {},
+ "signals": {
+  "BSBR-1794500618": {
+   "ticker": "BSBR",
+   "created": 1794500618.821949,
+   "session": "regular",
+   "kind": "pending",
+   "entry": 5.1251,
+   "stop0": 5.0804,
+   "target": 5.3918,
+   "seen_high": 5.070000171661377,
+   "seen_low": 5.054999828338623,
+   "sent": 0,
+   "shares": 15,
+   "value": 76.88,
+   "fees": 3.0
+  },
+  "YOU-1794500618": {
+   "ticker": "YOU",
+   "created": 1794500618.821949,
+   "session": "regular",
+   "kind": "pending",
+   "entry": 57.4023,
+   "stop0": 56.714,
+   "target": 61.4023,
+   "seen_high": 57.41999816894531,
+   "seen_low": 57.27000045776367,
+   "sent": 0,
+   "shares": 1,
+   "value": 57.4,
+   "fees": 3.0
+  },
+  "LQDA-1794500618": {
+   "ticker": "LQDA",
+   "created": 1794500618.821949,
+   "session": "regular",
+   "kind": "pending",
+   "entry": 58.4083,
+   "stop0": 57.0197,
+   "target": 62.4083,
+   "seen_high": 58.130001068115234,
+   "seen_low": 57.71500015258789,
+   "sent": 0,
+   "shares": 1,
+   "value": 58.41,
+   "fees": 3.0
+  }
+ },
  "history": [
   {
    "date": "2026-09-21",
