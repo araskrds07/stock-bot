@@ -1,8 +1,6 @@
 {
  "last_alerted": {
-  "LFST": 1794246736.329449,
   "AAL": 1794271928.59252,
-  "IONQ": 1794246736.329449,
   "QXO": 1794271928.59252,
   "BTG": 1794271928.59252,
   "GCT": 1794346058.095909,
@@ -13,52 +11,23 @@
   "BMNR": 1794411592.09448,
   "BSBR": 1794500618.821949,
   "YOU": 1794500618.821949,
-  "LQDA": 1794500618.821949
+  "LQDA": 1794500618.821949,
+  "VG": 1794521936.010151
  },
  "signals": {
-  "BSBR-1794500618": {
-   "ticker": "BSBR",
-   "created": 1794500618.821949,
-   "session": "regular",
-   "kind": "pending",
-   "entry": 5.1251,
-   "stop0": 5.0804,
-   "target": 5.3918,
-   "seen_high": 5.070000171661377,
-   "seen_low": 5.054999828338623,
+  "VG-1794521936": {
+   "ticker": "VG",
+   "created": 1794521936.010151,
+   "session": "afterhours",
+   "kind": "active",
+   "entry": 13.41,
+   "stop0": 13.3107,
+   "target": 14.21,
+   "seen_high": 13.41,
+   "seen_low": 13.41,
    "sent": 0,
-   "shares": 15,
-   "value": 76.88,
-   "fees": 3.0
-  },
-  "YOU-1794500618": {
-   "ticker": "YOU",
-   "created": 1794500618.821949,
-   "session": "regular",
-   "kind": "pending",
-   "entry": 57.4023,
-   "stop0": 56.714,
-   "target": 61.4023,
-   "seen_high": 57.41999816894531,
-   "seen_low": 57.27000045776367,
-   "sent": 0,
-   "shares": 1,
-   "value": 57.4,
-   "fees": 3.0
-  },
-  "LQDA-1794500618": {
-   "ticker": "LQDA",
-   "created": 1794500618.821949,
-   "session": "regular",
-   "kind": "pending",
-   "entry": 58.4083,
-   "stop0": 57.0197,
-   "target": 62.4083,
-   "seen_high": 58.130001068115234,
-   "seen_low": 57.71500015258789,
-   "sent": 0,
-   "shares": 1,
-   "value": 58.41,
+   "shares": 5,
+   "value": 67.05,
    "fees": 3.0
   }
  },
@@ -2078,10 +2047,37 @@
    "pnl": 0.0,
    "net_usd": -3.0,
    "triggered": true
+  },
+  {
+   "date": "2026-11-12",
+   "ticker": "BSBR",
+   "session": "regular",
+   "result": "cancelled",
+   "pnl": null,
+   "net_usd": null,
+   "triggered": false
+  },
+  {
+   "date": "2026-11-12",
+   "ticker": "YOU",
+   "session": "regular",
+   "result": "cancelled",
+   "pnl": null,
+   "net_usd": null,
+   "triggered": false
+  },
+  {
+   "date": "2026-11-12",
+   "ticker": "LQDA",
+   "session": "regular",
+   "result": "eod",
+   "pnl": -0.442,
+   "net_usd": -3.26,
+   "triggered": true
   }
  ],
  "meta": {
   "fail_count": 0,
-  "summary_date": "2026-11-11"
+  "summary_date": "2026-11-12"
  }
 }
