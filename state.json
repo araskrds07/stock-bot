@@ -1,8 +1,5 @@
 {
  "last_alerted": {
-  "GCT": 1794346058.095909,
-  "REPL": 1794346058.095909,
-  "CRK": 1794346058.095909,
   "CORZ": 1794411592.09448,
   "FRVO": 1794411592.09448,
   "BMNR": 1794411592.09448,
@@ -12,52 +9,55 @@
   "VG": 1794521936.010151,
   "NU": 1794584649.811672,
   "BZ": 1794584649.811672,
-  "PTON": 1794584649.811672
+  "PTON": 1794584649.811672,
+  "CPRI": 1794605937.11339,
+  "WLTH": 1794605937.11339,
+  "KLAR": 1794605937.11339
  },
  "signals": {
-  "NU-1794584649": {
-   "ticker": "NU",
-   "created": 1794584649.811672,
-   "session": "regular",
-   "kind": "active",
-   "entry": 12.81,
-   "stop0": 12.6183,
-   "target": 13.4767,
-   "seen_high": 12.845000267028809,
-   "seen_low": 12.680000305175781,
-   "sent": 0,
-   "shares": 6,
-   "value": 76.86,
-   "fees": 3.0
-  },
-  "BZ-1794584649": {
-   "ticker": "BZ",
-   "created": 1794584649.811672,
-   "session": "regular",
-   "kind": "active",
-   "entry": 12.905,
-   "stop0": 12.7052,
-   "target": 13.5717,
-   "seen_high": 12.970000267028809,
-   "seen_low": 12.795000076293945,
-   "sent": 0,
-   "shares": 6,
-   "value": 77.43,
-   "fees": 3.0
-  },
-  "PTON-1794584649": {
-   "ticker": "PTON",
-   "created": 1794584649.811672,
-   "session": "regular",
+  "CPRI-1794605937": {
+   "ticker": "CPRI",
+   "created": 1794605937.11339,
+   "session": "afterhours",
    "kind": "pending",
-   "entry": 5.8008,
-   "stop0": 5.7067,
-   "target": 6.1085,
-   "seen_high": 5.760000228881836,
-   "seen_low": 5.735000133514404,
+   "entry": 21.5165,
+   "stop0": 21.3697,
+   "target": 22.8498,
+   "seen_high": 21.46,
+   "seen_low": 21.46,
    "sent": 0,
-   "shares": 13,
-   "value": 75.41,
+   "shares": 3,
+   "value": 64.55,
+   "fees": 3.0
+  },
+  "WLTH-1794605937": {
+   "ticker": "WLTH",
+   "created": 1794605937.11339,
+   "session": "afterhours",
+   "kind": "pending",
+   "entry": 10.7808,
+   "stop0": 10.6908,
+   "target": 11.3522,
+   "seen_high": 10.72,
+   "seen_low": 10.72,
+   "sent": 0,
+   "shares": 7,
+   "value": 75.47,
+   "fees": 3.0
+  },
+  "KLAR-1794605937": {
+   "ticker": "KLAR",
+   "created": 1794605937.11339,
+   "session": "afterhours",
+   "kind": "pending",
+   "entry": 13.8338,
+   "stop0": 13.7182,
+   "target": 14.6338,
+   "seen_high": 13.73,
+   "seen_low": 13.73,
+   "sent": 0,
+   "shares": 5,
+   "value": 69.17,
    "fees": 3.0
   }
  },
@@ -2113,10 +2113,37 @@
    "pnl": -0.74,
    "net_usd": -3.5,
    "triggered": true
+  },
+  {
+   "date": "2026-11-13",
+   "ticker": "NU",
+   "session": "regular",
+   "result": "eod",
+   "pnl": 3.201,
+   "net_usd": -0.54,
+   "triggered": true
+  },
+  {
+   "date": "2026-11-13",
+   "ticker": "BZ",
+   "session": "regular",
+   "result": "breakeven",
+   "pnl": 0.0,
+   "net_usd": -3.0,
+   "triggered": true
+  },
+  {
+   "date": "2026-11-13",
+   "ticker": "PTON",
+   "session": "regular",
+   "result": "expired",
+   "pnl": null,
+   "net_usd": null,
+   "triggered": false
   }
  ],
  "meta": {
   "fail_count": 0,
-  "summary_date": "2026-11-12"
+  "summary_date": "2026-11-13"
  }
 }
