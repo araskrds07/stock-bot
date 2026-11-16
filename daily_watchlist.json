@@ -1,128 +1,128 @@
 {
- "date": "2026-11-13",
- "built_at": 1794605941.72027,
+ "date": "2026-11-16",
+ "built_at": 1794850403.8215823,
  "tickers": [
-  "HAWK",
-  "WWW",
-  "FOUR",
-  "CGON",
-  "UPBD",
+  "KVYO",
+  "APPN",
+  "CNC",
+  "XPEV",
+  "NAVN",
+  "REZI",
   "U",
-  "CPRI",
-  "VKTX",
-  "VYX",
-  "KLAR",
-  "WLTH",
-  "FRPT",
-  "FOXA",
-  "CLBT",
-  "FOX"
+  "PBH",
+  "MMED",
+  "CELH",
+  "TTD",
+  "FRSH",
+  "SMMT",
+  "CVNA",
+  "ACAD"
  ],
  "meta": {
-  "HAWK": {
-   "atr_pct": 5.8,
-   "rvol": 4.18,
-   "change": 23.79,
-   "price": 18.16,
-   "score": 4.72
+  "KVYO": {
+   "atr_pct": 4.83,
+   "rvol": 1.32,
+   "change": 7.37,
+   "price": 23.76,
+   "score": 3.97
   },
-  "WWW": {
-   "atr_pct": 4.61,
-   "rvol": 2.7,
-   "change": 8.83,
-   "price": 24.89,
-   "score": 4.62
+  "APPN": {
+   "atr_pct": 5.6,
+   "rvol": 1.24,
+   "change": 4.46,
+   "price": 56.94,
+   "score": 3.95
   },
-  "FOUR": {
-   "atr_pct": 6.29,
-   "rvol": 1.14,
-   "change": 7.85,
-   "price": 44.78,
-   "score": 3.86
+  "CNC": {
+   "atr_pct": 5.04,
+   "rvol": 1.07,
+   "change": 5.22,
+   "price": 74.99,
+   "score": 3.68
   },
-  "CGON": {
-   "atr_pct": 6.13,
-   "rvol": 2.95,
-   "change": 6.06,
-   "price": 74.4,
-   "score": 3.85
+  "XPEV": {
+   "atr_pct": 4.02,
+   "rvol": 2.59,
+   "change": 5.6,
+   "price": 9.9,
+   "score": 3.49
   },
-  "UPBD": {
-   "atr_pct": 5.11,
-   "rvol": 1.17,
-   "change": 5.07,
-   "price": 25.09,
-   "score": 3.85
+  "NAVN": {
+   "atr_pct": 5.28,
+   "rvol": 0.62,
+   "change": 3.36,
+   "price": 26.27,
+   "score": 3.12
+  },
+  "REZI": {
+   "atr_pct": 5.36,
+   "rvol": 0.55,
+   "change": 3.42,
+   "price": 22.05,
+   "score": 2.99
   },
   "U": {
-   "atr_pct": 5.48,
-   "rvol": 0.92,
-   "change": 5.24,
-   "price": 52.81,
-   "score": 3.74
+   "atr_pct": 5.66,
+   "rvol": 0.72,
+   "change": 0.93,
+   "price": 53.3,
+   "score": 2.9
   },
-  "CPRI": {
-   "atr_pct": 4.92,
-   "rvol": 0.91,
-   "change": 5.3,
-   "price": 21.46,
-   "score": 3.71
+  "PBH": {
+   "atr_pct": 4.67,
+   "rvol": 0.49,
+   "change": 3.88,
+   "price": 47.98,
+   "score": 2.79
   },
-  "VKTX": {
-   "atr_pct": 5.67,
-   "rvol": 2.14,
-   "change": 5.95,
-   "price": 29.22,
-   "score": 3.62
+  "MMED": {
+   "atr_pct": 5.27,
+   "rvol": 0.83,
+   "change": 3.86,
+   "price": 18.68,
+   "score": 2.5
   },
-  "VYX": {
+  "CELH": {
+   "atr_pct": 4.82,
+   "rvol": 0.88,
+   "change": -1.9,
+   "price": 31.81,
+   "score": 2.46
+  },
+  "TTD": {
    "atr_pct": 5.81,
-   "rvol": 0.55,
-   "change": 5.22,
-   "price": 10.48,
-   "score": 3.58
+   "rvol": 0.75,
+   "change": -4.5,
+   "price": 14.98,
+   "score": 2.4
   },
-  "KLAR": {
-   "atr_pct": 4.45,
-   "rvol": 2.41,
-   "change": 8.58,
-   "price": 13.8,
-   "score": 3.56
+  "FRSH": {
+   "atr_pct": 5.08,
+   "rvol": 0.89,
+   "change": 5.45,
+   "price": 13.36,
+   "score": 2.35
   },
-  "WLTH": {
-   "atr_pct": 4.75,
-   "rvol": 0.82,
-   "change": 5.1,
-   "price": 10.72,
-   "score": 3.42
+  "SMMT": {
+   "atr_pct": 11.1,
+   "rvol": 6.17,
+   "change": -14.9,
+   "price": 12.04,
+   "score": 2.15
   },
-  "FRPT": {
-   "atr_pct": 4.25,
-   "rvol": 0.98,
-   "change": 4.46,
-   "price": 67.51,
-   "score": 3.31
+  "CVNA": {
+   "atr_pct": 6.3,
+   "rvol": 0.38,
+   "change": -2.63,
+   "price": 70.47,
+   "score": 2.13
   },
-  "FOXA": {
-   "atr_pct": 4.05,
-   "rvol": 0.7,
-   "change": 4.12,
-   "price": 68.42,
-   "score": 3.2
-  },
-  "CLBT": {
-   "atr_pct": 5.0,
-   "rvol": 2.72,
-   "change": 5.88,
-   "price": 11.53,
-   "score": 3.19
-  },
-  "FOX": {
-   "atr_pct": 4.12,
-   "rvol": 0.53,
-   "change": 4.09,
-   "price": 61.11,
-   "score": 3.16
+  "ACAD": {
+   "atr_pct": 5.97,
+   "rvol": 0.43,
+   "change": 3.04,
+   "price": 19.32,
+   "score": 1.84
   }
  },
  "post_open_ranked": true,
