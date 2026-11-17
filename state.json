@@ -1,59 +1,10 @@
 {
  "last_alerted": {
-  "CPRI": 1794605937.11339,
-  "WLTH": 1794605937.11339,
-  "KLAR": 1794605937.11339,
   "KVYO": 1794850398.254351,
   "REZI": 1794850398.254351,
   "FRSH": 1794850398.254351
  },
- "signals": {
-  "KVYO-1794850398": {
-   "ticker": "KVYO",
-   "created": 1794850398.254351,
-   "session": "regular",
-   "kind": "active",
-   "entry": 23.76,
-   "stop0": 23.3366,
-   "target": 25.0933,
-   "seen_high": 23.770000457763672,
-   "seen_low": 23.719999313354492,
-   "sent": 0,
-   "shares": 3,
-   "value": 71.28,
-   "fees": 3.0
-  },
-  "REZI-1794850398": {
-   "ticker": "REZI",
-   "created": 1794850398.254351,
-   "session": "regular",
-   "kind": "pending",
-   "entry": 22.2084,
-   "stop0": 21.9618,
-   "target": 23.5417,
-   "seen_high": 22.09000015258789,
-   "seen_low": 22.049999237060547,
-   "sent": 0,
-   "shares": 3,
-   "value": 66.63,
-   "fees": 3.0
-  },
-  "FRSH-1794850398": {
-   "ticker": "FRSH",
-   "created": 1794850398.254351,
-   "session": "regular",
-   "kind": "pending",
-   "entry": 13.4785,
-   "stop0": 13.2767,
-   "target": 14.2785,
-   "seen_high": 13.395000457763672,
-   "seen_low": 13.359999656677246,
-   "sent": 0,
-   "shares": 5,
-   "value": 67.39,
-   "fees": 3.0
-  }
- },
+ "signals": {},
  "history": [
   {
    "date": "2026-09-21",
@@ -2160,10 +2111,37 @@
    "pnl": null,
    "net_usd": null,
    "triggered": false
+  },
+  {
+   "date": "2026-11-16",
+   "ticker": "KVYO",
+   "session": "regular",
+   "result": "stop",
+   "pnl": -1.782,
+   "net_usd": -4.27,
+   "triggered": true
+  },
+  {
+   "date": "2026-11-16",
+   "ticker": "REZI",
+   "session": "regular",
+   "result": "cancelled",
+   "pnl": null,
+   "net_usd": null,
+   "triggered": false
+  },
+  {
+   "date": "2026-11-16",
+   "ticker": "FRSH",
+   "session": "regular",
+   "result": "cancelled",
+   "pnl": null,
+   "net_usd": null,
+   "triggered": false
   }
  ],
  "meta": {
   "fail_count": 0,
-  "summary_date": "2026-11-13"
+  "summary_date": "2026-11-16"
  }
 }
