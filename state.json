@@ -3,22 +3,39 @@
   "KVYO": 1794850398.254351,
   "REZI": 1794850398.254351,
   "FRSH": 1794850398.254351,
-  "CVNA": 1794935301.411115
+  "CVNA": 1794935301.411115,
+  "SNAP": 1794959377.792324,
+  "KLAR": 1794959377.792324
  },
  "signals": {
-  "CVNA-1794935301": {
-   "ticker": "CVNA",
-   "created": 1794935301.411115,
-   "session": "regular",
-   "kind": "active",
-   "entry": 71.12,
-   "stop0": 70.2331,
-   "target": 75.12,
-   "seen_high": 71.25,
-   "seen_low": 70.43000030517578,
+  "SNAP-1794959377": {
+   "ticker": "SNAP",
+   "created": 1794959377.792324,
+   "session": "afterhours",
+   "kind": "pending",
+   "entry": 5.5555,
+   "stop0": 5.5053,
+   "target": 5.8413,
+   "seen_high": 5.53,
+   "seen_low": 5.53,
    "sent": 0,
-   "shares": 1,
-   "value": 71.12,
+   "shares": 14,
+   "value": 77.78,
+   "fees": 3.0
+  },
+  "KLAR-1794959377": {
+   "ticker": "KLAR",
+   "created": 1794959377.792324,
+   "session": "afterhours",
+   "kind": "pending",
+   "entry": 14.3643,
+   "stop0": 14.2127,
+   "target": 15.1643,
+   "seen_high": 14.29,
+   "seen_low": 14.27,
+   "sent": 0,
+   "shares": 5,
+   "value": 71.82,
    "fees": 3.0
   }
  },
@@ -2155,10 +2172,19 @@
    "pnl": null,
    "net_usd": null,
    "triggered": false
+  },
+  {
+   "date": "2026-11-17",
+   "ticker": "CVNA",
+   "session": "regular",
+   "result": "eod",
+   "pnl": -0.042,
+   "net_usd": -3.03,
+   "triggered": true
   }
  ],
  "meta": {
   "fail_count": 0,
-  "summary_date": "2026-11-16"
+  "summary_date": "2026-11-17"
  }
 }
