@@ -2,9 +2,26 @@
  "last_alerted": {
   "KVYO": 1794850398.254351,
   "REZI": 1794850398.254351,
-  "FRSH": 1794850398.254351
+  "FRSH": 1794850398.254351,
+  "CVNA": 1794935301.411115
  },
- "signals": {},
+ "signals": {
+  "CVNA-1794935301": {
+   "ticker": "CVNA",
+   "created": 1794935301.411115,
+   "session": "regular",
+   "kind": "active",
+   "entry": 71.12,
+   "stop0": 70.2331,
+   "target": 75.12,
+   "seen_high": 71.25,
+   "seen_low": 70.43000030517578,
+   "sent": 0,
+   "shares": 1,
+   "value": 71.12,
+   "fees": 3.0
+  }
+ },
  "history": [
   {
    "date": "2026-09-21",
