@@ -7,37 +7,23 @@
   "SNAP": 1794959377.792324,
   "KLAR": 1794959377.792324,
   "ATEN": 1795020308.7859,
-  "M": 1795020308.7859
+  "M": 1795020308.7859,
+  "TTD": 1795043347.445439
  },
  "signals": {
-  "ATEN-1795020308": {
-   "ticker": "ATEN",
-   "created": 1795020308.7859,
-   "session": "regular",
+  "TTD-1795043347": {
+   "ticker": "TTD",
+   "created": 1795043347.445439,
+   "session": "afterhours",
    "kind": "pending",
-   "entry": 31.2712,
-   "stop0": 30.7345,
-   "target": 33.2712,
-   "seen_high": 31.200000762939453,
-   "seen_low": 31.200000762939453,
+   "entry": 15.5655,
+   "stop0": 15.4345,
+   "target": 16.3655,
+   "seen_high": 15.5,
+   "seen_low": 15.4907,
    "sent": 0,
-   "shares": 2,
-   "value": 62.54,
-   "fees": 3.0
-  },
-  "M-1795020308": {
-   "ticker": "M",
-   "created": 1795020308.7859,
-   "session": "regular",
-   "kind": "pending",
-   "entry": 24.8048,
-   "stop0": 24.4305,
-   "target": 26.1381,
-   "seen_high": 24.875,
-   "seen_low": 24.735000610351562,
-   "sent": 0,
-   "shares": 3,
-   "value": 74.41,
+   "shares": 5,
+   "value": 77.83,
    "fees": 3.0
   }
  },
@@ -2201,10 +2187,28 @@
    "pnl": null,
    "net_usd": null,
    "triggered": false
+  },
+  {
+   "date": "2026-11-18",
+   "ticker": "ATEN",
+   "session": "regular",
+   "result": "eod",
+   "pnl": 3.482,
+   "net_usd": -0.82,
+   "triggered": true
+  },
+  {
+   "date": "2026-11-18",
+   "ticker": "M",
+   "session": "regular",
+   "result": "breakeven",
+   "pnl": 0.0,
+   "net_usd": -3.0,
+   "triggered": true
   }
  ],
  "meta": {
   "fail_count": 0,
-  "summary_date": "2026-11-17"
+  "summary_date": "2026-11-18"
  }
 }
