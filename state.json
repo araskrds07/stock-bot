@@ -5,37 +5,39 @@
   "FRSH": 1794850398.254351,
   "CVNA": 1794935301.411115,
   "SNAP": 1794959377.792324,
-  "KLAR": 1794959377.792324
+  "KLAR": 1794959377.792324,
+  "ATEN": 1795020308.7859,
+  "M": 1795020308.7859
  },
  "signals": {
-  "SNAP-1794959377": {
-   "ticker": "SNAP",
-   "created": 1794959377.792324,
-   "session": "afterhours",
+  "ATEN-1795020308": {
+   "ticker": "ATEN",
+   "created": 1795020308.7859,
+   "session": "regular",
    "kind": "pending",
-   "entry": 5.5555,
-   "stop0": 5.5053,
-   "target": 5.8413,
-   "seen_high": 5.53,
-   "seen_low": 5.53,
+   "entry": 31.2712,
+   "stop0": 30.7345,
+   "target": 33.2712,
+   "seen_high": 31.200000762939453,
+   "seen_low": 31.200000762939453,
    "sent": 0,
-   "shares": 14,
-   "value": 77.78,
+   "shares": 2,
+   "value": 62.54,
    "fees": 3.0
   },
-  "KLAR-1794959377": {
-   "ticker": "KLAR",
-   "created": 1794959377.792324,
-   "session": "afterhours",
+  "M-1795020308": {
+   "ticker": "M",
+   "created": 1795020308.7859,
+   "session": "regular",
    "kind": "pending",
-   "entry": 14.3643,
-   "stop0": 14.2127,
-   "target": 15.1643,
-   "seen_high": 14.29,
-   "seen_low": 14.27,
+   "entry": 24.8048,
+   "stop0": 24.4305,
+   "target": 26.1381,
+   "seen_high": 24.875,
+   "seen_low": 24.735000610351562,
    "sent": 0,
-   "shares": 5,
-   "value": 71.82,
+   "shares": 3,
+   "value": 74.41,
    "fees": 3.0
   }
  },
@@ -2181,6 +2183,24 @@
    "pnl": -0.042,
    "net_usd": -3.03,
    "triggered": true
+  },
+  {
+   "date": "2026-11-17",
+   "ticker": "SNAP",
+   "session": "afterhours",
+   "result": "cancelled",
+   "pnl": null,
+   "net_usd": null,
+   "triggered": false
+  },
+  {
+   "date": "2026-11-17",
+   "ticker": "KLAR",
+   "session": "afterhours",
+   "result": "expired",
+   "pnl": null,
+   "net_usd": null,
+   "triggered": false
   }
  ],
  "meta": {
