@@ -1,8 +1,5 @@
 {
  "last_alerted": {
-  "KVYO": 1794850398.254351,
-  "REZI": 1794850398.254351,
-  "FRSH": 1794850398.254351,
   "CVNA": 1794935301.411115,
   "SNAP": 1794959377.792324,
   "KLAR": 1794959377.792324,
@@ -12,38 +9,7 @@
   "RBLX": 1795107122.99098,
   "BBWI": 1795107122.99098
  },
- "signals": {
-  "RBLX-1795107122": {
-   "ticker": "RBLX",
-   "created": 1795107122.99098,
-   "session": "regular",
-   "kind": "pending",
-   "entry": 50.2802,
-   "stop0": 49.4006,
-   "target": 54.2802,
-   "seen_high": 50.18000030517578,
-   "seen_low": 49.85499954223633,
-   "sent": 0,
-   "shares": 1,
-   "value": 50.28,
-   "fees": 3.0
-  },
-  "BBWI-1795107122": {
-   "ticker": "BBWI",
-   "created": 1795107122.99098,
-   "session": "regular",
-   "kind": "pending",
-   "entry": 19.4194,
-   "stop0": 18.991,
-   "target": 20.4194,
-   "seen_high": 19.489999771118164,
-   "seen_low": 19.299999237060547,
-   "sent": 0,
-   "shares": 4,
-   "value": 77.68,
-   "fees": 3.0
-  }
- },
+ "signals": {},
  "history": [
   {
    "date": "2026-09-21",
@@ -2231,10 +2197,28 @@
    "pnl": null,
    "net_usd": null,
    "triggered": false
+  },
+  {
+   "date": "2026-11-19",
+   "ticker": "RBLX",
+   "session": "regular",
+   "result": "cancelled",
+   "pnl": null,
+   "net_usd": null,
+   "triggered": false
+  },
+  {
+   "date": "2026-11-19",
+   "ticker": "BBWI",
+   "session": "regular",
+   "result": "cancelled",
+   "pnl": null,
+   "net_usd": null,
+   "triggered": false
   }
  ],
  "meta": {
   "fail_count": 0,
-  "summary_date": "2026-11-18"
+  "summary_date": "2026-11-19"
  }
 }
