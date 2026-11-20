@@ -7,9 +7,58 @@
   "M": 1795020308.7859,
   "TTD": 1795043347.445439,
   "RBLX": 1795107122.99098,
-  "BBWI": 1795107122.99098
+  "BBWI": 1795107122.99098,
+  "CPNG": 1795192055.234779,
+  "EFOR": 1795192055.234779,
+  "KVYO": 1795192055.234779
  },
- "signals": {},
+ "signals": {
+  "CPNG-1795192055": {
+   "ticker": "CPNG",
+   "created": 1795192055.234779,
+   "session": "regular",
+   "kind": "pending",
+   "entry": 14.7798,
+   "stop0": 14.5596,
+   "target": 15.5798,
+   "seen_high": 14.6850004196167,
+   "seen_low": 14.614999771118164,
+   "sent": 0,
+   "shares": 5,
+   "value": 73.9,
+   "fees": 3.0
+  },
+  "EFOR-1795192055": {
+   "ticker": "EFOR",
+   "created": 1795192055.234779,
+   "session": "regular",
+   "kind": "pending",
+   "entry": 31.4764,
+   "stop0": 30.7255,
+   "target": 33.4764,
+   "seen_high": 31.43000030517578,
+   "seen_low": 31.190000534057617,
+   "sent": 0,
+   "shares": 2,
+   "value": 62.95,
+   "fees": 3.0
+  },
+  "KVYO-1795192055": {
+   "ticker": "KVYO",
+   "created": 1795192055.234779,
+   "session": "regular",
+   "kind": "pending",
+   "entry": 22.7427,
+   "stop0": 22.2128,
+   "target": 24.0761,
+   "seen_high": 22.770000457763672,
+   "seen_low": 22.584999084472656,
+   "sent": 0,
+   "shares": 3,
+   "value": 68.23,
+   "fees": 3.0
+  }
+ },
  "history": [
   {
    "date": "2026-09-21",
