@@ -1,6 +1,5 @@
 {
  "last_alerted": {
-  "CVNA": 1794935301.411115,
   "SNAP": 1794959377.792324,
   "KLAR": 1794959377.792324,
   "ATEN": 1795020308.7859,
@@ -10,52 +9,23 @@
   "BBWI": 1795107122.99098,
   "CPNG": 1795192055.234779,
   "EFOR": 1795192055.234779,
-  "KVYO": 1795192055.234779
+  "KVYO": 1795192055.234779,
+  "RKT": 1795214641.546018
  },
  "signals": {
-  "CPNG-1795192055": {
-   "ticker": "CPNG",
-   "created": 1795192055.234779,
-   "session": "regular",
-   "kind": "pending",
-   "entry": 14.7798,
-   "stop0": 14.5596,
-   "target": 15.5798,
-   "seen_high": 14.6850004196167,
-   "seen_low": 14.614999771118164,
+  "RKT-1795214641": {
+   "ticker": "RKT",
+   "created": 1795214641.546018,
+   "session": "afterhours",
+   "kind": "active",
+   "entry": 13.8577,
+   "stop0": 13.7356,
+   "target": 14.6577,
+   "seen_high": 13.8577,
+   "seen_low": 13.8321,
    "sent": 0,
    "shares": 5,
-   "value": 73.9,
-   "fees": 3.0
-  },
-  "EFOR-1795192055": {
-   "ticker": "EFOR",
-   "created": 1795192055.234779,
-   "session": "regular",
-   "kind": "pending",
-   "entry": 31.4764,
-   "stop0": 30.7255,
-   "target": 33.4764,
-   "seen_high": 31.43000030517578,
-   "seen_low": 31.190000534057617,
-   "sent": 0,
-   "shares": 2,
-   "value": 62.95,
-   "fees": 3.0
-  },
-  "KVYO-1795192055": {
-   "ticker": "KVYO",
-   "created": 1795192055.234779,
-   "session": "regular",
-   "kind": "pending",
-   "entry": 22.7427,
-   "stop0": 22.2128,
-   "target": 24.0761,
-   "seen_high": 22.770000457763672,
-   "seen_low": 22.584999084472656,
-   "sent": 0,
-   "shares": 3,
-   "value": 68.23,
+   "value": 69.29,
    "fees": 3.0
   }
  },
@@ -2264,10 +2234,37 @@
    "pnl": null,
    "net_usd": null,
    "triggered": false
+  },
+  {
+   "date": "2026-11-20",
+   "ticker": "CPNG",
+   "session": "regular",
+   "result": "cancelled",
+   "pnl": null,
+   "net_usd": null,
+   "triggered": false
+  },
+  {
+   "date": "2026-11-20",
+   "ticker": "EFOR",
+   "session": "regular",
+   "result": "expired",
+   "pnl": null,
+   "net_usd": null,
+   "triggered": false
+  },
+  {
+   "date": "2026-11-20",
+   "ticker": "KVYO",
+   "session": "regular",
+   "result": "stop",
+   "pnl": -2.33,
+   "net_usd": -4.59,
+   "triggered": true
   }
  ],
  "meta": {
   "fail_count": 0,
-  "summary_date": "2026-11-19"
+  "summary_date": "2026-11-20"
  }
 }
