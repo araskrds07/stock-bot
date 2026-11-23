@@ -1,29 +1,54 @@
 {
  "last_alerted": {
-  "ATEN": 1795020308.7859,
-  "M": 1795020308.7859,
-  "TTD": 1795043347.445439,
-  "RBLX": 1795107122.99098,
-  "BBWI": 1795107122.99098,
-  "CPNG": 1795192055.234779,
-  "EFOR": 1795192055.234779,
-  "KVYO": 1795192055.234779,
-  "RKT": 1795214641.546018
+  "TTD": 1795462434.400414,
+  "RKT": 1795214641.546018,
+  "BORR": 1795462434.400414,
+  "U": 1795462434.400414
  },
  "signals": {
-  "RKT-1795214641": {
-   "ticker": "RKT",
-   "created": 1795214641.546018,
-   "session": "afterhours",
+  "BORR-1795462434": {
+   "ticker": "BORR",
+   "created": 1795462434.400414,
+   "session": "regular",
    "kind": "active",
-   "entry": 13.8577,
-   "stop0": 13.7356,
-   "target": 14.6577,
-   "seen_high": 13.8577,
-   "seen_low": 13.8321,
+   "entry": 3.825,
+   "stop0": 3.7662,
+   "target": 4.025,
+   "seen_high": 3.8299999237060547,
+   "seen_low": 3.8106000423431396,
+   "sent": 0,
+   "shares": 20,
+   "value": 76.5,
+   "fees": 3.0
+  },
+  "U-1795462434": {
+   "ticker": "U",
+   "created": 1795462434.400414,
+   "session": "regular",
+   "kind": "pending",
+   "entry": 47.7977,
+   "stop0": 47.2975,
+   "target": 51.7977,
+   "seen_high": 47.689998626708984,
+   "seen_low": 47.58000183105469,
+   "sent": 0,
+   "shares": 1,
+   "value": 47.8,
+   "fees": 3.0
+  },
+  "TTD-1795462434": {
+   "ticker": "TTD",
+   "created": 1795462434.400414,
+   "session": "regular",
+   "kind": "pending",
+   "entry": 14.2292,
+   "stop0": 14.0901,
+   "target": 15.0292,
+   "seen_high": 14.210000038146973,
+   "seen_low": 14.180000305175781,
    "sent": 0,
    "shares": 5,
-   "value": 69.29,
+   "value": 71.15,
    "fees": 3.0
   }
  },
@@ -2258,6 +2283,15 @@
    "result": "stop",
    "pnl": -2.33,
    "net_usd": -4.59,
+   "triggered": true
+  },
+  {
+   "date": "2026-11-20",
+   "ticker": "RKT",
+   "session": "afterhours",
+   "result": "eod",
+   "pnl": -0.056,
+   "net_usd": -3.04,
    "triggered": true
   }
  ],
