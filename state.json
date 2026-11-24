@@ -4,53 +4,7 @@
   "BORR": 1795462434.400414,
   "U": 1795462434.400414
  },
- "signals": {
-  "BORR-1795462434": {
-   "ticker": "BORR",
-   "created": 1795462434.400414,
-   "session": "regular",
-   "kind": "active",
-   "entry": 3.825,
-   "stop0": 3.7662,
-   "target": 4.025,
-   "seen_high": 3.8299999237060547,
-   "seen_low": 3.8106000423431396,
-   "sent": 0,
-   "shares": 20,
-   "value": 76.5,
-   "fees": 3.0
-  },
-  "U-1795462434": {
-   "ticker": "U",
-   "created": 1795462434.400414,
-   "session": "regular",
-   "kind": "pending",
-   "entry": 47.7977,
-   "stop0": 47.2975,
-   "target": 51.7977,
-   "seen_high": 47.689998626708984,
-   "seen_low": 47.58000183105469,
-   "sent": 0,
-   "shares": 1,
-   "value": 47.8,
-   "fees": 3.0
-  },
-  "TTD-1795462434": {
-   "ticker": "TTD",
-   "created": 1795462434.400414,
-   "session": "regular",
-   "kind": "pending",
-   "entry": 14.2292,
-   "stop0": 14.0901,
-   "target": 15.0292,
-   "seen_high": 14.210000038146973,
-   "seen_low": 14.180000305175781,
-   "sent": 0,
-   "shares": 5,
-   "value": 71.15,
-   "fees": 3.0
-  }
- },
+ "signals": {},
  "history": [
   {
    "date": "2026-09-21",
@@ -2291,6 +2245,33 @@
    "result": "eod",
    "pnl": -0.056,
    "net_usd": -3.04,
+   "triggered": true
+  },
+  {
+   "date": "2026-11-23",
+   "ticker": "BORR",
+   "session": "regular",
+   "result": "stop",
+   "pnl": -1.537,
+   "net_usd": -4.18,
+   "triggered": true
+  },
+  {
+   "date": "2026-11-23",
+   "ticker": "U",
+   "session": "regular",
+   "result": "eod",
+   "pnl": -0.696,
+   "net_usd": -3.33,
+   "triggered": true
+  },
+  {
+   "date": "2026-11-23",
+   "ticker": "TTD",
+   "session": "regular",
+   "result": "stop",
+   "pnl": -0.978,
+   "net_usd": -3.7,
    "triggered": true
   }
  ],
