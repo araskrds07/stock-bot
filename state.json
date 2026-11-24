@@ -2,9 +2,58 @@
  "last_alerted": {
   "TTD": 1795462434.400414,
   "BORR": 1795462434.400414,
-  "U": 1795462434.400414
+  "U": 1795462434.400414,
+  "DYN": 1795547314.21905,
+  "EWTX": 1795547314.21905,
+  "TGTX": 1795547314.21905
  },
- "signals": {},
+ "signals": {
+  "DYN-1795547314": {
+   "ticker": "DYN",
+   "created": 1795547314.21905,
+   "session": "regular",
+   "kind": "pending",
+   "entry": 17.8779,
+   "stop0": 17.6411,
+   "target": 18.8779,
+   "seen_high": 17.84000015258789,
+   "seen_low": 17.729999542236328,
+   "sent": 0,
+   "shares": 4,
+   "value": 71.51,
+   "fees": 3.0
+  },
+  "EWTX-1795547314": {
+   "ticker": "EWTX",
+   "created": 1795547314.21905,
+   "session": "regular",
+   "kind": "active",
+   "entry": 45.99,
+   "stop0": 45.3305,
+   "target": 49.99,
+   "seen_high": 46.119998931884766,
+   "seen_low": 45.810001373291016,
+   "sent": 0,
+   "shares": 1,
+   "value": 45.99,
+   "fees": 3.0
+  },
+  "TGTX-1795547314": {
+   "ticker": "TGTX",
+   "created": 1795547314.21905,
+   "session": "regular",
+   "kind": "active",
+   "entry": 70.66,
+   "stop0": 69.7501,
+   "target": 74.66,
+   "seen_high": 71.08000183105469,
+   "seen_low": 70.52999877929688,
+   "sent": 0,
+   "shares": 1,
+   "value": 70.66,
+   "fees": 3.0
+  }
+ },
  "history": [
   {
    "date": "2026-09-21",
